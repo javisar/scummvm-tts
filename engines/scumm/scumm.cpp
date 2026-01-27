@@ -1528,6 +1528,20 @@ Common::Error ScummEngine::init() {
 	if (ttsMan) {
 		ttsMan->enable(ConfMan.getBool("tts_enabled"));
 		ttsMan->setLanguage(ConfMan.get("language"));
+
+		int volume = (ConfMan.getInt("speech_volume", "scummvm") * 100) / 256;
+		if (ConfMan.hasKey("mute", "scummvm") && ConfMan.getBool("mute", "scummvm"))
+			volume = 0;
+		ttsMan->setVolume(volume);
+
+		unsigned voice;
+		if (ConfMan.hasKey("tts_voice")) {
+			voice = ConfMan.getInt("tts_voice", "scummvm");
+			if (voice >= ttsMan->getVoicesArray().size())
+				voice = ttsMan->getDefaultVoice();
+		} else
+			voice = ttsMan->getDefaultVoice();
+		ttsMan->setVoice(voice);
 	}
 #endif
 
