@@ -1666,6 +1666,7 @@ protected:
 	
 #ifdef USE_TTS
 	void sayText(const Common::String &text, Common::TextToSpeechManager::Action action = Common::TextToSpeechManager::QUEUE) const;
+	void sayTextExtended(const Common::String &text, Common::TextToSpeechManager::Action action = Common::TextToSpeechManager::QUEUE, uint32 hash = -1, byte actor = -1, int room = -1) const;	
 	void stopTextToSpeech() const;
 	void sayButtonText();
 #endif

@@ -44,6 +44,8 @@
 #include "scumm/he/sound_he.h"
 
 #include "scumm/ks_check.h"
+#include "common/hashmap.h"
+#include "common/crc.h"
 
 namespace Scumm {
 
@@ -215,6 +217,54 @@ void ScummEngine::sayText(const Common::String &text, Common::TextToSpeechManage
 				Common::replace(ttsMessage, "\x1c", copyrightReplacement);
 
 				ttsMan->say(_charset->convertText(ttsMessage, _language), action);
+				return;
+			}
+		}
+	}
+}
+
+void ScummEngine::sayTextExtended(const Common::String &text, Common::TextToSpeechManager::Action action, uint32 hash, byte actor, int room) const {
+	if (text.empty()) {
+		return;
+	}
+
+	Common::TextToSpeechManager *ttsMan = g_system->getTextToSpeechManager();
+	if (ttsMan && ConfMan.getBool("tts_enabled")) {
+		// Some games, like Loom, may display strings of only characters (such as underscores) that make for awkward voicing.
+		// Before voicing text, make sure it has either an alphanumeric character or a non-ASCII character (for languages
+		// like Russian or Hebrew that may only have non-ASCII characters)
+		for (uint i = 0; i < text.size(); ++i) {
+			if (Common::isAlnum(text[i]) || !Common::isAscii(text[i])) {
+				Common::String ttsMessage = text;
+				ttsMessage.replace('^', ' ');
+
+				Common::String copyrightReplacement;
+				Common::String toReplace = "=";
+
+				switch (getDialogCodePage()) {
+				case Common::kDos850:
+					copyrightReplacement = "\xb8";
+					break;
+				case Common::kWindows1252:
+				case Common::kWindows1255:
+					copyrightReplacement = "\xa9";
+					break;
+				default:
+					// Replace what would be the copyright symbol with a space for encodings that don't have it
+					copyrightReplacement = "\x20";
+					break;
+				}
+
+				// Loom uses a unique code for the copyright symbol, which also seems to include the 1 that comes after it
+				if (_game.id == GID_LOOM) {
+					toReplace = "\x3e\x2a";
+					copyrightReplacement += " 1";
+				}
+
+				Common::replace(ttsMessage, toReplace, copyrightReplacement);
+				Common::replace(ttsMessage, "\x1c", copyrightReplacement);
+
+				ttsMan->sayExtended(_charset->convertText(ttsMessage, _language), action, hash, actor, room);
 				return;
 			}
 		}
@@ -1115,7 +1165,53 @@ void ScummEngine::displayDialog() {
 #else
 	if (_talkDelay)
 #endif
+	/*
+	{
+		//Actor *a;
+		//a = derefActor(_actorToPrintStrFor, "actorTalk");
+		debug(-1, "\n\rACTOR: %u", _actorToPrintStrFor);
+		if (a != NULL)
+			debug(-1, "ROOM: %u", a->getRoom());
+		else
+			debug(-1, "ROOM: %u", 0);
+		debug(-1, "HAVE MSG: %u", _haveMsg);
+		debug(-1, "TEXT: %s", _charsetBuffer);
+		debug(-1, "TEXT FINSON: %u", _charsetBufPos);
+		debug(-1, "TIME: %u", _talkDelay);
+
 		return;
+	}
+	*/
+	{
+		static Common::WriteStream *logStream = nullptr;
+		// Asegurar apertura incremental (append)
+		if (!logStream) {
+			Common::FSNode node("scumm_text_log.txt");
+			logStream = node.createWriteStream(false); // false = append
+		}
+
+		// 2) Evitar duplicar líneas ya escritas
+		static Common::HashMap<uint32, bool> writtenHashes;
+
+		Common::String text((const char *)_charsetBuffer);
+		Common::CRC32 crc;
+		uint32 hash = crc.crcFast((const byte *)text.c_str(), text.size());
+
+		if (!writtenHashes.contains(hash)) {
+			writtenHashes[hash] = true;
+
+			logStream->writeString(Common::String::format(
+				"HASH=%08X ACTOR=%u ROOM=%u HAVE_MSG=%u TIME=%u TEXT=%s\n",
+				hash,
+				_actorToPrintStrFor,
+				a ? a->getRoom() : 0,
+				_haveMsg,
+				_talkDelay,
+				text.c_str()));
+			logStream->flush();
+		}
+		return;
+	}
 
 	if ((_game.version <= 6 && _haveMsg == 1) ||
 	    (_game.version == 7 && _haveMsg != 1)) {
@@ -1317,7 +1413,12 @@ void ScummEngine::displayDialog() {
 	if (!_mixer->isSoundHandleActive(*_sound->_talkChannelHandle) && 
 		(_game.heversion < 60 || !_sound->isSoundInUse(HSND_TALKIE_SLOT)) && 
 		!_sound->pollCD()) {
-		sayText(ttsMessage, Common::TextToSpeechManager::INTERRUPT);
+		//sayText(ttsMessage, Common::TextToSpeechManager::INTERRUPT);
+		
+		Common::CRC32 crc;
+		uint32 hash = crc.crcFast((const byte *)ttsMessage.c_str(), ttsMessage.size());
+		sayTextExtended(ttsMessage, Common::TextToSpeechManager::INTERRUPT, hash, _actorToPrintStrFor, a ? a->getRoom() : 0);
+		
 	}
 #endif
 

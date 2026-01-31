@@ -182,6 +182,8 @@ public:
 	 */
 	virtual bool say(const U32String &str, Action action) { return false; }
 
+	virtual bool sayExtended(const U32String &str, Action action, uint32 hash, byte actor, int room) { return false; }
+
 	/**
 	 * Says the given string, but strings can have a custom charset here.
 	 * It will convert to UTF-32 before passing along to the intended method.

@@ -30,6 +30,8 @@
 #include <servprov.h>
 
 #include <sapi.h>
+#include <sphelper.h>
+#include <atlbase.h>
 #if _SAPI_VER < 0x53
 #define SPF_PARSE_SAPI 0x80
 #endif
@@ -43,6 +45,7 @@
 #include "common/system.h"
 #include "common/ustr.h"
 #include "common/config-manager.h"
+#include <vector>
 
 ISpVoice *_voice;
 
@@ -238,6 +241,70 @@ bool WindowsTextToSpeechManager::say(const Common::U32String &str, Action action
 	return false;
 }
 
+bool WindowsTextToSpeechManager::sayExtended(const Common::U32String &str, Action action, uint32 hash, byte actor, int room) {
+	if (_speechState == BROKEN || _speechState == NO_VOICE) {
+		if (_ttsState->_enabled)
+			warning("The text to speech cannot speak in this state");
+		return true;
+	}
+
+	if (isSpeaking() && action == DROP)
+		return true;
+
+	// We have to set the pitch by prepending xml code at the start of the said string;
+	//Common::U32String pitch = Common::U32String::format("<pitch absmiddle=\"%d\"/>%S", _ttsState->_pitch / 10, str.c_str());
+	Common::U32String pitch = Common::U32String::format("<pitch absmiddle=\"%d\"/>%S", _ttsState->_pitch / 10, str.c_str());
+	pitch = Common::U32String::format("<context hash=\"%i\" actor=\"%i\" room=\"%i\"/>%S", hash, actor, room, pitch.c_str() );
+	WCHAR *strW = (WCHAR *) pitch.encodeUTF16Native();
+	if (strW == nullptr) {
+		warning("Cannot convert from UTF-32 encoding for text to speech");
+		return true;
+	}
+
+	WaitForSingleObject(_speechMutex, INFINITE);
+	if (isSpeaking() && !_speechQueue.empty() && action == INTERRUPT_NO_REPEAT &&
+			_speechQueue.front() != NULL && !wcscmp(_speechQueue.front(), strW)) {
+		while (_speechQueue.size() != 1) {
+			free(_speechQueue.back());
+			_speechQueue.pop_back();
+		}
+		free(strW);
+		ReleaseMutex(_speechMutex);
+		return true;
+	}
+
+	if (isSpeaking() && !_speechQueue.empty() && action == QUEUE_NO_REPEAT &&
+			_speechQueue.front() != NULL &&!wcscmp(_speechQueue.back(), strW)) {
+		ReleaseMutex(_speechMutex);
+		return true;
+	}
+
+	ReleaseMutex(_speechMutex);
+	if ((isPaused() || isSpeaking()) && (action == INTERRUPT || action == INTERRUPT_NO_REPEAT)) {
+		stop();
+	}
+
+	WaitForSingleObject(_speechMutex, INFINITE);
+	_speechQueue.push_back(strW);
+	ReleaseMutex(_speechMutex);
+
+	if (!isSpeaking() && !isPaused()) {
+		DWORD threadId;
+		if (_thread != nullptr) {
+			WaitForSingleObject(_thread, INFINITE);
+			CloseHandle(_thread);
+		}
+		_speechState = SPEAKING;
+		_thread = CreateThread(nullptr, 0, startSpeech, &_threadParams, 0, &threadId);
+		if (_thread == nullptr) {
+			warning("Could not create speech thread");
+			_speechState = READY;
+			return true;
+		}
+	}
+	return false;
+}
+
 bool WindowsTextToSpeechManager::stop() {
 	if (_speechState == BROKEN || _speechState == NO_VOICE)
 		return true;
@@ -347,6 +414,44 @@ void WindowsTextToSpeechManager::setLanguage(Common::String language) {
 		_speechState = READY;
 	}
 	setVoice(0);
+}
+
+static void dumpTokenInfo(ISpObjectToken *token) {
+	if (!token)
+		return;
+	// Id del token
+	LPWSTR id = nullptr;
+	if (SUCCEEDED(token->GetId(&id))) {
+		char *idA = Win32::unicodeToAnsi(id);
+		warning("TTS token Id: %s", idA);
+		free(idA);
+		CoTaskMemFree(id);
+	}
+
+	// Descripción (GetStringValue(nullptr))
+	WCHAR *descW = nullptr;
+	if (SUCCEEDED(token->GetStringValue(nullptr, &descW))) {
+		char *descA = Win32::unicodeToAnsi(descW);
+		warning("TTS token Desc: %s", descA);
+		free(descA);
+		CoTaskMemFree(descW);
+	}
+
+	// Atributos: Language, Gender, Age, Name, Vendor...
+	ISpDataKey *key = nullptr;
+	if (SUCCEEDED(token->OpenKey(L"Attributes", &key))) {
+		LPWSTR val = nullptr;
+		const wchar_t *attrs[] = {L"Language", L"Gender", L"Age", L"Name", L"Vendor", nullptr};
+		for (const wchar_t **p = attrs; *p; ++p) {
+			if (SUCCEEDED(key->GetStringValue(*p, &val))) {
+				char *vA = Win32::unicodeToAnsi(val);
+				warning("TTS token Attr %S: %s", *p, vA);
+				free(vA);
+				CoTaskMemFree(val);
+			}
+		}
+		key->Release();
+	}
 }
 
 void WindowsTextToSpeechManager::createVoice(void *cpVoiceToken) {
@@ -461,6 +566,7 @@ void WindowsTextToSpeechManager::updateVoices() {
 	_voice->SetVolume(0);
 	while (SUCCEEDED(hr) && ulCount--) {
 		hr = cpEnum->Next(1, &cpVoiceToken, nullptr);
+		dumpTokenInfo(cpVoiceToken);
 		_voice->SetVoice(cpVoiceToken);
 		if (SUCCEEDED(_voice->Speak(L"hi, this is test", SPF_PURGEBEFORESPEAK | SPF_ASYNC | SPF_IS_NOT_XML, nullptr)))
 			createVoice(cpVoiceToken);
