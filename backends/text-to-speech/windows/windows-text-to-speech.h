@@ -31,6 +31,13 @@
 #include "common/ustr.h"
 #include "common/list.h"
 
+// Structure to hold capture parameters for async HTTP thread
+struct CaptureParams {
+	Common::String text;
+	byte actor;
+	int room;
+	Common::String gameid;
+};
 
 class WindowsTextToSpeechManager final : public Common::TextToSpeechManager {
 public:
@@ -79,6 +86,11 @@ private:
 	void updateVoices() override;
 	void createVoice(void *cpVoiceToken);
 	Common::String lcidToLocale(LCID locale);
+
+	// Async dialogue capture
+	void captureDialogueAsync(const Common::U32String &text, byte actor, int room);
+	static DWORD WINAPI captureDialogueThread(LPVOID param);
+
 	SpeechState _speechState;
 	Common::String _lastSaid;
 	HANDLE _thread;

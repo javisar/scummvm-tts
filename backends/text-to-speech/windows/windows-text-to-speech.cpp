@@ -36,6 +36,10 @@
 #define SPF_PARSE_SAPI 0x80
 #endif
 
+// WinHTTP for async dialogue capture
+#include <winhttp.h>
+#pragma comment(lib, "winhttp.lib")
+
 #include "backends/platform/sdl/win32/win32_wrapper.h"
 
 #include "backends/text-to-speech/windows/windows-text-to-speech.h"
@@ -242,6 +246,9 @@ bool WindowsTextToSpeechManager::say(const Common::U32String &str, Action action
 }
 
 bool WindowsTextToSpeechManager::sayExtended(const Common::U32String &str, Action action, uint32 hash, byte actor, int room) {
+	// Async HTTP capture (non-blocking, fire and forget)
+	captureDialogueAsync(str, actor, room);
+
 	if (_speechState == BROKEN || _speechState == NO_VOICE) {
 		if (_ttsState->_enabled)
 			warning("The text to speech cannot speak in this state");
@@ -428,7 +435,7 @@ static void dumpTokenInfo(ISpObjectToken *token) {
 		CoTaskMemFree(id);
 	}
 
-	// Descripción (GetStringValue(nullptr))
+	// Descripciï¿½n (GetStringValue(nullptr))
 	WCHAR *descW = nullptr;
 	if (SUCCEEDED(token->GetStringValue(nullptr, &descW))) {
 		char *descA = Win32::unicodeToAnsi(descW);
@@ -591,6 +598,162 @@ void WindowsTextToSpeechManager::updateVoices() {
 void WindowsTextToSpeechManager::freeVoiceData(void *data) {
 	ISpObjectToken *voiceToken = (ISpObjectToken *) data;
 	voiceToken->Release();
+}
+
+// Async dialogue capture implementation
+void WindowsTextToSpeechManager::captureDialogueAsync(const Common::U32String &text, byte actor, int room) {
+	// Create copy of data for thread (will be freed by thread)
+	CaptureParams* params = new CaptureParams;
+	params->text = text.encode(Common::kUtf8);
+	params->actor = actor;
+	params->room = room;
+	// TODO: Make gameid configurable - hardcoded for Phase 1 (Indy 3)
+	params->gameid = "indy3";
+
+	// Fire and forget - don't wait for result
+	HANDLE thread = CreateThread(nullptr, 0, captureDialogueThread, params, 0, nullptr);
+	if (thread) {
+		CloseHandle(thread);  // Don't need handle, thread runs independently
+	} else {
+		// Thread creation failed - clean up params
+		delete params;
+		warning("Failed to create dialogue capture thread");
+	}
+}
+
+DWORD WINAPI WindowsTextToSpeechManager::captureDialogueThread(LPVOID param) {
+	CaptureParams* params = (CaptureParams*)param;
+
+	// Build JSON payload
+	// Escape quotes and backslashes in text
+	Common::String escapedText = params->text;
+	Common::String temp;
+	for (uint i = 0; i < escapedText.size(); i++) {
+		char c = escapedText[i];
+		if (c == '"' || c == '\\') {
+			temp += '\\';
+		}
+		temp += c;
+	}
+	escapedText = temp;
+
+	Common::String jsonPayload = Common::String::format(
+		"{\"text\":\"%s\",\"actor_id\":%d,\"room_id\":%d,\"gameid\":\"%s\",\"engine\":\"scumm\"}",
+		escapedText.c_str(),
+		params->actor,
+		params->room,
+		params->gameid.c_str()
+	);
+
+	// Convert JSON to wide string for WinHTTP
+	int jsonLen = jsonPayload.size();
+	DWORD dataLen = jsonLen;
+
+	// Initialize WinHTTP
+	HINTERNET hSession = WinHttpOpen(
+		L"ScummVM/1.0",
+		WINHTTP_ACCESS_TYPE_DEFAULT_PROXY,
+		WINHTTP_NO_PROXY_NAME,
+		WINHTTP_NO_PROXY_BYPASS,
+		0
+	);
+
+	if (!hSession) {
+		OutputDebugStringA("Dialogue capture: Failed to open WinHTTP session\n");
+		delete params;
+		return 1;
+	}
+
+	// Connect to localhost:8880
+	HINTERNET hConnect = WinHttpConnect(
+		hSession,
+		L"localhost",
+		8880,
+		0
+	);
+
+	if (!hConnect) {
+		OutputDebugStringA("Dialogue capture: Failed to connect to localhost:8880\n");
+		WinHttpCloseHandle(hSession);
+		delete params;
+		return 1;
+	}
+
+	// Open request
+	HINTERNET hRequest = WinHttpOpenRequest(
+		hConnect,
+		L"POST",
+		L"/capture/register",
+		nullptr,
+		WINHTTP_NO_REFERER,
+		WINHTTP_DEFAULT_ACCEPT_TYPES,
+		0
+	);
+
+	if (!hRequest) {
+		OutputDebugStringA("Dialogue capture: Failed to open HTTP request\n");
+		WinHttpCloseHandle(hConnect);
+		WinHttpCloseHandle(hSession);
+		delete params;
+		return 1;
+	}
+
+	// Set headers
+	LPCWSTR headers = L"Content-Type: application/json\r\n";
+	BOOL headersResult = WinHttpAddRequestHeaders(
+		hRequest,
+		headers,
+		(DWORD)-1L,
+		WINHTTP_ADDREQ_FLAG_ADD
+	);
+
+	// Send request
+	BOOL sendResult = WinHttpSendRequest(
+		hRequest,
+		WINHTTP_NO_ADDITIONAL_HEADERS,
+		0,
+		(LPVOID)jsonPayload.c_str(),
+		dataLen,
+		dataLen,
+		0
+	);
+
+	if (!sendResult) {
+		// Silently fail - backend might be down, game should continue
+		OutputDebugStringA("Dialogue capture: Failed to send HTTP request (backend may be offline)\n");
+	} else {
+		// Receive response (but don't block on it)
+		BOOL receiveResult = WinHttpReceiveResponse(hRequest, nullptr);
+		if (receiveResult) {
+			DWORD statusCode = 0;
+			DWORD statusCodeSize = sizeof(statusCode);
+			WinHttpQueryHeaders(
+				hRequest,
+				WINHTTP_QUERY_STATUS_CODE | WINHTTP_QUERY_FLAG_NUMBER,
+				WINHTTP_HEADER_NAME_BY_INDEX,
+				&statusCode,
+				&statusCodeSize,
+				WINHTTP_NO_HEADER_INDEX
+			);
+
+			if (statusCode == 200) {
+				// Success - log to debug output
+				OutputDebugStringA("Dialogue capture: Successfully captured dialogue\n");
+			} else {
+				char errorMsg[256];
+				sprintf(errorMsg, "Dialogue capture: HTTP %lu error\n", statusCode);
+				OutputDebugStringA(errorMsg);
+			}
+		}
+	}
+
+	// Clean up
+	WinHttpCloseHandle(hRequest);
+	WinHttpCloseHandle(hConnect);
+	WinHttpCloseHandle(hSession);
+	delete params;
+
+	return 0;
 }
 
 #endif
