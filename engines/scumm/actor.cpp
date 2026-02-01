@@ -3468,6 +3468,10 @@ void ScummEngine::actorTalk(const byte *msg) {
 
 	convertMessageToString(msg, _charsetBuffer, sizeof(_charsetBuffer));
 
+	// DEBUG: Log dialogue entry point for spike validation
+	debug(0, "TTS-ENTRY: actorTalk() called, actor=%d, text='%.50s'",
+		_actorToPrintStrFor, _charsetBuffer);
+
 	// I have commented out this workaround, since it did cause another
 	// bug (#11480). It is not okay to skip the stopTalk() calls here.
 	// Instead, I have added two checks from LOOM DOS EGA disasm (one

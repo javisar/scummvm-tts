@@ -1190,7 +1190,7 @@ void ScummEngine::displayDialog() {
 			logStream = node.createWriteStream(false); // false = append
 		}
 
-		// 2) Evitar duplicar líneas ya escritas
+		// 2) Evitar duplicar lï¿½neas ya escritas
 		static Common::HashMap<uint32, bool> writtenHashes;
 
 		Common::String text((const char *)_charsetBuffer);
@@ -1410,15 +1410,21 @@ void ScummEngine::displayDialog() {
 	}
 
 #ifdef USE_TTS
-	if (!_mixer->isSoundHandleActive(*_sound->_talkChannelHandle) && 
-		(_game.heversion < 60 || !_sound->isSoundInUse(HSND_TALKIE_SLOT)) && 
+	if (!_mixer->isSoundHandleActive(*_sound->_talkChannelHandle) &&
+		(_game.heversion < 60 || !_sound->isSoundInUse(HSND_TALKIE_SLOT)) &&
 		!_sound->pollCD()) {
 		//sayText(ttsMessage, Common::TextToSpeechManager::INTERRUPT);
-		
+
 		Common::CRC32 crc;
 		uint32 hash = crc.crcFast((const byte *)ttsMessage.c_str(), ttsMessage.size());
-		sayTextExtended(ttsMessage, Common::TextToSpeechManager::INTERRUPT, hash, _actorToPrintStrFor, a ? a->getRoom() : 0);
-		
+
+		// DEBUG: Log dialogue capture for spike validation
+		int roomId = a ? a->getRoom() : 0;
+		debug(0, "TTS-CAPTURE: text='%.50s' actor=%d room=%d hash=%u",
+			ttsMessage.c_str(), _actorToPrintStrFor, roomId, hash);
+
+		sayTextExtended(ttsMessage, Common::TextToSpeechManager::INTERRUPT, hash, _actorToPrintStrFor, roomId);
+
 	}
 #endif
 
