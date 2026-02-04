@@ -261,8 +261,11 @@ bool WindowsTextToSpeechManager::sayExtended(const Common::U32String &str, Actio
 	// We have to set the pitch by prepending xml code at the start of the said string;
 	//Common::U32String pitch = Common::U32String::format("<pitch absmiddle=\"%d\"/>%S", _ttsState->_pitch / 10, str.c_str());
 	Common::U32String pitch = Common::U32String::format("<pitch absmiddle=\"%d\"/>%S", _ttsState->_pitch / 10, str.c_str());
-	// Changed from <context> tag to XML comment to work around SAPI5 stripping custom tags
-	pitch = Common::U32String::format("<!-- cache:%i:%i:%i -->%S", hash, actor, room, pitch.c_str() );
+	// Append cache metadata as escaped text that SAPI5 won't strip
+	// Format: original_text [###hash:game_id:actor:room###]
+	// The adapter will parse and remove this before cache lookup
+	// V1: Hardcoded game_id="indy3" (can be made dynamic in v2)
+	pitch = Common::U32String::format("%S [###%i:indy3:%i:%i###]", pitch.c_str(), hash, actor, room);
 	WCHAR *strW = (WCHAR *) pitch.encodeUTF16Native();
 	if (strW == nullptr) {
 		warning("Cannot convert from UTF-32 encoding for text to speech");
