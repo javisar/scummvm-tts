@@ -60,6 +60,7 @@ public:
 	~SpeechDispatcherManager() override;
 
 	bool say(const Common::U32String &str, Action action) override;
+	bool sayExtended(const Common::U32String &str, Action action, uint32 hash, byte actor, int room) override;
 
 	bool stop() override;
 	bool pause() override;

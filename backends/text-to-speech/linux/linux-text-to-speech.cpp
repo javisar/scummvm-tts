@@ -224,6 +224,13 @@ bool SpeechDispatcherManager::say(const Common::U32String &str, Action action) {
 	return false;
 }
 
+bool SpeechDispatcherManager::sayExtended(const Common::U32String &str, Action action, uint32 hash, byte actor, int room) {
+	(void)hash;
+	(void)actor;
+	(void)room;
+	return say(str, action);
+}
+
 bool SpeechDispatcherManager::stop() {
 	if (_speechState == READY || _speechState == BROKEN)
 		return true;
