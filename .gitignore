@@ -305,3 +305,8 @@ scummvm.prg
 
 #Ignore Python generated files
 __pycache__/
+
+games/
+.github/
+.roam/
+AGENTS.md

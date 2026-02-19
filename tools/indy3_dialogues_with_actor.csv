@@ -1,0 +1,1509 @@
+index,speaker_actor_id,speaker_kind,text_normalized,lfl_file,room_id,script_id,object_id,verb_id,opcode,opcode_offset,message_offset
+1,0,direct_actor,or,01.LFL,1,-1,20,-1,0x14,6,31
+2,1,ego,Tastes great!,01.LFL,1,-1,24,-1,0xD8,82,84
+3,1,ego,It's a bunch of trophies that the Archaeology<CTRL1>Department won.,01.LFL,1,-1,25,-1,0xD8,44,46
+4,1,ego,I wouldn't want to take those trophies!,01.LFL,1,-1,25,-1,0xD8,110,112
+5,1,ego,There are various treasures and artifacts that I brought<CTRL1>back from my expeditions.,01.LFL,1,-1,26,-1,0xD8,45,47
+6,1,ego,"No, they're safe where they are.",01.LFL,1,-1,26,-1,0xD8,132,134
+7,1,ego,"Hmm, build your own rice casserole.",01.LFL,1,-1,27,-1,0xD8,45,47
+8,1,ego,Offered: boxing lessons.  See the coach.,01.LFL,1,-1,27,-1,0xD8,93,95
+9,1,ego,"FOR SALE: one space in Dr. Jones' class, best offer.",01.LFL,1,-1,27,-1,0xD8,146,148
+10,1,ego,"FOR SALE: classic Model T, complete with fuzzy dice.",01.LFL,1,-1,27,-1,0xD8,211,213
+11,1,ego,FOR SALE: complete set of books by Professor Ravenswood.,01.LFL,1,-1,27,-1,0xD8,276,278
+12,1,ego,"FOR SALE: 6000 rats, 500 snakes.  Call S. Spielberg.",01.LFL,1,-1,27,-1,0xD8,350,352
+13,1,ego,There's a class in session.,01.LFL,1,-1,-1,-1,0xD8,7,9
+14,1,direct_actor,"Hello again, Marcus!  Did I miss anything while I was gone?",01.LFL,1,29,-1,-1,0x14,68,71
+15,4,direct_actor,"Let's see.  Remember last month, Professor Mulbray asked<CTRL1>you to date that expensive Mexican statue he'd bought?",01.LFL,1,29,-1,-1,0x14,132,135
+16,1,ego,"Why yes - that cheap imitation.  Of course, he didn't believe<CTRL1>me until I broke it in half to show him the cross section.",01.LFL,1,29,-1,-1,0xD8,249,251
+17,4,direct_actor,"That may have been a bit harsh, considering his situation!",01.LFL,1,29,-1,-1,0x14,374,377
+18,4,direct_actor,"Well, never mind.  Congratulations on obtaining the cross.",01.LFL,1,29,-1,-1,0x14,618,621
+19,4,direct_actor,You'll have to be the judge of that.,01.LFL,1,29,-1,-1,0x14,691,694
+20,4,direct_actor,It seems a bit unfair to catch the lad coming and going.,01.LFL,1,29,-1,-1,0x14,691,694
+21,4,direct_actor,"You see, we've hired a new geologist who fancies himself<CTRL1>quite the archaeologist.",01.LFL,1,29,-1,-1,0x14,910,913
+22,4,direct_actor,He advised Mulbray to buy that statue.,01.LFL,1,29,-1,-1,0x14,910,913
+23,4,direct_actor,His name is John Reid.,01.LFL,1,29,-1,-1,0x14,1165,1168
+24,4,direct_actor,Don't know what the geology department had<CTRL1>in mind when they picked him up.,01.LFL,1,29,-1,-1,0x14,1165,1168
+25,4,direct_actor,"Me?  Lead Mulbray on a wild goose chase^ why, I^",01.LFL,1,29,-1,-1,0x14,1285,1288
+26,1,ego,"Thanks.  We can discuss my honorarium later, over<CTRL1>dinner and champagne.",01.LFL,1,29,-1,-1,0xD8,1358,1360
+27,1,ego,It's full of solvent.  I use it to clean things.,02.LFL,2,-1,71,-1,0xD8,39,41
+28,1,ego,Phew!  What a smell!,02.LFL,2,-1,71,-1,0xD8,107,109
+29,1,ego,That's better.,02.LFL,2,-1,71,-1,0xD8,147,149
+30,1,ego,It's too dangerous to carry this with me.,02.LFL,2,-1,71,-1,0xD8,165,167
+31,1,ego,It seems to be working^,02.LFL,2,-1,71,-1,0xD8,242,244
+32,1,ego,Hey!  There's a key in here!,02.LFL,2,-1,71,-1,0xD8,277,279
+33,1,ego,It's already clean.,02.LFL,2,-1,71,-1,0xD8,332,334
+34,1,ego,I'd better not.  Those kids are still out there.,02.LFL,2,-1,63,-1,0xD8,64,66
+35,1,ego,It's a beautiful day today.,02.LFL,2,-1,64,-1,0xD8,45,47
+36,1,ego,It's just junk mail.,02.LFL,2,-1,65,-1,0xD8,61,63
+37,1,ego,It's nothing important.,02.LFL,2,-1,65,-1,0xD8,85,87
+38,1,ego,It's more junk letters.,02.LFL,2,-1,66,-1,0xD8,59,61
+39,1,ego,"It's just papers, nothing important.",02.LFL,2,-1,67,-1,0xD8,55,57
+40,1,ego,It has Hitler's autograph in it!,02.LFL,2,-1,68,-1,0xD8,69,71
+41,1,ego,It's my father's Grail Diary!,02.LFL,2,-1,68,-1,0xD8,117,119
+42,1,ego,It's a package from my father!,02.LFL,2,-1,68,-1,0xD8,169,171
+43,1,ego,"No, I'll keep this myself.",02.LFL,2,-1,68,-1,0xD8,203,205
+44,1,ego,I don't see anything pertinent right now.,02.LFL,2,-1,68,-1,0xD8,428,430
+45,1,ego,"It's just a chunk of crystal I found in a Mayan temple.  It's<CTRL1>of no use to me, but some flakes in San Francisco want it.",02.LFL,2,-1,69,-1,0xD8,40,42
+46,1,ego,It's of no interest to me.,02.LFL,2,-1,69,-1,0xD8,165,167
+47,1,ego,These are replicas of the Sankara Stones I recovered<CTRL1>about 3 years ago.,02.LFL,2,-1,72,-1,0xD8,30,32
+48,1,ego,"I believe this is a fragment of a meteor.  I don't know why<CTRL1>it oozes purple slime, though^",02.LFL,2,-1,85,-1,0xD8,35,37
+49,1,ego,I see some difficult times ahead!,02.LFL,2,-1,81,-1,0xD8,46,48
+50,1,ego,They're just some old skulls.,02.LFL,2,-1,73,-1,0xD8,37,39
+51,1,ego,It's a statue of a thousand-year-old falcon.,02.LFL,2,-1,70,-1,0xD8,40,42
+52,1,ego,It really means a lot to me^,02.LFL,2,-1,70,-1,0xD8,88,90
+53,1,ego,"I haven't finished translating it, but I think it's a warning<CTRL1>about aliens in disguises.",02.LFL,2,-1,75,-1,0xD8,45,47
+54,1,ego,I recovered this from a strange Brazilian tribe that<CTRL1>worships dogs and rabbits.,02.LFL,2,-1,74,-1,0xD8,41,43
+55,1,ego,I won this medal in a boxing tournament.,02.LFL,2,-1,76,-1,0xD8,36,38
+56,1,ego,It's the Earth.,02.LFL,2,-1,77,-1,0xD8,36,38
+57,1,ego,It's very warm.,02.LFL,2,-1,78,-1,0xD8,46,48
+58,1,ego,It's already on.,02.LFL,2,-1,78,-1,0xD8,65,67
+59,1,ego,I'd better not.  The college needs its hot water.,02.LFL,2,-1,78,-1,0xD8,85,87
+60,1,ego,It's a strange map drawn with crayons.,02.LFL,2,-1,79,-1,0xD8,34,36
+61,1,ego,These were given to me by a student in Sculpture 101.,02.LFL,2,-1,80,-1,0xD8,38,40
+62,1,ego,^just some old books and worthless trinkets.,02.LFL,2,-1,82,-1,0xD8,35,37
+63,1,ego,I used this for Halloween when I was a boy.,02.LFL,2,-1,83,-1,0xD8,35,37
+64,1,ego,I got this from an African shaman near Kinshasa.,02.LFL,2,-1,84,-1,0xD8,35,37
+65,1,ego,"Hmm, this looks important, but I'll leave this other junk here.",02.LFL,2,-1,-1,-1,0xD8,21,23
+66,1,ego,I don't need to take this with me.,02.LFL,2,-1,-1,-1,0xD8,1,3
+67,255,direct_actor,HEY!  <CTRL2>,03.LFL,3,-1,87,-1,0x14,28,33
+68,255,direct_actor,STOP SHOVING!,03.LFL,3,-1,87,-1,0x14,42,47
+69,255,direct_actor,Doctor Jones!  <CTRL2>,03.LFL,3,-1,114,-1,0x14,47,52
+70,255,direct_actor,HANDS OFF!,03.LFL,3,-1,114,-1,0x14,70,75
+71,1,ego,"Boy, do they look pissed!",03.LFL,3,-1,114,-1,0xD8,111,113
+72,1,ego,They're very angry!,03.LFL,3,-1,114,-1,0xD8,142,144
+73,10,direct_actor,"Don't talk to ME, Dr. Jones!",03.LFL,3,30,-1,-1,0x14,9,12
+74,10,direct_actor,It's the STUDENTS that are upset!,03.LFL,3,30,-1,-1,0x14,9,12
+75,255,direct_actor,NOTHING DOING!  <CTRL2>,03.LFL,3,30,-1,-1,0x14,583,588
+76,255,direct_actor,WE WANT OUR CARDS SIGNED!,03.LFL,3,30,-1,-1,0x14,607,612
+77,255,direct_actor,I want my card signed NOW!  <CTRL2>,03.LFL,3,30,-1,-1,0x14,673,678
+78,255,direct_actor,Me too!  <CTRL2>,03.LFL,3,30,-1,-1,0x14,709,714
+79,255,direct_actor,That's right!,03.LFL,3,30,-1,-1,0x14,726,731
+80,255,direct_actor,What are you going to do?  <CTRL2>,03.LFL,3,30,-1,-1,0x14,755,760
+81,255,direct_actor,I was here first.  <CTRL2>,03.LFL,3,30,-1,-1,0x14,790,795
+82,255,direct_actor,"No, I was!",03.LFL,3,30,-1,-1,0x14,817,822
+83,255,direct_actor,"Well, as long as there's a fair way.",03.LFL,3,30,-1,-1,0x14,843,848
+84,255,direct_actor,I was first.  <CTRL2>,03.LFL,3,30,-1,-1,0x14,902,907
+85,255,direct_actor,"No, it was me!  <CTRL2>",03.LFL,3,30,-1,-1,0x14,924,929
+86,255,direct_actor,I'm behind him!  <CTRL2>,03.LFL,3,30,-1,-1,0x14,948,953
+87,255,direct_actor,Stop shoving!,03.LFL,3,30,-1,-1,0x14,973,978
+88,1,ego,That won't hold them for long.  I'd better not go back<CTRL1>in there.,03.LFL,3,30,-1,-1,0xD8,1051,1053
+89,255,direct_actor,All the archaeology professors are booked!,03.LFL,3,30,-1,-1,0x14,1161,1166
+90,255,direct_actor,"Great, tell us his name!",03.LFL,3,30,-1,-1,0x14,1292,1297
+91,255,direct_actor,"Thank you, Dr. Jones.  <CTRL2>",03.LFL,3,30,-1,-1,0x14,1407,1412
+92,255,direct_actor,See ya!,03.LFL,3,30,-1,-1,0x14,1438,1443
+93,1,ego,I never thought I'd get past them!,03.LFL,3,30,-1,-1,0xD8,1507,1509
+94,10,direct_actor,STUDENTS!  STUDENTS!  PLEASE BE PATIENT!<CTRL1>I'm sure Dr. Jones will be back soon!,03.LFL,3,55,-1,-1,0x14,33,36
+95,255,direct_actor,BUT WE'VE BEEN WAITING FOR HIM TO SIGN OUR CARDS ALL DAY!,03.LFL,3,55,-1,-1,0x14,117,122
+96,255,direct_actor,YEAH!!  <CTRL2>,03.LFL,3,55,-1,-1,0x14,181,186
+97,255,direct_actor,YEAH!!,03.LFL,3,55,-1,-1,0x14,241,246
+98,10,direct_actor,ARGHHHH!!!,03.LFL,3,55,-1,-1,0x14,254,257
+99,1,ego,Irene!  What's happening here?,03.LFL,3,55,-1,-1,0xD8,335,337
+100,10,direct_actor,Oh!  Dr. Jones!  I'm so glad you're back.,03.LFL,3,55,-1,-1,0x14,390,393
+101,10,direct_actor,Dr. Jones!  <CTRL2>,03.LFL,3,55,-1,-1,0x14,462,465
+102,10,direct_actor,These students are VERY upset!,03.LFL,3,55,-1,-1,0x14,514,517
+103,1,ego,It's latched from the other side.,06.LFL,6,-1,118,-1,0xD8,42,44
+104,0,direct_actor,Henry's House,06.LFL,6,-1,-1,-1,0x14,48,62
+105,10,direct_actor,"Dr. Jones,<CTRL2>",06.LFL,6,73,-1,-1,0x14,121,124
+106,10,direct_actor,"come with us, please.",06.LFL,6,73,-1,-1,0x14,177,180
+107,5,direct_actor,"Good morning, Dr. Jones.  I hope I didn't alarm you.",06.LFL,6,73,-1,-1,0x14,303,306
+108,1,ego,I'm not used to such unorthodox methods of introduction.,06.LFL,6,73,-1,-1,0xD8,383,385
+109,5,direct_actor,I'm sorry if my men inconvenienced you.<CTRL1>My name is Walter Donovan.,06.LFL,6,73,-1,-1,0x14,443,446
+110,1,ego,"I know who you are, Mr. Donovan.  Your contributions<CTRL1>to the museum have been extremely generous.",06.LFL,6,73,-1,-1,0xD8,515,517
+111,1,ego,"And I must say, some of your pieces here are quite<CTRL1>impressive.",06.LFL,6,73,-1,-1,0xD8,515,517
+112,5,direct_actor,"Like yourself, I have a passion for antiquities.",06.LFL,6,73,-1,-1,0x14,681,684
+113,5,direct_actor,Have a look over here.  You may find this interesting.,06.LFL,6,73,-1,-1,0x14,769,772
+114,1,ego,"Early Christian symbols^  Middle Twelfth Century, I'd say.",06.LFL,6,73,-1,-1,0xD8,854,856
+115,1,ego,Where did you find it?,06.LFL,6,73,-1,-1,0xD8,952,954
+116,5,direct_actor,In the mountains north of Ankara.  Can you translate it?,06.LFL,6,73,-1,-1,0x14,978,981
+117,1,ego,"Hi, Chuck!",07.LFL,7,-1,141,-1,0xD8,39,41
+118,1,ego,They're just a lot of old books.<CTRL1>I've read them many times.,07.LFL,7,-1,137,-1,0xD8,41,43
+119,1,ego,"Oh yes, I remember THESE books!",07.LFL,7,-1,138,-1,0xD8,41,43
+120,1,ego,I'd just as soon forget them!,07.LFL,7,-1,138,-1,0xD8,41,43
+121,1,ego,Medieval European history^,07.LFL,7,-1,145,-1,0xD8,41,43
+122,1,ego,I'll leave them here.,07.LFL,7,-1,145,-1,0xD8,41,43
+123,1,ego,"Greek, German, Latin, Italian, French^",07.LFL,7,-1,146,-1,0xD8,46,48
+124,1,ego,I sure had to learn a lot of languages when I was a kid.,07.LFL,7,-1,146,-1,0xD8,46,48
+125,1,ego,These are the books Dad used to read while falling asleep.,07.LFL,7,-1,150,-1,0xD8,50,52
+126,1,ego,It's a painting I did when I was a little boy.<CTRL1>It's of a trophy my father won.,07.LFL,7,-1,128,-1,0xD8,39,41
+127,1,ego,It's kind of lumpy.,07.LFL,7,-1,133,-1,0xD8,60,62
+128,1,ego,It's a very small key.,07.LFL,7,-1,133,-1,0xD8,85,87
+129,1,ego,I can't get the tape open.  It's just too sticky.,07.LFL,7,-1,133,-1,0xD8,120,122
+130,1,ego,I'll clean up later.,07.LFL,7,-1,129,-1,0xD8,57,59
+131,1,ego,This is the diary I made when I was a little boy. It was<CTRL1>supposed to look like my father's Grail Diary.,07.LFL,7,-1,136,-1,0xD8,49,51
+132,1,ego,I think Junior made this book when he was a boy.,07.LFL,7,-1,136,-1,0xD8,159,161
+133,1,ego,It's signed by Hitler!,07.LFL,7,-1,136,-1,0xD8,222,224
+134,1,ego,It's locked.,07.LFL,7,-1,135,-1,0xD8,44,46
+135,1,ego,That doesn't unlock it.,07.LFL,7,-1,135,-1,0xD8,96,98
+136,1,ego,The plant's in the way.,07.LFL,7,-1,134,-1,0xD8,44,46
+137,1,ego,I'll just put it down over here.,07.LFL,7,-1,131,-1,0xD8,31,33
+138,1,ego,It seems to be a bit broken.,07.LFL,7,-1,130,-1,0xD8,34,36
+139,0,direct_actor,It's an upside-down chair.,07.LFL,7,-1,144,-1,0x14,44,52
+140,1,ego,I'll clean up another day.,07.LFL,7,-1,144,-1,0xD8,81,83
+141,1,ego,There's no paper in it.,07.LFL,7,-1,139,-1,0xD8,62,64
+142,1,ego,Huh?,07.LFL,7,-1,139,-1,0xD8,91,93
+143,1,ego,"This isn't a radio, you know!",07.LFL,7,-1,139,-1,0xD8,104,106
+144,1,ego,Everything that was in it is on the floor!,07.LFL,7,-1,140,-1,0xD8,40,42
+145,1,ego,None of those papers on top mean anything.,07.LFL,7,-1,140,-1,0xD8,93,95
+146,1,ego,"After seeing this mess, I'd rather leave it alone.",07.LFL,7,-1,142,-1,0xD8,39,41
+147,1,ego,I'd rather not.,07.LFL,7,-1,142,-1,0xD8,93,95
+148,1,ego,There's probably nothing in there but an old egg.,07.LFL,7,-1,142,-1,0xD8,93,95
+149,1,ego,Nice day out there.,07.LFL,7,-1,143,-1,0xD8,42,44
+150,1,ego,This window hasn't been opened for years!,07.LFL,7,-1,143,-1,0xD8,65,67
+151,1,ego,I can see into the neighbor's yard.,07.LFL,7,-1,147,-1,0xD8,60,62
+152,1,ego,Ooops!,07.LFL,7,-1,147,-1,0xD8,60,62
+153,1,ego,How embarrassing!,07.LFL,7,-1,147,-1,0xD8,112,114
+154,1,ego,"If I managed to open it, I'd never get it closed again.",07.LFL,7,-1,147,-1,0xD8,163,165
+155,1,ego,Nice view!,07.LFL,7,-1,148,-1,0xD8,42,44
+156,1,ego,We're already getting enough air through the door!,07.LFL,7,-1,148,-1,0xD8,56,58
+157,1,ego,And go through Dad's underwear?,07.LFL,7,-1,149,-1,0xD8,37,39
+158,1,ego,Never!,07.LFL,7,-1,149,-1,0xD8,37,39
+159,1,ego,Nothing under the bed.,07.LFL,7,-1,151,-1,0xD8,57,59
+160,1,ego,"No, it's too heavy.",07.LFL,7,-1,151,-1,0xD8,84,86
+161,1,ego,It's of our old house in Four Corners.,07.LFL,7,-1,152,-1,0xD8,40,42
+162,1,ego,"No, I'll leave it here.",07.LFL,7,-1,152,-1,0xD8,82,84
+163,1,ego,What a mess!  I wonder what they were looking for?,07.LFL,7,-1,-1,-1,0xD8,14,16
+164,1,ego,I wonder if it's this diary Dad sent me?,07.LFL,7,-1,-1,-1,0xD8,85,87
+165,254,direct_actor,Indiana Jones' Health,08.LFL,8,41,-1,-1,0x14,23,33
+166,254,direct_actor,Punch power,08.LFL,8,41,-1,-1,0x14,55,65
+167,254,direct_actor,<STR:16385>'s Health,08.LFL,8,41,-1,-1,0x14,82,92
+168,254,direct_actor,Nazi Guard's Health,08.LFL,8,41,-1,-1,0x14,109,119
+169,254,direct_actor,"After recovering consciousness,",08.LFL,8,83,-1,-1,0x14,95,104
+170,254,direct_actor,"our hero, Indiana Jones, was forced",08.LFL,8,83,-1,-1,0x14,136,145
+171,254,direct_actor,to polish Hitler's ancient artifacts,08.LFL,8,83,-1,-1,0x14,181,190
+172,254,direct_actor,for the rest of Hitler's life.,08.LFL,8,83,-1,-1,0x14,227,236
+173,254,direct_actor,And since Hitler's people,08.LFL,8,83,-1,-1,0x14,271,280
+174,254,direct_actor,"successfully located the Holy Grail,",08.LFL,8,83,-1,-1,0x14,306,315
+175,254,direct_actor,this was a VERY long time.,08.LFL,8,83,-1,-1,0x14,352,361
+176,254,direct_actor,"After paying for damages to the library floor,",08.LFL,8,83,-1,-1,0x14,398,407
+177,254,direct_actor,Indiana enjoyed five years of jailhouse pasta,08.LFL,8,83,-1,-1,0x14,454,463
+178,254,direct_actor,while his father withered away in a Nazi prison.,08.LFL,8,83,-1,-1,0x14,509,518
+179,254,direct_actor,Good taste prevents us from describing,08.LFL,8,83,-1,-1,0x14,577,586
+180,254,direct_actor,in much detail what happened.,08.LFL,8,83,-1,-1,0x14,625,634
+181,254,direct_actor,"Needless to say, it was not a pretty sight.",08.LFL,8,83,-1,-1,0x14,668,677
+182,254,direct_actor,And so ends the life and times,08.LFL,8,83,-1,-1,0x14,731,740
+183,254,direct_actor,"of Indiana Jones,",08.LFL,8,83,-1,-1,0x14,771,780
+184,254,direct_actor,not to mention the rest of the Free World!,08.LFL,8,83,-1,-1,0x14,802,811
+185,254,direct_actor,The zeppelin returned to Berlin where,08.LFL,8,83,-1,-1,0x14,864,873
+186,254,direct_actor,Colonel Vogel happily escorted both,08.LFL,8,83,-1,-1,0x14,911,920
+187,254,direct_actor,"Henry, Jr. and Henry, Sr. to front row seats",08.LFL,8,83,-1,-1,0x14,956,965
+188,254,direct_actor,at a firing squad.,08.LFL,8,83,-1,-1,0x14,1010,1019
+189,254,direct_actor,We wish we could say that Indy,08.LFL,8,83,-1,-1,0x14,1048,1057
+190,254,direct_actor,went down in history as the only American,08.LFL,8,83,-1,-1,0x14,1088,1097
+191,254,direct_actor,ever to have punched out Hitler.,08.LFL,8,83,-1,-1,0x14,1139,1148
+192,254,direct_actor,"Unfortunately, no one ever heard about it.",08.LFL,8,83,-1,-1,0x14,1185,1194
+193,254,direct_actor,Your final scores:,08.LFL,8,83,-1,-1,0x14,1244,1255
+194,254,direct_actor,Episode,08.LFL,8,83,-1,-1,0x14,1274,1285
+195,254,direct_actor,Series,08.LFL,8,83,-1,-1,0x14,1293,1302
+196,254,direct_actor,<INT:244>,08.LFL,8,83,-1,-1,0x14,1309,1320
+197,254,direct_actor,<INT:245>,08.LFL,8,83,-1,-1,0x14,1325,1334
+198,1,ego,Just give me a moment^,09.LFL,9,-1,-1,-1,0xD8,1,3
+199,1,ego,It's something about Holy Grain - perhaps some special<CTRL1>wheat the priests ate?,09.LFL,9,-1,-1,-1,0xD8,40,42
+200,5,direct_actor,"I'm sorry, Dr. Jones.  Evidently you're not the right man for<CTRL1>the job after all.",09.LFL,9,-1,-1,-1,0x14,122,125
+201,5,direct_actor,Perhaps you're just an illegitimate copy of the man<CTRL1>I thought you were.,09.LFL,9,-1,-1,-1,0x14,122,125
+202,1,ego,"The top portion is missing, but the rest^",09.LFL,9,-1,-1,-1,0xD8,8,10
+203,1,ego,`^a spring welling up inside him for eternal life.`<CTRL1>`Through the desert to the canyon of the crescent moon.`,09.LFL,9,-1,-1,-1,0xD8,8,10
+204,1,ego,`Where the cup that holds the blood of Jesus Christ<CTRL1>our Lord resides forever.`,09.LFL,9,-1,-1,-1,0xD8,170,172
+205,5,direct_actor,"The Holy Grail, Dr. Jones.  It will bring eternal life<CTRL1>to whoever drinks from it.",09.LFL,9,-1,-1,-1,0x14,253,256
+206,1,ego,An old man's dream.,09.LFL,9,-1,-1,-1,0xD8,340,342
+207,5,direct_actor,Every man's dream.  Including your father.  He's the<CTRL1>foremost Grail scholar in the world today!,09.LFL,9,-1,-1,-1,0x14,363,366
+208,5,direct_actor,"In any case, an attempt to recover the Grail is under way.",09.LFL,9,-1,-1,-1,0x14,363,366
+209,1,ego,But the slab's incomplete.  You don't know where to look.,09.LFL,9,-1,-1,-1,0xD8,524,526
+210,5,direct_actor,This slab is one of two markers left by three knights<CTRL1>during the First Crusade.,09.LFL,9,-1,-1,-1,0x14,585,588
+211,5,direct_actor,This Franciscan manuscript tells of the second marker<CTRL1>buried with one of the Knights.,09.LFL,9,-1,-1,-1,0x14,687,690
+212,5,direct_actor,It suggests that a description of the Grail can<CTRL1>be found on the way to the Knight's tomb.,09.LFL,9,-1,-1,-1,0x14,778,781
+213,1,ego,It also says a painting was made of the Grail that answers<CTRL1>a question my Father had: Does the Grail actually glow?,09.LFL,9,-1,-1,-1,0xD8,906,908
+214,1,ego,But it doesn't say where the Knight's tomb might be found!,09.LFL,9,-1,-1,-1,0xD8,1028,1030
+215,5,direct_actor,"Our team leader believes it is in Venice, Italy -<CTRL1>and that is where he disappeared!",09.LFL,9,-1,-1,-1,0x14,1105,1108
+216,5,direct_actor,We'd like you to take over his quest.,09.LFL,9,-1,-1,-1,0x14,1211,1214
+217,1,ego,You've got the wrong Jones.  You should talk to my father.,09.LFL,9,-1,-1,-1,0xD8,1265,1267
+218,5,direct_actor,We already have.  He's the man who disappeared.,09.LFL,9,-1,-1,-1,0x14,1327,1330
+219,1,ego,I wonder where Elsa went.,12.LFL,12,-1,-1,-1,0xD8,128,130
+220,1,ego,Maybe she was captured!,12.LFL,12,-1,-1,-1,0xD8,128,130
+221,1,ego,Where's Elsa?,12.LFL,12,-1,-1,-1,0xD8,194,196
+222,1,ego,I changed into my regular clothes so I wouldn't surprise her.,12.LFL,12,-1,-1,-1,0xD8,194,196
+223,1,ego,I'll go scout around.,12.LFL,12,-1,-1,-1,0xD8,26,28
+224,255,direct_actor,All right.  I'll stay in the car.,12.LFL,12,-1,-1,-1,0x14,51,56
+225,1,ego,I'll come back in a few minutes.,12.LFL,12,-1,-1,-1,0xD8,91,93
+226,1,ego,I think it could hold my weight if I could get to it.,13.LFL,13,-1,163,-1,0xD8,34,36
+227,1,ego,I can't get to it from here!,13.LFL,13,-1,163,-1,0xD8,91,93
+228,1,ego,It's still in good shape.,13.LFL,13,-1,165,-1,0xD8,34,36
+229,1,ego,"I could climb down, but I wouldn't make it back to the ledge.",13.LFL,13,-1,165,-1,0xD8,63,65
+230,1,ego,There's not enough there for me to whip!,13.LFL,13,-1,164,-1,0xD8,51,53
+231,1,ego,That won't work.,13.LFL,13,-1,164,-1,0xD8,97,99
+232,0,direct_actor,It's too high to reach.,13.LFL,13,-1,164,-1,0x14,123,131
+233,1,ego,It's slippery out here!,13.LFL,13,-1,-1,-1,0xD8,4,6
+234,1,ego,I'd better change into my action clothes!,13.LFL,13,-1,-1,-1,0xD8,4,6
+235,254,direct_actor,<STR:16384>,14.LFL,14,-1,-1,-1,0x14,86,97
+236,254,direct_actor,_,14.LFL,14,-1,-1,-1,0x14,102,107
+237,254,direct_actor,<STR:53>,14.LFL,14,-1,-1,-1,0x14,78,88
+238,255,direct_actor,The game was saved.,14.LFL,14,-1,-1,-1,0x14,31,41
+239,255,direct_actor,ERROR: The game was NOT saved.,14.LFL,14,-1,-1,-1,0x14,71,81
+240,255,direct_actor,ERROR: The game was NOT loaded.,14.LFL,14,-1,-1,-1,0x14,122,132
+241,255,direct_actor,There are no saved games on the disk.,14.LFL,14,-1,-1,-1,0x14,174,184
+242,255,direct_actor,Select game to <CTRL2>,14.LFL,14,-1,-1,-1,0x14,232,242
+243,255,direct_actor,SAVE<CTRL2>,14.LFL,14,-1,-1,-1,0x14,260,265
+244,255,direct_actor,.,14.LFL,14,-1,-1,-1,0x14,272,277
+245,255,direct_actor,LOAD<CTRL2>,14.LFL,14,-1,-1,-1,0x14,317,322
+246,255,direct_actor,Please enter a name for the saved game.,14.LFL,14,-1,-1,-1,0x14,346,356
+247,255,direct_actor,"You selected an empty slot, please try again.",14.LFL,14,-1,-1,-1,0x14,406,416
+248,255,direct_actor,"Select game to load, then select <CTRL2>",14.LFL,14,-1,-1,-1,0x14,472,482
+249,255,direct_actor,OK<CTRL2>,14.LFL,14,-1,-1,-1,0x14,518,523
+250,255,direct_actor,"Select save game slot, then type in name.",14.LFL,14,-1,-1,-1,0x14,545,555
+251,255,direct_actor,"Finish typing name, press <CTRL2>",14.LFL,14,-1,-1,-1,0x14,607,617
+252,255,direct_actor,ENTER<CTRL2>,14.LFL,14,-1,-1,-1,0x14,646,651
+253,255,direct_actor,", then select <CTRL2>",14.LFL,14,-1,-1,-1,0x14,659,664
+254,255,direct_actor,to Save.,14.LFL,14,-1,-1,-1,0x14,696,701
+255,255,direct_actor,to Load.,14.LFL,14,-1,-1,-1,0x14,714,719
+256,255,direct_actor,Loading `<STR:16385>`,14.LFL,14,-1,-1,-1,0x14,757,767
+257,255,direct_actor,Saving `<STR:16385>`,14.LFL,14,-1,-1,-1,0x14,810,820
+258,255,direct_actor,That game is not on the disk.,14.LFL,14,-1,-1,-1,0x14,844,854
+259,255,direct_actor,Put a save-load game disk in Drive <STR:16388>.  Select<CTRL2>,14.LFL,14,-1,-1,-1,0x14,990,1000
+260,255,direct_actor,<STR:16387>LOAD<CTRL2>,14.LFL,14,-1,-1,-1,0x14,1051,1056
+261,255,direct_actor,Select<CTRL2>,14.LFL,14,-1,-1,-1,0x14,1092,1102
+262,255,direct_actor,.  Or select <CTRL2>,14.LFL,14,-1,-1,-1,0x14,1127,1132
+263,255,direct_actor,PLAY<CTRL2>,14.LFL,14,-1,-1,-1,0x14,1148,1153
+264,255,direct_actor,to continue playing.,14.LFL,14,-1,-1,-1,0x14,1160,1165
+265,1,ego,It's locked!,15.LFL,15,-1,178,-1,0xD8,78,80
+266,1,ego,I guess Elsa couldn't keep the library open any longer.,15.LFL,15,-1,178,-1,0xD8,78,80
+267,1,ego,I can't seem to budge it.,15.LFL,15,-1,179,-1,0xD8,49,51
+268,1,ego,"No, I want to go back down there again.",15.LFL,15,-1,179,-1,0xD8,102,104
+269,1,ego,"That's not my style, and he's definitely not my type.",15.LFL,15,-1,180,-1,0xD8,44,46
+270,1,ego,He's either in love or drunk on this bad wine^ or both.,15.LFL,15,-1,180,-1,0xD8,101,103
+271,1,ego,"I can't say much for his table manners, but<CTRL1>I marvel at his appetite.",15.LFL,15,-1,181,-1,0xD8,34,36
+272,1,ego,What a disgusting idea!  He looks bad enough on the outside!,15.LFL,15,-1,181,-1,0xD8,108,110
+273,1,ego,She just doesn't have Elsa's^ <CTRL2>,15.LFL,15,-1,184,-1,0xD8,46,48
+274,1,ego,charisma.,15.LFL,15,-1,184,-1,0xD8,85,87
+275,1,ego,"She's either in love, or there's something in the wine.",15.LFL,15,-1,184,-1,0xD8,99,101
+276,1,ego,Why would anyone want a cat when they could have a dog?,15.LFL,15,-1,187,-1,0xD8,27,29
+277,1,ego,She's just a sweet old Italian woman.,15.LFL,15,-1,190,-1,0xD8,44,46
+278,1,ego,Please!  I've got manners!,15.LFL,15,-1,190,-1,0xD8,85,87
+279,1,ego,He can't decide between fetuccine and veal.,15.LFL,15,-1,193,-1,0xD8,30,32
+280,1,ego,"His eyes are on the girl in the corner, and his<CTRL1>book is upside down.",15.LFL,15,-1,196,-1,0xD8,30,32
+281,1,ego,She looks pretty bored.  I can't say I blame her.,15.LFL,15,-1,199,-1,0xD8,44,46
+282,1,ego,I don't think she would appreciate my attention.,15.LFL,15,-1,199,-1,0xD8,97,99
+283,1,ego,Never leave home without it.,15.LFL,15,-1,202,-1,0xD8,31,33
+284,1,ego,That's NOT what I carry a whip for.,15.LFL,15,-1,202,-1,0xD8,81,83
+285,1,ego,It's full of water.,15.LFL,15,-1,203,-1,0xD8,78,80
+286,1,ego,It's a cheap bottle of wine.  Why am I carrying this?,15.LFL,15,-1,203,-1,0xD8,112,114
+287,1,ego,It's empty.,15.LFL,15,-1,203,-1,0xD8,171,173
+288,1,ego,"It's a beautiful example of Purcellian design,<CTRL1>and it's full of water.",15.LFL,15,-1,204,-1,0xD8,45,47
+289,1,ego,I don't want to disturb him.,15.LFL,15,-1,-1,-1,0xD8,1,3
+290,1,ego,I don't want to disturb her.,15.LFL,15,-1,-1,-1,0xD8,1,3
+291,1,ego,Mind if I take this?,15.LFL,15,-1,-1,-1,0xD8,3,5
+292,10,direct_actor,Of course not.  It was a dreadful wine.,15.LFL,15,-1,-1,-1,0x14,36,39
+293,10,direct_actor,Indeed I do!!  We're not done with our fine wine yet!,15.LFL,15,-1,-1,-1,0x14,94,97
+294,1,ego,"Hmm^  1924, a very bad year.",15.LFL,15,-1,-1,-1,0xD8,10,12
+295,10,direct_actor,I knew that!,15.LFL,15,-1,-1,-1,0x14,42,45
+296,1,direct_actor,"Ah, Venice!",15.LFL,15,98,-1,-1,0x14,60,63
+297,4,direct_actor,"How are we supposed to recognize our contact,<CTRL1>Dr. Schneider?",15.LFL,15,98,-1,-1,0x14,85,88
+298,1,ego,Maybe he'll recognize us.,15.LFL,15,98,-1,-1,0xD8,151,153
+299,3,direct_actor,Dr. Jones?,15.LFL,15,98,-1,-1,0x14,204,207
+300,1,ego,Yes.,15.LFL,15,98,-1,-1,0xD8,222,224
+301,3,direct_actor,I knew it was you.  You have your father's eyes.,15.LFL,15,98,-1,-1,0x14,230,233
+302,1,ego,"And my mother's ears, but the rest belongs to you.",15.LFL,15,98,-1,-1,0xD8,283,285
+303,3,direct_actor,Looks like the best parts have already been spoken for.,15.LFL,15,98,-1,-1,0x14,337,340
+304,3,direct_actor,Marcus Brody?,15.LFL,15,98,-1,-1,0x14,400,403
+305,4,direct_actor,That's right.,15.LFL,15,98,-1,-1,0x14,426,429
+306,3,direct_actor,I'm Dr. Elsa Schneider.,15.LFL,15,98,-1,-1,0x14,444,447
+307,1,direct_actor,oh^,15.LFL,15,98,-1,-1,0x14,472,475
+308,1,direct_actor,So^ ah^ could you tell me about my father's disappearance?,15.LFL,15,98,-1,-1,0x14,472,475
+309,3,direct_actor,Of course.  We were working in the library when it<CTRL1>happened.  I'll show you.,15.LFL,15,98,-1,-1,0x14,540,543
+310,4,direct_actor,Why don't you two go ahead without me?,15.LFL,15,98,-1,-1,0x14,622,625
+311,4,direct_actor,I think I'll take a nice relaxing gondola ride.,15.LFL,15,98,-1,-1,0x14,622,625
+312,1,direct_actor,"Very well, Marcus.",15.LFL,15,98,-1,-1,0x14,721,724
+313,1,direct_actor,"Dr. Schneider, you lead the way.",15.LFL,15,98,-1,-1,0x14,753,756
+314,1,ego,This is the library.,15.LFL,15,98,-1,-1,0xD8,910,912
+315,1,direct_actor,It looks more like a church.,15.LFL,15,98,-1,-1,0x14,1001,1004
+316,3,direct_actor,You couldn't be more right.  It WAS a church during<CTRL1>the Crusades.,15.LFL,15,98,-1,-1,0x14,1034,1037
+317,3,direct_actor,"Now, just before your father vanished he was muttering<CTRL1>something about Roman numerals.",15.LFL,15,98,-1,-1,0x14,1109,1112
+318,3,direct_actor,He said he'd searched EVERYWHERE for them^<CTRL1>without success.,15.LFL,15,98,-1,-1,0x14,1109,1112
+319,3,direct_actor,The library should be closing soon.,15.LFL,15,98,-1,-1,0x14,1274,1277
+320,3,direct_actor,I'll make sure we won't be bothered.<CTRL1>Then we can take a look around.,15.LFL,15,98,-1,-1,0x14,1274,1277
+321,3,direct_actor,"Excuse me, sir.",15.LFL,15,98,-1,-1,0x14,1402,1405
+322,3,direct_actor,PARDON ME.,15.LFL,15,98,-1,-1,0x14,1426,1429
+323,3,direct_actor,HEY YOU!!!,15.LFL,15,98,-1,-1,0x14,1445,1448
+324,1,direct_actor,"I doubt he'll be much trouble, Dr. Schneider.",15.LFL,15,98,-1,-1,0x14,1471,1474
+325,3,direct_actor,Hmmph!,15.LFL,15,98,-1,-1,0x14,1526,1529
+326,3,direct_actor,Dr. Jones!,15.LFL,15,124,-1,-1,0x14,136,139
+327,3,direct_actor,I've been looking all over for you!,15.LFL,15,124,-1,-1,0x14,161,164
+328,4,direct_actor,Indy!,15.LFL,15,124,-1,-1,0x14,227,230
+329,1,ego,Marcus!,15.LFL,15,124,-1,-1,0xD8,245,247
+330,4,direct_actor,I found out where your father is!,15.LFL,15,124,-1,-1,0x14,256,259
+331,4,direct_actor,He's being held captive in the Brunwald Castle<CTRL1>on the Austrian-German border.,15.LFL,15,124,-1,-1,0x14,256,259
+332,1,ego,Great!,15.LFL,15,124,-1,-1,0xD8,374,376
+333,1,ego,And I found out where the Grail is!,15.LFL,15,124,-1,-1,0xD8,374,376
+334,1,ego,It's in Iskenderun!,15.LFL,15,124,-1,-1,0xD8,374,376
+335,4,direct_actor,Of course!  Iskenderun!,15.LFL,15,124,-1,-1,0x14,442,445
+336,1,ego,"Uh, Marcus, why are you all wet?",15.LFL,15,124,-1,-1,0xD8,485,487
+337,4,direct_actor,Don't ask!,15.LFL,15,124,-1,-1,0x14,539,542
+338,1,ego,"OK, I'll rescue Dad!  You meet me in Iskenderun!",15.LFL,15,124,-1,-1,0xD8,556,558
+339,4,direct_actor,Sure!,15.LFL,15,124,-1,-1,0x14,627,630
+340,4,direct_actor,No trouble!,15.LFL,15,124,-1,-1,0x14,646,649
+341,4,direct_actor,I'll be off now.,15.LFL,15,124,-1,-1,0x14,671,674
+342,4,direct_actor,Uh^ <CTRL2>,15.LFL,15,124,-1,-1,0x14,733,736
+343,4,direct_actor,where IS Iskenderun?,15.LFL,15,124,-1,-1,0x14,747,750
+344,1,ego,It's already full.,15.LFL,15,127,-1,-1,0xD8,16,18
+345,1,ego,Now the bottle is full of water.,15.LFL,15,127,-1,-1,0xD8,79,81
+346,1,ego,I need something stronger than water to open it.,15.LFL,15,127,-1,-1,0xD8,133,135
+347,1,ego,"It's in Italian. `These are sentimental books, but<CTRL1>nevertheless, they move me.  G. Galilei`",16.LFL,16,-1,214,-1,0xD8,30,32
+348,1,ego,It says `Donated by Giorgio Lucasi`,16.LFL,16,-1,215,-1,0xD8,30,32
+349,1,ego,It's an Italian proverb. `A library without bookshelves<CTRL1>is like a haphazard pile of books`,16.LFL,16,-1,216,-1,0xD8,30,32
+350,1,ego,It says `Dedicated to my favorite little library from<CTRL1>a lover of fine literature - D. Alighieri`,16.LFL,16,-1,217,-1,0xD8,30,32
+351,1,ego,Donated in honor of Count Spielbergeron de Amblino.,16.LFL,16,-1,218,-1,0xD8,30,32
+352,1,ego,"It's in archaic Italian. `For a great library, even if<CTRL1>it is in a second-rate city.  Romulus and Remus`",16.LFL,16,-1,219,-1,0xD8,30,32
+353,1,ego,It's called `Secrets of the Roman Catacombs`.,17.LFL,17,-1,239,-1,0xD8,98,100
+354,1,ego,It's called `How to Fly a Biplane`.,17.LFL,17,-1,240,-1,0xD8,86,88
+355,1,ego,"It's that book by Hitler, `Mein Kampf`.",17.LFL,17,-1,241,-1,0xD8,94,96
+356,1,ego,It looks like a first edition.,17.LFL,17,-1,241,-1,0xD8,159,161
+357,1,ego,"It's inscribed, `To a special fan.  Yours, Adolph`.",17.LFL,17,-1,241,-1,0xD8,195,197
+358,1,ego,These books aren't very interesting.,17.LFL,17,-1,-1,-1,0xD8,92,94
+359,1,ego,My father made me read these when I was a boy!,17.LFL,17,-1,-1,-1,0xD8,141,143
+360,1,ego,These might be interesting if I wasn't in a hurry.,17.LFL,17,-1,-1,-1,0xD8,200,202
+361,1,ego,Fascist propaganda!,17.LFL,17,-1,-1,-1,0xD8,263,265
+362,1,ego,All about snakes?  I HATE snakes!,17.LFL,17,-1,-1,-1,0xD8,295,297
+363,1,ego,Tales of the Ark of the Covenant and other outlandish<CTRL1>folk stories.,17.LFL,17,-1,-1,-1,0xD8,343,345
+364,1,ego,Right.,17.LFL,17,-1,-1,-1,0xD8,430,432
+365,1,ego,The basics of ballroom dancing.,17.LFL,17,-1,-1,-1,0xD8,450,452
+366,1,ego,All about Caponian and Skolarian culture.,17.LFL,17,-1,-1,-1,0xD8,496,498
+367,1,ego,A bunch of `How To^` books.,17.LFL,17,-1,-1,-1,0xD8,574,576
+368,1,ego,Maps of Ancient Italy.  I could have fun in this section.,17.LFL,17,-1,-1,-1,0xD8,614,616
+369,1,ego,The Complete Works of Famous Dictators.,17.LFL,17,-1,-1,-1,0xD8,684,686
+370,1,ego,Now this looks interesting!,17.LFL,17,-1,-1,-1,0xD8,1,3
+371,1,ego,"This looks familiar to me, kind of like a drawing<CTRL1>Dad made in a diary he kept.",18.LFL,18,-1,250,-1,0xD8,42,44
+372,1,ego,It looks very familiar to me.,18.LFL,18,-1,250,-1,0xD8,129,131
+373,1,ego,It looks JUST like the picture in the diary!,18.LFL,18,-1,250,-1,0xD8,171,173
+374,1,ego,It looks very similar to the picture in the diary!,18.LFL,18,-1,250,-1,0xD8,221,223
+375,1,ego,It's inscribed with these symbols: I IV VII.,18.LFL,18,-1,251,-1,0xD8,42,44
+376,1,ego,There's an ancient carving:  V III IX.,18.LFL,18,-1,251,-1,0xD8,99,101
+377,1,ego,Someone cut numbers into the stone:  II VIII I.,18.LFL,18,-1,251,-1,0xD8,150,152
+378,1,ego,I see some numbers carved here:  VI II IV.,18.LFL,18,-1,251,-1,0xD8,210,212
+379,1,ego,There's an ancient inscription:  III V IV.,18.LFL,18,-1,251,-1,0xD8,265,267
+380,1,ego,Someone cut numbers into the stone:  II III IX.,18.LFL,18,-1,252,-1,0xD8,42,44
+381,1,ego,It's inscribed with these symbols: VI VIII I.,18.LFL,18,-1,252,-1,0xD8,102,104
+382,1,ego,There's an ancient carving:  V III IV.,18.LFL,18,-1,252,-1,0xD8,160,162
+383,1,ego,There's an ancient inscription:  VII VI IV.,18.LFL,18,-1,252,-1,0xD8,211,213
+384,1,ego,I see some numbers carved here:  IX II V.,18.LFL,18,-1,252,-1,0xD8,267,269
+385,1,ego,Charming town.  I was particularly taken with a tradesman<CTRL1>I met.  W. Shakespeare,18.LFL,18,-1,262,-1,0xD8,37,39
+386,1,ego,Great cooking section!  L. Borgia,18.LFL,18,-1,262,-1,0xD8,131,133
+387,1,ego,The library staff apologizes for the defaced plaques in this<CTRL1>section.  The employee responsible has been terminated.,18.LFL,18,-1,262,-1,0xD8,177,179
+388,1,ego,Why a duck?  G. Marx,18.LFL,18,-1,262,-1,0xD8,307,309
+389,1,ego,"Ah, Venice.  Its library is fit for a king.  Marco<CTRL1>and Giuseppe Palmieri",18.LFL,18,-1,262,-1,0xD8,340,342
+390,1,ego,I have a love for these books that transcends passion and<CTRL1>sexuality^ there's just no good word to describe it.  Plato,18.LFL,18,-1,263,-1,0xD8,37,39
+391,1,ego,"Another proverb:  He who lives by the book, dies<CTRL1>in bed.",18.LFL,18,-1,263,-1,0xD8,168,170
+392,1,ego,"An emphatic librarian said,<CTRL1>(line 1)",18.LFL,18,-1,263,-1,0xD8,238,240
+393,1,ego,"You're supposed to be reading the books,<CTRL1>not the plaques.",18.LFL,18,-1,263,-1,0xD8,288,290
+394,1,ego,The geography section is rounded out well.<CTRL1>C. Columbus.,18.LFL,18,-1,263,-1,0xD8,359,361
+395,1,ego,Books like these are my cup of^ tea.  Socrates,18.LFL,18,-1,264,-1,0xD8,37,39
+396,1,ego,"Empires come and go, but a good library is forever!<CTRL1>A. Ptoleous, head librarian, library of Alexandria",18.LFL,18,-1,264,-1,0xD8,96,98
+397,1,ego,These inscriptions just make me see red<CTRL1>(line 2),18.LFL,18,-1,264,-1,0xD8,212,214
+398,1,ego,"Superb library, but dull ceiling.  Mike Angelo",18.LFL,18,-1,264,-1,0xD8,274,276
+399,1,ego,"The biology section is primitive now, but every day<CTRL1>it grows more fit.  C. Darwin",18.LFL,18,-1,264,-1,0xD8,333,335
+400,1,ego,"Great selection of animal books here, particularly concerning<CTRL1>amphibians and avians.  Aristophanes",18.LFL,18,-1,265,-1,0xD8,37,39
+401,1,ego,"I love the military books here, but they had the gall to<CTRL1>divide them into three parts.  J. Caesar",18.LFL,18,-1,265,-1,0xD8,149,151
+402,1,ego,They are clear fabrication<CTRL1>(line 3),18.LFL,18,-1,265,-1,0xD8,260,262
+403,1,ego,Could use more books on aviation and painting. Leo D. Vinci,18.LFL,18,-1,265,-1,0xD8,309,311
+404,1,ego,"I'm happy to contribute to this wonderful library, but the<CTRL1>use of columns disturbs me.  S. Freud",18.LFL,18,-1,265,-1,0xD8,381,383
+405,1,ego,This plaque intentionally left blank.,18.LFL,18,-1,266,-1,0xD8,37,39
+406,1,ego,"Don't look now, but the librarians are plotting against you.<CTRL1>N. Machiavelli",18.LFL,18,-1,266,-1,0xD8,87,89
+407,1,ego,and my deep indignation<CTRL1>(line 4),18.LFL,18,-1,266,-1,0xD8,176,178
+408,1,ego,It's just capital how this building refuses to wither away.<CTRL1>K. Marx,18.LFL,18,-1,266,-1,0xD8,222,224
+409,1,ego,Fabulous layout.  I love to start in one spot and work my<CTRL1>way around the entire library.  F. Magellan,18.LFL,18,-1,266,-1,0xD8,303,305
+410,1,ego,"It is idyllic here, but everyone tells me to hush!<CTRL1>E. Caruso",18.LFL,18,-1,267,-1,0xD8,37,39
+411,1,ego,Wonderful place to stop for a visit while travelling.<CTRL1>Could use more books on pachyderm care.  Hannibal,18.LFL,18,-1,267,-1,0xD8,111,113
+412,1,ego,is just driving me out of my^ mind!<CTRL1>(line 5),18.LFL,18,-1,267,-1,0xD8,228,230
+413,1,ego,Honk!  H. Marx,18.LFL,18,-1,267,-1,0xD8,286,288
+414,1,ego,"I'd love to stay and support my local library, but I have<CTRL1>a craving for Chinese food today.  M. Polo",18.LFL,18,-1,267,-1,0xD8,313,315
+415,1,ego,"Not much interesting about the lion, but that inscription<CTRL1>seems important.",18.LFL,18,-1,268,-1,0xD8,34,36
+416,1,ego,I'll take this red cordon off first.,18.LFL,18,-1,-1,-1,0xD8,18,20
+417,11,direct_actor,Not again!,18.LFL,18,-1,-1,-1,0x14,316,319
+418,11,direct_actor,What was that noise?,18.LFL,18,-1,-1,-1,0x14,333,336
+419,11,direct_actor,You there!  Don't move!,18.LFL,18,-1,-1,-1,0x14,367,370
+420,1,ego,It feels loose - I might be able to pry it up.,18.LFL,18,-1,-1,-1,0xD8,14,16
+421,1,ego,I don't think this is a good idea.,18.LFL,18,-1,-1,-1,0xD8,49,51
+422,1,ego,"Even if there's something down there, I have no idea<CTRL1>which slab to break open.",18.LFL,18,-1,-1,-1,0xD8,49,51
+423,1,ego,If only I had Dad's notes!,18.LFL,18,-1,-1,-1,0xD8,49,51
+424,1,ego,I need to use a tool that provides some leverage.,18.LFL,18,-1,-1,-1,0xD8,215,217
+425,1,ego,Dad searched for Roman numerals EVERYWHERE?!?!,18.LFL,18,-1,-1,-1,0xD8,58,60
+426,1,ego,I'll just pull that up behind me when I leave.,19.LFL,19,-1,279,-1,0xD8,43,45
+427,1,ego,"Somehow, I don't think that was the right slab.",19.LFL,19,-1,-1,-1,0xD8,32,34
+428,11,direct_actor,You're coming with me!,19.LFL,19,53,-1,-1,0x14,61,64
+429,11,direct_actor,This is your LAST chance!,19.LFL,19,53,-1,-1,0x14,97,100
+430,11,direct_actor,"All right, you've had it!",19.LFL,19,53,-1,-1,0x14,136,139
+431,10,direct_actor,HEY!  You weren't wearing that last time I saw you!,20.LFL,20,60,-1,-1,0x14,163,166
+432,10,direct_actor,You must be the intruder!!!,20.LFL,20,60,-1,-1,0x14,163,166
+433,-1,variable,HALT!  HALT!,20.LFL,20,64,-1,-1,0x94,19,23
+434,1,ego,I have his stein.,20.LFL,20,120,-1,-1,0xD8,168,170
+435,1,ego,I found <INT:16388> Marks on him!,20.LFL,20,120,-1,-1,0xD8,205,207
+436,1,ego,Nothing on him.,20.LFL,20,120,-1,-1,0xD8,248,250
+437,1,ego,Nothing seems to happen.,21.LFL,21,-1,316,-1,0xD8,62,64
+438,1,ego,I think they're part of an alarm system.,21.LFL,21,-1,316,-1,0xD8,90,92
+439,10,direct_actor,Going somewhere?,21.LFL,21,85,-1,-1,0x14,137,140
+440,6,direct_actor,"Ah, Dr. Jones!",21.LFL,21,85,-1,-1,0x14,165,168
+441,1,ego,Yes?  <CTRL2>,21.LFL,21,85,-1,-1,0xD8,197,199
+442,255,direct_actor,Yes?,21.LFL,21,85,-1,-1,0x14,210,215
+443,1,ego,This is for you.,21.LFL,21,85,-1,-1,0xD8,300,302
+444,2,direct_actor,JUNIOR!,21.LFL,21,85,-1,-1,0x14,423,426
+445,6,direct_actor,Your son may not have many brains^,21.LFL,21,85,-1,-1,0x14,448,451
+446,6,direct_actor,but he certainly proved he has guts.,21.LFL,21,85,-1,-1,0x14,448,451
+447,2,direct_actor,"Now what do we do, Junior?",21.LFL,21,85,-1,-1,0x14,695,698
+448,1,ego,I don't know^  I'll think of something.,21.LFL,21,85,-1,-1,0xD8,726,728
+449,6,direct_actor,You have an item I want.  I'm sure I can -<CTRL2>,21.LFL,21,104,-1,-1,0x14,16,19
+450,6,direct_actor,persuade - <CTRL2>,21.LFL,21,104,-1,-1,0x14,68,71
+451,6,direct_actor,<CTRL1>you to part with it.,21.LFL,21,104,-1,-1,0x14,90,93
+452,6,direct_actor,"Save your breath, you'll need it.",21.LFL,21,104,-1,-1,0x14,306,309
+453,6,direct_actor,The time for deals is past.,21.LFL,21,104,-1,-1,0x14,356,359
+454,6,direct_actor,I'll have to teach you some manners.,21.LFL,21,104,-1,-1,0x14,400,403
+455,6,direct_actor,Never mind!  We'll see about that!,21.LFL,21,104,-1,-1,0x14,515,518
+456,1,ego,I believe this is what you're looking for.,21.LFL,21,104,-1,-1,0xD8,556,558
+457,6,direct_actor,"Ah, the Grail Diary!  I'm glad you decided to cooperate.",21.LFL,21,104,-1,-1,0x14,652,655
+458,6,direct_actor,That's not what I had in mind.,21.LFL,21,104,-1,-1,0x14,718,721
+459,6,direct_actor,"Ah, the Grail Diary!",21.LFL,21,104,-1,-1,0x14,772,775
+460,6,direct_actor,I'm sure the F\x81hrer will be very pleased to see this!,21.LFL,21,104,-1,-1,0x14,801,804
+461,1,ego,There're about 30 Nazi soldiers out there!,22.LFL,22,-1,320,-1,0xD8,67,69
+462,1,ego,We'd better find another way out of here.,22.LFL,22,-1,320,-1,0xD8,67,69
+463,10,direct_actor,And who might you be?,22.LFL,22,76,-1,-1,0x14,16,19
+464,10,direct_actor,Tapestries?,22.LFL,22,76,-1,-1,0x14,240,243
+465,10,direct_actor,My nephew Otto in Salzburg?  Is something wrong?,22.LFL,22,76,-1,-1,0x14,268,271
+466,10,direct_actor,"If you do not have an appointment, you will have to leave.",22.LFL,22,76,-1,-1,0x14,333,336
+467,10,direct_actor,No one is admitted without special clearance.,22.LFL,22,76,-1,-1,0x14,333,336
+468,1,direct_actor,Then allow me to give you some clearance.,22.LFL,22,76,-1,-1,0x14,443,446
+469,10,direct_actor,"Yes, we have tapestries.  But if you're a<CTRL1>Scottish Lord, I'm a movie star.",22.LFL,22,76,-1,-1,0x14,654,657
+470,1,direct_actor,Then you should have called in your stunt double.,22.LFL,22,76,-1,-1,0x14,734,737
+471,10,direct_actor,Don't be silly.  That wouldn't even work in a<CTRL1>grade-B adventure film.,22.LFL,22,76,-1,-1,0x14,800,803
+472,1,direct_actor,"Perhaps not, but this would.",22.LFL,22,76,-1,-1,0x14,875,878
+473,10,direct_actor,"Just a minute, sir.  How can I be sure<CTRL1>that you actually know Otto?",22.LFL,22,76,-1,-1,0x14,1127,1130
+474,10,direct_actor,"That Otto, he knows he shouldn't be driving.",22.LFL,22,76,-1,-1,0x14,1212,1215
+475,10,direct_actor,"He has such trouble reaching the pedals,<CTRL1>being only four years old.",22.LFL,22,76,-1,-1,0x14,1212,1215
+476,1,direct_actor,"Oh, err^ Darn!",22.LFL,22,76,-1,-1,0x14,1331,1334
+477,10,direct_actor,His father?  Otto has seen an apparition?  My brother<CTRL1>passed away last year.,22.LFL,22,76,-1,-1,0x14,1362,1365
+478,1,direct_actor,"Yes, but - I mean, he - Ahh!",22.LFL,22,76,-1,-1,0x14,1444,1447
+479,10,direct_actor,I'm afraid I'll need more than your word.,22.LFL,22,76,-1,-1,0x14,1606,1609
+480,1,direct_actor,I have nothing else to offer but my hand.,22.LFL,22,76,-1,-1,0x14,1652,1655
+481,10,direct_actor,And how will you do that?,22.LFL,22,76,-1,-1,0x14,1710,1713
+482,1,direct_actor,I know his name.  I know where his uncle works.  QED.,22.LFL,22,76,-1,-1,0x14,1740,1743
+483,10,direct_actor,Oh.  Well^ I'd better get to him right away.,22.LFL,22,76,-1,-1,0x14,1798,1801
+484,1,ego,Hello!,22.LFL,22,77,-1,-1,0xD8,70,72
+485,1,ego,I guess the castle is falling apart.,23.LFL,23,-1,338,-1,0xD8,44,46
+486,1,ego,"I can't, it's not that loose.",23.LFL,23,-1,338,-1,0xD8,84,86
+487,1,ego,It's already pushed in.,23.LFL,23,-1,338,-1,0xD8,207,209
+488,1,ego,I can't pull it out any farther.,23.LFL,23,-1,338,-1,0xD8,335,337
+489,1,ego,It's not the kind of window that opens.,23.LFL,23,-1,321,-1,0xD8,42,44
+490,1,ego,It's a stormy night out there!,23.LFL,23,-1,321,-1,0xD8,85,87
+491,1,ego,It looks kind of ratty.,23.LFL,23,-1,324,-1,0xD8,43,45
+492,1,ego,Dad wouldn't like it.,23.LFL,23,-1,324,-1,0xD8,73,75
+493,1,ego,"I don't want it, and there's nothing behind it.",23.LFL,23,-1,324,-1,0xD8,99,101
+494,1,ego,"There's a sheer drop outside, nothing to stand on.",23.LFL,23,-1,333,-1,0xD8,45,47
+495,1,ego,This window hasn't been opened in centuries^ I can't budge it.,23.LFL,23,-1,333,-1,0xD8,99,101
+496,1,ego,There's a ledge out there.,23.LFL,23,-1,334,-1,0xD8,45,47
+497,1,ego,"No, I'll stay with my Dad.",23.LFL,23,-1,334,-1,0xD8,151,153
+498,1,ego,It's full of ale.,23.LFL,23,-1,337,-1,0xD8,65,67
+499,1,ego,Here.,23.LFL,23,-1,-1,-1,0xD8,33,35
+500,1,ego,I have something for you.,23.LFL,23,-1,-1,-1,0xD8,46,48
+501,1,ego,EXCUSE ME!,23.LFL,23,-1,-1,-1,0xD8,79,81
+502,5,direct_actor,"Hey, thanks lots!",23.LFL,23,-1,-1,-1,0x14,177,180
+503,5,direct_actor,It's empty!  I wanted some ale!,23.LFL,23,-1,-1,-1,0x14,217,220
+504,5,direct_actor,"You're very generous, but even I have my limits!",23.LFL,23,-1,-1,-1,0x14,271,274
+505,5,direct_actor,No thanks.  Don't want it.,23.LFL,23,-1,-1,-1,0x14,326,329
+506,5,direct_actor,Hello (hic) my good friend.,23.LFL,23,108,-1,-1,0x14,16,19
+507,5,direct_actor,Me?  Here?  Shay - why are any of ush<CTRL1>put here in thish life?,23.LFL,23,108,-1,-1,0x14,200,203
+508,5,direct_actor,Auf Wiedersehn!,23.LFL,23,108,-1,-1,0x14,279,282
+509,5,direct_actor,Terrible.  I've run out of ale.,23.LFL,23,108,-1,-1,0x14,311,314
+510,5,direct_actor,I (hic) I'll show you who's drunk!,23.LFL,23,108,-1,-1,0x14,541,544
+511,5,direct_actor,"Why, I^ I think^  I think I need another drink.",23.LFL,23,108,-1,-1,0x14,592,595
+512,5,direct_actor,There are all sorts serving in this cashtle.,23.LFL,23,108,-1,-1,0x14,656,659
+513,5,direct_actor,"In the kitchen, it's that way^",23.LFL,23,108,-1,-1,0x14,886,889
+514,5,direct_actor,"^no, wait a moment, it's^",23.LFL,23,108,-1,-1,0x14,934,937
+515,5,direct_actor,^it's shomewhere around here.,23.LFL,23,108,-1,-1,0x14,970,973
+516,5,direct_actor,Shome loush took my drinking shtein!,23.LFL,23,108,-1,-1,0x14,1037,1040
+517,5,direct_actor,"Thank you!  Here, take my beer shtein!",23.LFL,23,108,-1,-1,0x14,1099,1102
+518,5,direct_actor,You're jush like the other prudes here.,23.LFL,23,108,-1,-1,0x14,1179,1182
+519,5,direct_actor,"Except for Helmut, over by the stairs.",23.LFL,23,108,-1,-1,0x14,1179,1182
+520,5,direct_actor,"Col. Vogel?  He's an absholute terror!  But remember,<CTRL1>you didn't (hic) hear that from me.",23.LFL,23,108,-1,-1,0x14,1434,1437
+521,5,direct_actor,The big fellow on the third floor can be nashty<CTRL1>when he's shober.,23.LFL,23,108,-1,-1,0x14,1546,1549
+522,5,direct_actor,And watch out for that text-book Nazi who minds the alarm.,23.LFL,23,108,-1,-1,0x14,1546,1549
+523,5,direct_actor,"Don't be shilly, we're not at war - yet.  There are only<CTRL1>about a dozhen of us.",23.LFL,23,108,-1,-1,0x14,1689,1692
+524,5,direct_actor,Shuit yourshelf.,23.LFL,23,108,-1,-1,0x14,1837,1840
+525,10,direct_actor,HEY!  What are you doing sneaking through that window!,23.LFL,23,121,-1,-1,0x14,104,107
+526,10,direct_actor,Hello again!,23.LFL,23,121,-1,-1,0x14,260,263
+527,1,ego,It's an official Red Cross first aid kit.,24.LFL,24,-1,360,-1,0xD8,46,48
+528,1,ego,I'll save it for when I need it.,24.LFL,24,-1,360,-1,0xD8,106,108
+529,1,ego,I feel much better now.,24.LFL,24,-1,360,-1,0xD8,191,193
+530,1,ego,It looks like a key to a door.,24.LFL,24,-1,359,-1,0xD8,51,53
+531,1,ego,Whew!  I'm a long way from the ground!,24.LFL,24,-1,341,-1,0xD8,45,47
+532,1,ego,This window doesn't open.,24.LFL,24,-1,341,-1,0xD8,87,89
+533,1,ego,Look at all those Nazis down there!,24.LFL,24,-1,342,-1,0xD8,47,49
+534,1,ego,I HATE those guys!,24.LFL,24,-1,342,-1,0xD8,47,49
+535,1,ego,Hey!  There's Elsa across the way!,24.LFL,24,-1,344,-1,0xD8,48,50
+536,1,ego,What's she doing with all those Nazis?,24.LFL,24,-1,344,-1,0xD8,48,50
+537,1,ego,These windows don't open.,24.LFL,24,-1,344,-1,0xD8,128,130
+538,1,ego,There isn't a door here.,24.LFL,24,-1,347,-1,0xD8,47,49
+539,1,ego,Not much to look at.,24.LFL,24,-1,348,-1,0xD8,44,46
+540,1,ego,This painting doesn't move.,24.LFL,24,-1,348,-1,0xD8,68,70
+541,1,ego,`Dogs Playing Poker`.  Dad once bought a copy of this at a<CTRL1>flea market!,24.LFL,24,-1,349,-1,0xD8,44,46
+542,1,ego,It's a closed chest.,24.LFL,24,-1,350,-1,0xD8,71,73
+543,1,ego,Great!  There were <INT:53> Marks in there!,24.LFL,24,-1,350,-1,0xD8,133,135
+544,1,ego,There's a uniform in here.  I'll take it.,24.LFL,24,-1,350,-1,0xD8,194,196
+545,1,ego,Hmm.  14th Century Georgian Lucasian.,24.LFL,24,-1,351,-1,0xD8,38,40
+546,1,ego,I'd better not.  It's obviously a valuable antique.,24.LFL,24,-1,351,-1,0xD8,79,81
+547,1,ego,It's an officer's uniform that's way too small for me.,24.LFL,24,-1,357,-1,0xD8,52,54
+548,1,ego,Wait!  <CTRL2>,24.LFL,24,-1,357,-1,0xD8,110,112
+549,1,ego,There's something in the pocket!,24.LFL,24,-1,357,-1,0xD8,126,128
+550,1,ego,It's a key!,24.LFL,24,-1,357,-1,0xD8,162,164
+551,1,ego,I'll toss the uniform and keep the key instead.,24.LFL,24,-1,357,-1,0xD8,177,179
+552,1,ego,It's a small brass key.,24.LFL,24,-1,357,-1,0xD8,259,261
+553,1,ego,It's too small.,24.LFL,24,-1,357,-1,0xD8,295,297
+554,1,ego,"It's in great shape.  Late 10th century, I'd say.",25.LFL,25,-1,365,-1,0xD8,52,54
+555,1,ego,Maybe it was fixed.,25.LFL,25,-1,365,-1,0xD8,131,133
+556,1,ego,Nothing happens!,25.LFL,25,-1,365,-1,0xD8,156,158
+557,1,ego,Oops!,25.LFL,25,-1,365,-1,0xD8,232,234
+558,1,ego,Hmm.  Looks a bit strange around its belly.,25.LFL,25,-1,362,-1,0xD8,77,79
+559,1,ego,Not much interesting here.,25.LFL,25,-1,372,-1,0xD8,68,70
+560,1,ego,The door is locked!,25.LFL,25,-1,361,-1,0xD8,95,97
+561,1,ego,Let's go!,25.LFL,25,-1,363,-1,0xD8,70,72
+562,1,ego,I can't do that!,25.LFL,25,-1,-1,-1,0xD8,38,40
+563,1,ego,I'm all tied up!,25.LFL,25,-1,-1,-1,0xD8,105,107
+564,2,direct_actor,"Junior, do you always cut things this close?",25.LFL,25,-1,-1,-1,0x14,207,210
+565,1,ego,I don't think that's such a good idea!,25.LFL,25,-1,-1,-1,0xD8,39,41
+566,1,ego,We're not close enough!,25.LFL,25,-1,-1,-1,0xD8,199,201
+567,1,ego,It's too tough to tear apart.,26.LFL,26,-1,402,-1,0xD8,68,70
+568,1,ego,I think it's past being thirsty.,26.LFL,26,-1,402,-1,0xD8,115,117
+569,1,ego,Undercooked pig is not one of my favorite foods.,26.LFL,26,-1,402,-1,0xD8,177,179
+570,1,ego,It's the biggest roast boar I've ever seen.<CTRL1>It would take a LONG time to eat it.,26.LFL,26,-1,402,-1,0xD8,229,231
+571,1,ego,OUCH!,26.LFL,26,-1,398,-1,0xD8,29,31
+572,1,ego,They're already cold.,26.LFL,26,-1,401,-1,0xD8,121,123
+573,1,ego,The <NAME:16384>'s empty.,26.LFL,26,-1,401,-1,0xD8,148,150
+574,1,ego,It seems to be empty.,26.LFL,26,-1,395,-1,0xD8,51,53
+575,1,ego,The keg's empty.,26.LFL,26,-1,395,-1,0xD8,213,215
+576,1,ego,I can't put ale in that!,26.LFL,26,-1,395,-1,0xD8,235,237
+577,1,ego,Ouch!  It's too hot!,26.LFL,26,-1,-1,-1,0xD8,10,12
+578,1,ego,It's a servant's uniform.,27.LFL,27,-1,405,-1,0xD8,56,58
+579,1,ego,It's just my size!,27.LFL,27,-1,405,-1,0xD8,102,104
+580,1,ego,It's an officer's uniform.,27.LFL,27,-1,406,-1,0xD8,88,90
+581,1,ego,I think I'll need a key.,27.LFL,27,-1,407,-1,0xD8,40,42
+582,1,ego,I wonder why they're using such a big lock just for these<CTRL1>uniforms.,27.LFL,27,-1,407,-1,0xD8,68,70
+583,1,ego,It's my leather jacket and fedora.,27.LFL,27,-1,403,-1,0xD8,64,66
+584,1,ego,It's Junior's clothes.,27.LFL,27,-1,403,-1,0xD8,104,106
+585,1,ego,Strange!  It's locked into the clothes rack.,27.LFL,27,-1,-1,-1,0xD8,7,9
+586,1,ego,"No, it's too slippery out here to wear that.",27.LFL,27,52,-1,-1,0xD8,16,18
+587,1,ego,Not now!  He'll see!,27.LFL,27,52,-1,-1,0xD8,100,102
+588,10,direct_actor,See what?,27.LFL,27,52,-1,-1,0x14,124,127
+589,1,ego,Never mind!,27.LFL,27,52,-1,-1,0xD8,142,144
+590,1,ego,I wouldn't put THAT on!,27.LFL,27,52,-1,-1,0xD8,166,168
+591,0,direct_actor,.\x14,27.LFL,27,52,-1,-1,0x14,382,392
+592,1,ego,What was that?,27.LFL,27,52,-1,-1,0xD8,400,402
+593,10,direct_actor,I don't recognize you!  You must be the intruder!,28.LFL,28,70,-1,-1,0x14,30,33
+594,10,direct_actor,Good afternoon sir!  Enjoy your stay at Castle Brunwald.,28.LFL,28,70,-1,-1,0x14,106,109
+595,10,direct_actor,Sir!  Only those with business concerning the art<CTRL1>collection are allowed in this area.,28.LFL,28,70,-1,-1,0x14,179,182
+596,10,direct_actor,"Greetings, sir.",28.LFL,28,70,-1,-1,0x14,280,283
+597,10,direct_actor,"Uh, sorry, this is restricted - I mean, a restricted area.",28.LFL,28,70,-1,-1,0x14,309,312
+598,10,direct_actor,"Greetings, Sir!  I must inform you this is a top secret zone!",28.LFL,28,70,-1,-1,0x14,381,384
+599,10,direct_actor,Hello.  Nice to see a new face around here.  But<CTRL1>you shouldn't stray from your assigned post.,28.LFL,28,70,-1,-1,0x14,456,459
+600,10,direct_actor,"Oh, hmm - do you want something?",28.LFL,28,70,-1,-1,0x14,564,567
+601,10,direct_actor,"I'm sorry sir, there was no time to iron^",28.LFL,28,70,-1,-1,0x14,802,805
+602,10,direct_actor,"Boring, as you should know.",28.LFL,28,70,-1,-1,0x14,867,870
+603,10,direct_actor,I can't quite place your face.,28.LFL,28,70,-1,-1,0x14,867,870
+604,10,direct_actor,I am always content to do my duty.,28.LFL,28,70,-1,-1,0x14,940,943
+605,10,direct_actor,You're a stranger to me.,28.LFL,28,70,-1,-1,0x14,940,943
+606,10,direct_actor,No one is allowed here without clearance.,28.LFL,28,70,-1,-1,0x14,940,943
+607,10,direct_actor,"Boring, as usual.",28.LFL,28,70,-1,-1,0x14,1050,1053
+608,10,direct_actor,Do I know you?,28.LFL,28,70,-1,-1,0x14,1050,1053
+609,10,direct_actor,There is an intruder about.  I'll have to search you.,28.LFL,28,70,-1,-1,0x14,1107,1110
+610,1,direct_actor,Let me give you a hand.,28.LFL,28,70,-1,-1,0x14,1165,1168
+611,10,direct_actor,"Official - very well, go on.",28.LFL,28,70,-1,-1,0x14,1205,1208
+612,10,direct_actor,But I don't recognize you.,28.LFL,28,70,-1,-1,0x14,1240,1243
+613,10,direct_actor,"Why, no, I call myself a corporal.<CTRL1>And I call YOU an imposter!",28.LFL,28,70,-1,-1,0x14,1446,1449
+614,10,direct_actor,"Well, you know how the cook bastes everything with<CTRL1>his `Silesian Surprise Sauce`.",28.LFL,28,70,-1,-1,0x14,1526,1529
+615,10,direct_actor,"Yes sir, whatever you say.",28.LFL,28,70,-1,-1,0x14,1811,1814
+616,10,direct_actor,You push me too far!,28.LFL,28,70,-1,-1,0x14,1847,1850
+617,10,direct_actor,Shoes?  Don't you recognize our uniform boots?<CTRL1>Who are you anyway?,28.LFL,28,70,-1,-1,0x14,1884,1887
+618,10,direct_actor,"No!  Who do you think you are, anyway?",28.LFL,28,70,-1,-1,0x14,2121,2124
+619,10,direct_actor,"No, I do NOT!  Please identify yourself!",28.LFL,28,70,-1,-1,0x14,2166,2169
+620,10,direct_actor,Orders?  May I see them?,28.LFL,28,70,-1,-1,0x14,2223,2226
+621,10,direct_actor,We had an inspection this morning!  HALT!,28.LFL,28,70,-1,-1,0x14,2445,2448
+622,10,direct_actor,"I'm sorry, sir, but I was not told to expect anyone today.<CTRL1>I must ask you for proof.",28.LFL,28,70,-1,-1,0x14,2503,2506
+623,10,direct_actor,"Well, perhaps that is not necessary.  Heil Hitler!",28.LFL,28,70,-1,-1,0x14,2865,2868
+624,10,direct_actor,You think to intimidate me?  I have an iron will!,28.LFL,28,70,-1,-1,0x14,2925,2928
+625,1,direct_actor,Let's see if you have a glass jaw.,28.LFL,28,70,-1,-1,0x14,2979,2982
+626,10,direct_actor,And you don't know his name?  I think you're an intruder!,28.LFL,28,70,-1,-1,0x14,3023,3026
+627,1,direct_actor,"Well, I've got to hand it to you^",28.LFL,28,70,-1,-1,0x14,3085,3088
+628,10,direct_actor,I'll leave that for the Colonel to decide.,28.LFL,28,70,-1,-1,0x14,3135,3138
+629,10,direct_actor,TAKE THIS!!!,28.LFL,28,70,-1,-1,0x14,3135,3138
+630,10,direct_actor,Don't get smart with me!,28.LFL,28,70,-1,-1,0x14,3411,3414
+631,10,direct_actor,HALT!!  Give them to me!,28.LFL,28,70,-1,-1,0x14,3452,3455
+632,10,direct_actor,"Why, no, Sigfried does - he works upstairs - but^<CTRL1>I suppose you're OK if you're cleared for that.",28.LFL,28,70,-1,-1,0x14,3505,3508
+633,10,direct_actor,"Well, yes, I do, but I still need^",28.LFL,28,70,-1,-1,0x14,3625,3628
+634,1,direct_actor,Just a minute.  Are you Sigfried?,28.LFL,28,70,-1,-1,0x14,3664,3667
+635,1,direct_actor,I was told to look for you.,28.LFL,28,70,-1,-1,0x14,3664,3667
+636,10,direct_actor,Oh^  They've forgotten to brief me again.,28.LFL,28,70,-1,-1,0x14,3731,3734
+637,10,direct_actor,You may pass.,28.LFL,28,70,-1,-1,0x14,3731,3734
+638,10,direct_actor,"Well, no, but - I still need some authoritative proof!",28.LFL,28,70,-1,-1,0x14,3797,3800
+639,1,direct_actor,"No problem, this carries a lot of authority.",28.LFL,28,70,-1,-1,0x14,3856,3859
+640,10,direct_actor,Money?  I don't think you owe me any money!,28.LFL,28,70,-1,-1,0x14,3995,3998
+641,10,direct_actor,Oh!  You have one of those cup paintings!,28.LFL,28,70,-1,-1,0x14,4062,4065
+642,10,direct_actor,I'll put it in the vault with the others.,28.LFL,28,70,-1,-1,0x14,4062,4065
+643,10,direct_actor,A painting?  That's not my job.,28.LFL,28,70,-1,-1,0x14,4160,4163
+644,10,direct_actor,Thanks for the drink!,28.LFL,28,70,-1,-1,0x14,4224,4227
+645,10,direct_actor,Here's your stein back.,28.LFL,28,70,-1,-1,0x14,4265,4268
+646,10,direct_actor,An empty stein?  What's the idea?,28.LFL,28,70,-1,-1,0x14,4305,4308
+647,10,direct_actor,I don't drink on duty!,28.LFL,28,70,-1,-1,0x14,4357,4360
+648,10,direct_actor,I can't drink THAT much!,28.LFL,28,70,-1,-1,0x14,4415,4418
+649,10,direct_actor,You stole the Colonel's trophy!,28.LFL,28,70,-1,-1,0x14,4449,4452
+650,10,direct_actor,I don't want that!,28.LFL,28,70,-1,-1,0x14,4490,4493
+651,10,direct_actor,You in that leather jacket!  What are you doing here?,28.LFL,28,71,-1,-1,0x14,31,34
+652,10,direct_actor,Halt.  Are you here on official business?,28.LFL,28,71,-1,-1,0x14,98,101
+653,10,direct_actor,You there!  This is a top security area!,28.LFL,28,71,-1,-1,0x14,153,156
+654,10,direct_actor,You're not allowed up here!,28.LFL,28,71,-1,-1,0x14,200,203
+655,10,direct_actor,Jackets?  What?  Who let you in here?,28.LFL,28,71,-1,-1,0x14,487,490
+656,10,direct_actor,Hold it!  What is this message?  And who are you?,28.LFL,28,71,-1,-1,0x14,541,544
+657,10,direct_actor,They're holding him upstairs.  But who are you?,28.LFL,28,71,-1,-1,0x14,607,610
+658,10,direct_actor,You can't do that!  Hold it right there!,28.LFL,28,71,-1,-1,0x14,843,846
+659,10,direct_actor,"Well, that's true enough.  How much are the jackets?",28.LFL,28,71,-1,-1,0x14,907,910
+660,10,direct_actor,"I won't buy that jacket, or your story!",28.LFL,28,71,-1,-1,0x14,969,972
+661,1,direct_actor,Then let me give it to you - no charge!,28.LFL,28,71,-1,-1,0x14,1013,1016
+662,10,direct_actor,Ridiculous!  You are trying to trick me.,28.LFL,28,71,-1,-1,0x14,1307,1310
+663,10,direct_actor,Show me your authorization.,28.LFL,28,71,-1,-1,0x14,1307,1310
+664,1,direct_actor,Let me hand it to you!,28.LFL,28,71,-1,-1,0x14,1381,1384
+665,10,direct_actor,Sounds reasonable.,28.LFL,28,71,-1,-1,0x14,1420,1423
+666,10,direct_actor,Put me down for an order - Corporal Kruger.,28.LFL,28,71,-1,-1,0x14,1420,1423
+667,1,ego,"Ah, cash in advance, please.",28.LFL,28,71,-1,-1,0xD8,1488,1490
+668,10,direct_actor,Outrageous!  You are no salesman.,28.LFL,28,71,-1,-1,0x14,1575,1578
+669,10,direct_actor,"No!  Give me an explanation, or you cannot pass.",28.LFL,28,71,-1,-1,0x14,1821,1824
+670,1,direct_actor,"OK, pay attention to this.",28.LFL,28,71,-1,-1,0x14,1874,1877
+671,10,direct_actor,Huh?  What do you mean?,28.LFL,28,71,-1,-1,0x14,1917,1920
+672,10,direct_actor,Not so fast!  How do I know you're not a spy.,28.LFL,28,71,-1,-1,0x14,2132,2135
+673,10,direct_actor,Hey!  You must have caused that commotion downstairs.,28.LFL,28,71,-1,-1,0x14,2187,2190
+674,1,direct_actor,And it looks like I'll cause some here too.,28.LFL,28,71,-1,-1,0x14,2245,2248
+675,10,direct_actor,Ridiculous!  That is not standard procedure.,28.LFL,28,71,-1,-1,0x14,2298,2301
+676,1,direct_actor,Neither is this!,28.LFL,28,71,-1,-1,0x14,2347,2350
+677,10,direct_actor,"Very well, come here and tell me.",28.LFL,28,71,-1,-1,0x14,2380,2383
+678,1,direct_actor,The message is `eat my knuckles.`,28.LFL,28,71,-1,-1,0x14,2418,2421
+679,10,direct_actor,Really?  Wonderful!,28.LFL,28,71,-1,-1,0x14,2699,2702
+680,10,direct_actor,You must go to my commander and inform him.,28.LFL,28,71,-1,-1,0x14,2699,2702
+681,10,direct_actor,That stupid butler could let anyone in.  Hold still.,28.LFL,28,71,-1,-1,0x14,2780,2783
+682,1,direct_actor,Sorry.,28.LFL,28,71,-1,-1,0x14,2837,2840
+683,10,direct_actor,"Don't be ridiculous.  Give me your hands, I must tie them.",28.LFL,28,71,-1,-1,0x14,2860,2863
+684,1,direct_actor,Here's one!,28.LFL,28,71,-1,-1,0x14,2923,2926
+685,10,direct_actor,"Nein!  I will see your authorization, NOW.",28.LFL,28,71,-1,-1,0x14,3137,3140
+686,1,direct_actor,This is all the authorization you'll need!,28.LFL,28,71,-1,-1,0x14,3184,3187
+687,10,direct_actor,Dietrich!,28.LFL,28,71,-1,-1,0x14,3250,3253
+688,10,direct_actor,Wasn't he killed in that `Ark of the Covenant` fiasco?,28.LFL,28,71,-1,-1,0x14,3250,3253
+689,10,direct_actor,Never heard of him.,28.LFL,28,71,-1,-1,0x14,3325,3328
+690,1,direct_actor,Then listen to this.,28.LFL,28,71,-1,-1,0x14,3349,3352
+691,10,direct_actor,"No sir!  Er^ you may go now sir, sorry.",28.LFL,28,71,-1,-1,0x14,3546,3549
+692,10,direct_actor,Him?  Brave?  You must not have known him.,28.LFL,28,71,-1,-1,0x14,3602,3605
+693,10,direct_actor,Show me your identification.,28.LFL,28,71,-1,-1,0x14,3602,3605
+694,10,direct_actor,I don't take bribes!,28.LFL,28,71,-1,-1,0x14,3769,3772
+695,1,ego,Then maybe you'll take this!,28.LFL,28,71,-1,-1,0xD8,3794,3796
+696,10,direct_actor,What are you doing with that valuable painting!,28.LFL,28,71,-1,-1,0x14,3845,3848
+697,10,direct_actor,Thanks!,28.LFL,28,71,-1,-1,0x14,3963,3966
+698,10,direct_actor,Are you trying to tease me with an empty stein?,28.LFL,28,71,-1,-1,0x14,4030,4033
+699,10,direct_actor,I don't drink while on duty!,28.LFL,28,71,-1,-1,0x14,4096,4099
+700,10,direct_actor,You shouldn't be wandering around!<CTRL1>Someone has broken into the castle.,28.LFL,28,103,-1,-1,0x14,30,33
+701,10,direct_actor,"Say, that uniform doesn't fit.",28.LFL,28,103,-1,-1,0x14,30,33
+702,10,direct_actor,You're the intruder!,28.LFL,28,103,-1,-1,0x14,30,33
+703,10,direct_actor,Who told you that you could wander around here?,28.LFL,28,103,-1,-1,0x14,169,172
+704,10,direct_actor,What are you doing here?,28.LFL,28,103,-1,-1,0x14,230,233
+705,10,direct_actor,And what might you be looking for?,28.LFL,28,103,-1,-1,0x14,268,271
+706,10,direct_actor,"Let's see^  Say, you.  Do you know where you're going?",28.LFL,28,103,-1,-1,0x14,316,319
+707,10,direct_actor,"A servant, here?  Wait a moment, you're no servant!",28.LFL,28,103,-1,-1,0x14,377,380
+708,10,direct_actor,Indeed?  Are you getting something for him?,28.LFL,28,103,-1,-1,0x14,645,648
+709,10,direct_actor,Really?  What is the nature of this errand?,28.LFL,28,103,-1,-1,0x14,695,698
+710,10,direct_actor,Wait.  I don't recognize you.  AND your uniform is too small.,28.LFL,28,103,-1,-1,0x14,762,765
+711,10,direct_actor,Hold it.  Your face is unfamiliar to me.,28.LFL,28,103,-1,-1,0x14,830,833
+712,10,direct_actor,You shouldn't be wandering.  Report to your supervisor.,28.LFL,28,103,-1,-1,0x14,887,890
+713,10,direct_actor,Where did he leave these boots?,28.LFL,28,103,-1,-1,0x14,1102,1105
+714,10,direct_actor,What kind of drink?,28.LFL,28,103,-1,-1,0x14,1150,1153
+715,10,direct_actor,You are lying!  No servants are allowed there!,28.LFL,28,103,-1,-1,0x14,1363,1366
+716,10,direct_actor,There is no cellar here!  What kind of servant are you?,28.LFL,28,103,-1,-1,0x14,1426,1429
+717,1,direct_actor,A servant of freedom!,28.LFL,28,103,-1,-1,0x14,1486,1489
+718,10,direct_actor,Second floor?  Where's he stationed?,28.LFL,28,103,-1,-1,0x14,1524,1527
+719,10,direct_actor,Impossible!,28.LFL,28,103,-1,-1,0x14,1737,1740
+720,10,direct_actor,"Well, I suppose that's OK.",28.LFL,28,103,-1,-1,0x14,1772,1775
+721,10,direct_actor,You may go to him.,28.LFL,28,103,-1,-1,0x14,1772,1775
+722,10,direct_actor,"That is possible of course.  But come closer.<CTRL1>Your uniform doesn't fit, and I^",28.LFL,28,103,-1,-1,0x14,1828,1831
+723,10,direct_actor,"Why, you're no servant!",28.LFL,28,103,-1,-1,0x14,1828,1831
+724,10,direct_actor,"No one would give such foolish orders, do you<CTRL1>think my head is made of rock?",28.LFL,28,103,-1,-1,0x14,1949,1952
+725,1,direct_actor,"I sure hope not, for my fist's sake!",28.LFL,28,103,-1,-1,0x14,2031,2034
+726,10,direct_actor,"Well, he shouldn't - but I could use one myself.<CTRL1>He must have nerve, but the Colonel will not like it.",28.LFL,28,103,-1,-1,0x14,2236,2239
+727,10,direct_actor,Drinking on duty is not allowed!  It slows the reflexes.,28.LFL,28,103,-1,-1,0x14,2349,2352
+728,1,direct_actor,Let's see how yours are.,28.LFL,28,103,-1,-1,0x14,2410,2413
+729,10,direct_actor,Hah!  A real servant would know that every soldier here<CTRL1>has learned not to let that sludge touch his lips!,28.LFL,28,103,-1,-1,0x14,2451,2454
+730,1,direct_actor,Then here is something else for them.,28.LFL,28,103,-1,-1,0x14,2563,2566
+731,10,direct_actor,Who is your supervisor?,28.LFL,28,103,-1,-1,0x14,2819,2822
+732,10,direct_actor,"Imposter!  We find our own breakfast here, or do without.",28.LFL,28,103,-1,-1,0x14,2859,2862
+733,10,direct_actor,Klaus?  Who is this Klaus?  This is very suspicious.,28.LFL,28,103,-1,-1,0x14,2933,2936
+734,10,direct_actor,"They're both greybeards, and you are an imposter!",28.LFL,28,103,-1,-1,0x14,3159,3162
+735,10,direct_actor,I am a soldier.  You WILL discuss it NOW.,28.LFL,28,103,-1,-1,0x14,3225,3228
+736,1,direct_actor,I hope you don't mind if I talk with my hands.,28.LFL,28,103,-1,-1,0x14,3271,3274
+737,10,direct_actor,There's no such man here!  You're trapped in your own lies.,28.LFL,28,103,-1,-1,0x14,3453,3456
+738,1,direct_actor,Not quite trapped yet.,28.LFL,28,103,-1,-1,0x14,3517,3520
+739,10,direct_actor,"That will not work either, spy!",28.LFL,28,103,-1,-1,0x14,3556,3559
+740,5,direct_actor,"sh, I don't know where to find him.  Do you?",28.LFL,28,103,-1,-1,0x14,3618,3639
+741,10,direct_actor,"Hmm?  I have no time for such nonsense, find him yourself!",28.LFL,28,103,-1,-1,0x14,3806,3809
+742,10,direct_actor,No servant would be so carelessly briefed.  Who are you?,28.LFL,28,103,-1,-1,0x14,3874,3877
+743,1,direct_actor,Your downfall!,28.LFL,28,103,-1,-1,0x14,3935,3938
+744,10,direct_actor,"Hold it!  Since you're lost, I'd better accompany you.",28.LFL,28,103,-1,-1,0x14,3966,3969
+745,1,direct_actor,"OK, you can take my hand.",28.LFL,28,103,-1,-1,0x14,4025,4028
+746,10,direct_actor,But first I must see your identity papers.,28.LFL,28,103,-1,-1,0x14,4067,4070
+747,1,direct_actor,"Sorry, I HATE paperwork.",28.LFL,28,103,-1,-1,0x14,4114,4117
+748,10,direct_actor,Money?  Now where would a servant get that much money?,28.LFL,28,103,-1,-1,0x14,4233,4236
+749,10,direct_actor,What are you doing with that?,28.LFL,28,103,-1,-1,0x14,4311,4314
+750,10,direct_actor,You know the help isn't supposed to touch anything valuable!,28.LFL,28,103,-1,-1,0x14,4311,4314
+751,10,direct_actor,How'd you know I was thirsty!,28.LFL,28,103,-1,-1,0x14,4483,4486
+752,1,ego,I'll use the combination^,29.LFL,29,-1,449,-1,0xD8,80,82
+753,1,ego,I don't know the combination.,29.LFL,29,-1,449,-1,0xD8,116,118
+754,1,ego,It looks like a paint-by-number Mona Lisa.,29.LFL,29,-1,447,-1,0xD8,88,90
+755,1,ego,I don't think Leonardo would appreciate this!,29.LFL,29,-1,447,-1,0xD8,88,90
+756,1,ego,It's `Sunday in the Park` by Georges Seurat.,29.LFL,29,-1,450,-1,0xD8,41,43
+757,1,ego,It's much too big.,29.LFL,29,-1,450,-1,0xD8,89,91
+758,1,ego,"It says, `Dr. Fred and Nurse Edna on wedding day,<CTRL1>just before leaving for America.`",29.LFL,29,-1,452,-1,0xD8,54,56
+759,1,ego,This is art?  It looks more like someone's dropcloth.,29.LFL,29,-1,453,-1,0xD8,41,43
+760,1,ego,I wouldn't want to get my hands full of paint!,29.LFL,29,-1,453,-1,0xD8,98,100
+761,1,ego,It's Edouard Manet's `The Fifer`.,29.LFL,29,-1,454,-1,0xD8,54,56
+762,1,ego,Looks like a German country house.,29.LFL,29,-1,455,-1,0xD8,50,52
+763,1,ego,It's the Castle Brunwald.,29.LFL,29,-1,456,-1,0xD8,41,43
+764,1,ego,"Si trouve, envoyez-le au Louvre, poste paye.",29.LFL,29,-1,458,-1,0xD8,49,51
+765,1,ego,Maybe there's a plaque somewhere.,29.LFL,29,-1,457,-1,0xD8,39,41
+766,1,ego,It's too heavy to move.,29.LFL,29,-1,457,-1,0xD8,76,78
+767,1,ego,I know this one!  It's `Seashore` by Mark Ferrari.,29.LFL,29,-1,459,-1,0xD8,41,43
+768,1,ego,It looks like a couple of monsters from a cheap<CTRL1>Science Fiction comic.,29.LFL,29,-1,460,-1,0xD8,41,43
+769,1,ego,It's a mountain in the Swiss Alps.,29.LFL,29,-1,461,-1,0xD8,54,56
+770,1,ego,"I don't think I should move it.  It's obviously priceless,<CTRL1>and I might damage it.",29.LFL,29,-1,-1,-1,0xD8,1,3
+771,1,ego,It looks like a painting of the Grail!,30.LFL,30,-1,462,-1,0xD8,32,34
+772,1,ego,I don't need it anymore.,30.LFL,30,-1,464,-1,0xD8,35,37
+773,1,ego,It's the painting I did of my father's trophy.,30.LFL,30,-1,464,-1,0xD8,63,65
+774,1,ego,It's already shorted out.,31.LFL,31,-1,466,-1,0xD8,135,137
+775,1,ego,It seems to be welded in place.,31.LFL,31,-1,466,-1,0xD8,206,208
+776,1,ego,I see a lot of wires and glowing vacuum tubes inside.,31.LFL,31,-1,466,-1,0xD8,250,252
+777,1,ego,All the vacuum tubes seem to be shorted out.,31.LFL,31,-1,466,-1,0xD8,309,311
+778,1,ego,This is the castle's security system.,31.LFL,31,-1,467,-1,0xD8,45,47
+779,1,ego,It's definitely armed.,31.LFL,31,-1,467,-1,0xD8,95,97
+780,1,ego,I deactivated it.,31.LFL,31,-1,467,-1,0xD8,123,125
+781,1,ego,I don't see any switches on it.,31.LFL,31,-1,467,-1,0xD8,144,146
+782,8,direct_actor,An intruder!,31.LFL,31,105,-1,-1,0x14,31,34
+783,8,direct_actor,This is a restricted area!  No servants allowed!,31.LFL,31,105,-1,-1,0x14,60,63
+784,8,direct_actor,I'll show you your place.,31.LFL,31,105,-1,-1,0x14,113,116
+785,8,direct_actor,A visitor!  Life has been getting pretty boring.,31.LFL,31,105,-1,-1,0x14,148,151
+786,8,direct_actor,I have four hours to go!  You^ <CTRL2>,31.LFL,31,105,-1,-1,0x14,382,385
+787,8,direct_actor,you're an imposter!,31.LFL,31,105,-1,-1,0x14,423,426
+788,8,direct_actor,Wait a minute!  <CTRL2>,31.LFL,31,105,-1,-1,0x14,459,462
+789,8,direct_actor,I don't know you.  <CTRL2>,31.LFL,31,105,-1,-1,0x14,485,488
+790,8,direct_actor,Something's wrong here!,31.LFL,31,105,-1,-1,0x14,514,517
+791,8,direct_actor,Oh yeah?  <CTRL2>,31.LFL,31,105,-1,-1,0x14,554,557
+792,8,direct_actor,"I think I've found him, and he's not too bright!",31.LFL,31,105,-1,-1,0x14,574,577
+793,8,direct_actor,"Hey, this is my favorite book!  And it's a first edition!",31.LFL,31,105,-1,-1,0x14,751,754
+794,8,direct_actor,Would you mind watching the lights while I<CTRL1>reread my favorite passage?,31.LFL,31,105,-1,-1,0x14,751,754
+795,1,ego,Not at all.,31.LFL,31,105,-1,-1,0xD8,890,892
+796,8,direct_actor,Are you kidding?  Who are you anyway?  Wait a minute^,31.LFL,31,105,-1,-1,0x14,910,913
+797,10,direct_actor,Hey!  You're not allowed here.,32.LFL,32,86,-1,-1,0x14,25,28
+798,10,direct_actor,No one allowed near the prisoner.  Colonel's orders.,32.LFL,32,86,-1,-1,0x14,62,65
+799,10,direct_actor,I NEVER need relief.  You calling me a sissy?,32.LFL,32,86,-1,-1,0x14,335,338
+800,10,direct_actor,Uh-uh.  That's against orders.,32.LFL,32,86,-1,-1,0x14,397,400
+801,1,direct_actor,"Just get out of my way, or else.",32.LFL,32,86,-1,-1,0x14,432,435
+802,10,direct_actor,"You need to learn some manners, junior.",32.LFL,32,86,-1,-1,0x14,469,472
+803,10,direct_actor,DON'T CALL ME THAT!,32.LFL,32,86,-1,-1,0x14,525,528
+804,10,direct_actor,"Oh, yeah?",32.LFL,32,86,-1,-1,0x14,613,616
+805,0,direct_actor,I don't take no bribes!,32.LFL,32,86,-1,-1,0x14,633,646
+806,10,direct_actor,Hmph.,32.LFL,32,86,-1,-1,0x14,692,695
+807,10,direct_actor,I barely tasted that thimblefull.,32.LFL,32,86,-1,-1,0x14,793,796
+808,10,direct_actor,And you're still not allowed up here.,32.LFL,32,86,-1,-1,0x14,793,796
+809,10,direct_actor,Why should I want an empty stein?,32.LFL,32,86,-1,-1,0x14,872,875
+810,10,direct_actor,Ahhh!,32.LFL,32,86,-1,-1,0x14,931,934
+811,10,direct_actor,(Hic!),32.LFL,32,86,-1,-1,0x14,1075,1078
+812,10,direct_actor,"Er, that was^",32.LFL,32,86,-1,-1,0x14,1075,1078
+813,10,direct_actor,(HIC!),32.LFL,32,86,-1,-1,0x14,1075,1078
+814,10,direct_actor,^good!  But I'll still^,32.LFL,32,86,-1,-1,0x14,1075,1078
+815,10,direct_actor,^have to teach you^,32.LFL,32,86,-1,-1,0x14,1075,1078
+816,10,direct_actor,^not to come up here!,32.LFL,32,86,-1,-1,0x14,1075,1078
+817,10,direct_actor,So you've won a trophy!  Big deal!,32.LFL,32,86,-1,-1,0x14,1196,1199
+818,10,direct_actor,I don't need that!,32.LFL,32,86,-1,-1,0x14,1240,1243
+819,2,direct_actor,"Er, Junior, you don't expect ME to leave through the<CTRL1>window, do you?",33.LFL,33,-1,501,-1,0x14,174,177
+820,1,ego,I'll come back for you.,33.LFL,33,-1,501,-1,0xD8,258,260
+821,1,ego,There's some money in here.  <INT:53> Marks!,33.LFL,33,-1,513,-1,0xD8,60,62
+822,2,direct_actor,JUNIOR!  You've come to rescue me!,33.LFL,33,-1,-1,-1,0x14,31,34
+823,2,direct_actor,But do you have to announce it to the entire castle?,33.LFL,33,-1,-1,-1,0x14,78,81
+824,1,ego,Dad!  Let's get out of here!,33.LFL,33,-1,-1,-1,0xD8,138,140
+825,2,direct_actor,"Fine, son, you lead the way.",33.LFL,33,-1,-1,-1,0x14,170,173
+826,2,direct_actor,It's about time you returned!,33.LFL,33,-1,-1,-1,0x14,229,232
+827,2,direct_actor,"No, you hold on to it for now.",33.LFL,33,-1,-1,-1,0x14,18,21
+828,1,ego,Now it's locked.,33.LFL,33,116,-1,-1,0xD8,33,35
+829,1,ego,It's an unsigned travel pass with a combination<CTRL1>on the other side.,34.LFL,34,-1,519,-1,0xD8,44,46
+830,1,ego,My travel pass is signed by Hitler!,34.LFL,34,-1,519,-1,0xD8,117,119
+831,1,ego,"It says, `Awarded to Colonel Vogel for 1st Place,<CTRL1>1937 Berlin Book Burning Contest,",34.LFL,34,-1,520,-1,0xD8,56,58
+832,1,ego,Category: Non-Fiction.`,34.LFL,34,-1,520,-1,0xD8,56,58
+833,1,ego,It's a file cabinet.,34.LFL,34,-1,518,-1,0xD8,79,81
+834,1,ego,There's a white piece of paper here.,34.LFL,34,-1,518,-1,0xD8,111,113
+835,1,ego,There's nothing useful in here.,34.LFL,34,-1,518,-1,0xD8,153,155
+836,1,ego,It doesn't seem to want it.,34.LFL,34,-1,-1,-1,0xD8,47,49
+837,255,direct_actor,"At that moment, back in the castle^",34.LFL,34,101,-1,-1,0x14,14,19
+838,11,direct_actor,Sir!,34.LFL,34,101,-1,-1,0x14,130,133
+839,6,direct_actor,"Yes, what do you want?",34.LFL,34,101,-1,-1,0x14,148,151
+840,11,direct_actor,We have reports that the Jones boys have boarded<CTRL1>a zeppelin leaving Germany!,34.LFL,34,101,-1,-1,0x14,181,184
+841,6,direct_actor,So?  Radio to have it turned around at once!,34.LFL,34,101,-1,-1,0x14,263,266
+842,11,direct_actor,"Yes, sir!",34.LFL,34,101,-1,-1,0x14,312,315
+843,255,direct_actor,Soon afterwards^,34.LFL,34,115,-1,-1,0x14,19,24
+844,10,direct_actor,"Sir, I just received a new painting to add to the collection.",34.LFL,34,115,-1,-1,0x14,63,66
+845,1,ego,Good work!,34.LFL,34,115,-1,-1,0xD8,129,131
+846,1,ego,"Here, I wrote the combination to the vault on the back<CTRL1>of this form.",34.LFL,34,115,-1,-1,0xD8,143,145
+847,1,ego,Memorize it now.,34.LFL,34,115,-1,-1,0xD8,252,254
+848,10,direct_actor,I've memorized it.,34.LFL,34,115,-1,-1,0x14,286,289
+849,1,ego,I'll keep it in this drawer if you need it again.,34.LFL,34,115,-1,-1,0xD8,312,314
+850,10,direct_actor,"I'm sure I won't, I have an excellent memory!",34.LFL,34,115,-1,-1,0x14,365,368
+851,1,ego,Good!,34.LFL,34,115,-1,-1,0xD8,464,466
+852,255,direct_actor,"Meanwhile, elsewhere in the castle^",34.LFL,34,129,-1,-1,0x14,19,24
+853,10,direct_actor,"Sir, you sent for me?",34.LFL,34,129,-1,-1,0x14,82,85
+854,1,ego,Yes.  I want you to protect that priceless painting<CTRL1>we just acquired.,34.LFL,34,129,-1,-1,0xD8,108,110
+855,10,direct_actor,Priceless?  But it's just a painting of an old cup!,34.LFL,34,129,-1,-1,0x14,182,185
+856,1,ego,SILENCE!,34.LFL,34,129,-1,-1,0xD8,244,246
+857,1,ego,The F\x81hrer is VERY interested in it.,34.LFL,34,129,-1,-1,0xD8,244,246
+858,1,ego,Do you dare to question the F\x81hrer's judgement?,34.LFL,34,129,-1,-1,0xD8,244,246
+859,10,direct_actor,"No, sir!",34.LFL,34,129,-1,-1,0x14,343,346
+860,1,ego,Then leave me and return to your post!,34.LFL,34,129,-1,-1,0xD8,362,364
+861,10,direct_actor,"Yes, sir, Colonel Vogel!",34.LFL,34,129,-1,-1,0x14,404,407
+862,1,ego,"Come on, <CTRL2>",35.LFL,35,-1,522,-1,0xD8,30,32
+863,1,ego,Junior!,35.LFL,35,-1,522,-1,0xD8,56,58
+864,1,ego,Dad!,35.LFL,35,-1,522,-1,0xD8,74,76
+865,1,ego,I can't read them from here.,35.LFL,35,-1,534,-1,0xD8,50,52
+866,1,ego,They're two tickets for the Zeppelin!,35.LFL,35,-1,534,-1,0xD8,84,86
+867,1,ego,They're two tickets for the Zeppelin.,35.LFL,35,-1,535,-1,0xD8,31,33
+868,10,direct_actor,"Yes?  What do you want?  I don't have all day, you know.",35.LFL,35,-1,-1,-1,0x14,84,87
+869,10,direct_actor,Now what?!,35.LFL,35,-1,-1,-1,0x14,154,157
+870,10,direct_actor,No.,35.LFL,35,-1,-1,-1,0x14,465,468
+871,10,direct_actor,That's none of your business!,35.LFL,35,-1,-1,-1,0x14,486,489
+872,10,direct_actor,"Ah, my grandchildren!  Let me tell you about them!  I have<CTRL1>fifteen of them, all boys!<CTRL2>",35.LFL,35,-1,-1,-1,0x14,543,546
+873,10,direct_actor,"First there's Siegfried, then there's Kalani, and Boris^",35.LFL,35,-1,-1,-1,0x14,635,638
+874,10,direct_actor,"and Hans, Franz, Fritz, Friedrich, Gustav, Horst, and Werner,",35.LFL,35,-1,-1,-1,0x14,635,638
+875,10,direct_actor,"and Josef, Wolfgang, Johann, Sebastian, and little Albert!",35.LFL,35,-1,-1,-1,0x14,635,638
+876,10,direct_actor,Humph!,35.LFL,35,-1,-1,-1,0x14,850,853
+877,255,direct_actor,<WAIT>,35.LFL,35,-1,-1,-1,0x14,108,111
+878,1,ego,Got 'em!,35.LFL,35,-1,-1,-1,0xD8,61,63
+879,1,ego,Oops!  Can't get them!,35.LFL,35,-1,-1,-1,0xD8,75,77
+880,10,direct_actor,You got what?,35.LFL,35,-1,-1,-1,0x14,129,132
+881,1,ego,Er^ Um^ <CTRL2>,35.LFL,35,-1,-1,-1,0xD8,147,149
+882,1,ego,Just a fly.  <CTRL2>,35.LFL,35,-1,-1,-1,0xD8,164,166
+883,1,ego,I caught a fly.,35.LFL,35,-1,-1,-1,0xD8,186,188
+884,10,direct_actor,You can't get what?,35.LFL,35,-1,-1,-1,0x14,207,210
+885,1,ego,Er^ Nothing.,35.LFL,35,-1,-1,-1,0xD8,231,233
+886,2,variable,A fly?  You caught a fly?,35.LFL,35,-1,-1,-1,0x94,327,331
+887,2,variable,Nice going!,35.LFL,35,-1,-1,-1,0x94,360,364
+888,11,direct_actor,May I help you?,35.LFL,35,-1,-1,-1,0x14,19,22
+889,1,ego,I'd like a refund on these tickets.,35.LFL,35,-1,-1,-1,0xD8,46,48
+890,11,direct_actor,"Sorry, no refunds.",35.LFL,35,-1,-1,-1,0x14,85,88
+891,1,ego,We'd like two tickets on the first flight out of Germany.,35.LFL,35,-1,-1,-1,0xD8,114,116
+892,11,direct_actor,That will be <INT:53> Marks.,35.LFL,35,-1,-1,-1,0x14,180,183
+893,11,direct_actor,Here you are.,35.LFL,35,-1,-1,-1,0x14,348,351
+894,1,ego,All I have is <INT:246> Marks.,35.LFL,35,-1,-1,-1,0xD8,389,391
+895,11,direct_actor,You can't buy tickets with that!,35.LFL,35,-1,-1,-1,0x14,502,505
+896,1,ego,I think we'd better try the Zeppelin!,36.LFL,36,-1,537,-1,0xD8,58,60
+897,1,direct_actor,9\x02\x01\x08,37.LFL,37,-1,569,-1,0x14,10,36
+898,2,direct_actor,"Now Junior, do you really know how to fly this thing?",37.LFL,37,-1,-1,-1,0x14,5,8
+899,1,ego,"Of course, Dad, just give me a moment.",37.LFL,37,-1,-1,-1,0xD8,63,65
+900,2,direct_actor,"Er, Junior, I think those mechanics are eyeing us strangely.",37.LFL,37,-1,-1,-1,0x14,108,111
+901,2,direct_actor,Junior!  They're pointing at us!,37.LFL,37,-1,-1,-1,0x14,176,179
+902,2,direct_actor,JUNIOR!  They're running towards us!!,37.LFL,37,-1,-1,-1,0x14,216,219
+903,2,direct_actor,JUNIOR!!!  THEY'RE ALMOST HERE!!!,37.LFL,37,-1,-1,-1,0x14,264,267
+904,1,ego,"OK, DAD, LET'S GET OUT OF HERE!",37.LFL,37,-1,-1,-1,0xD8,307,309
+905,1,ego,"Hold on, Dad!  Here we go!",37.LFL,37,49,-1,-1,0xD8,103,105
+906,1,ego,I think I broke it.,37.LFL,37,49,-1,-1,0xD8,141,143
+907,1,ego,It's full of money.,38.LFL,38,-1,582,-1,0xD8,34,36
+908,1,ego,That doesn't sound like a very good idea.,38.LFL,38,-1,582,-1,0xD8,57,59
+909,1,ego,He's already playing.,38.LFL,38,-1,582,-1,0xD8,111,113
+910,1,ego,I don't want to give him that much!,38.LFL,38,-1,582,-1,0xD8,158,160
+911,1,ego,I don't think he'd want that.,38.LFL,38,-1,582,-1,0xD8,199,201
+912,1,ego,Here's some money.,38.LFL,38,-1,-1,-1,0xD8,3,5
+913,10,direct_actor,I've already played everything I know.,38.LFL,38,-1,-1,-1,0x14,81,84
+914,10,direct_actor,Thank you.,38.LFL,38,-1,-1,-1,0x14,145,148
+915,10,direct_actor,What would you like to hear?,38.LFL,38,-1,-1,-1,0x14,145,148
+916,10,direct_actor,"No, but I'm sure you'll like this little ditty.",38.LFL,38,-1,-1,-1,0x14,441,444
+917,10,direct_actor,"I'm not familiar with that tune, but I'll play this one.",38.LFL,38,-1,-1,-1,0x14,502,505
+918,10,direct_actor,"I could, <CTRL2>",38.LFL,38,-1,-1,-1,0x14,572,575
+919,10,direct_actor,but I'll play THIS one instead.,38.LFL,38,-1,-1,-1,0x14,591,594
+920,10,direct_actor,"I'm sure you would, but I'll play MY favorite instead.",38.LFL,38,-1,-1,-1,0x14,636,639
+921,1,ego,"No, I'd better stay here and guard the room.",38.LFL,38,66,-1,-1,0xD8,228,230
+922,1,ego,I'd better move him!,38.LFL,38,67,-1,-1,0xD8,348,350
+923,1,ego,I wonder who did this?,38.LFL,38,67,-1,-1,0xD8,566,568
+924,7,direct_actor,Hey!!,38.LFL,38,67,-1,-1,0x14,736,739
+925,1,ego,I got the wrench back.,38.LFL,38,67,-1,-1,0xD8,983,985
+926,1,ego,I don't think I'd better go in there.,39.LFL,39,-1,584,-1,0xD8,50,52
+927,1,ego,I'll go up later.,39.LFL,39,-1,586,-1,0xD8,149,151
+928,1,ego,I can't reach it!,39.LFL,39,-1,586,-1,0xD8,176,178
+929,1,ego,It doesn't seem to fit in there.,39.LFL,39,-1,585,-1,0xD8,63,65
+930,1,ego,It looks like there's a bolt inside.,39.LFL,39,-1,585,-1,0xD8,99,101
+931,2,direct_actor,"OK, Junior, give it to him!",39.LFL,39,-1,-1,-1,0x14,18,21
+932,1,ego,That was close!,39.LFL,39,92,-1,-1,0xD8,26,28
+933,10,direct_actor,What was close?,39.LFL,39,92,-1,-1,0x14,45,48
+934,1,ego,"Er, we just made it on board!",39.LFL,39,92,-1,-1,0xD8,71,73
+935,10,direct_actor,I see.  <CTRL2>,39.LFL,39,92,-1,-1,0x14,104,107
+936,10,direct_actor,"Tickets, please.",39.LFL,39,92,-1,-1,0x14,127,130
+937,10,direct_actor,Stupid foreigners!,39.LFL,39,92,-1,-1,0x14,232,235
+938,10,direct_actor,So!  You want to fight?,39.LFL,39,92,-1,-1,0x14,354,357
+939,10,direct_actor,Prepare to defend yourself!,39.LFL,39,92,-1,-1,0x14,384,387
+940,10,direct_actor,I must warn you that I won a gold medal in<CTRL1>light-weight boxing at the 1934 Olympics!,39.LFL,39,92,-1,-1,0x14,416,419
+941,2,direct_actor,That's my boy!!,39.LFL,39,92,-1,-1,0x14,576,579
+942,10,direct_actor,May I have your tickets?,39.LFL,39,93,-1,-1,0x14,79,82
+943,2,direct_actor,"Here, Junior, you might need these.",39.LFL,39,93,-1,-1,0x14,113,116
+944,1,ego,Thanks.,39.LFL,39,93,-1,-1,0xD8,171,173
+945,10,direct_actor,I don't recall getting tickets from you.,39.LFL,39,93,-1,-1,0x14,382,385
+946,10,direct_actor,I see.  Please produce proof of this immediately.,39.LFL,39,93,-1,-1,0x14,439,442
+947,10,direct_actor,What?,39.LFL,39,93,-1,-1,0x14,505,508
+948,10,direct_actor,"Why, you^",39.LFL,39,93,-1,-1,0x14,524,527
+949,1,ego,Put 'em up!,39.LFL,39,93,-1,-1,0xD8,538,540
+950,10,direct_actor,You insult me!  My mind is as well tuned as<CTRL1>my body.  I will prove it!,39.LFL,39,93,-1,-1,0x14,746,749
+951,10,direct_actor,I am the only official agent on board.<CTRL1>Where is this other ticket taker?,39.LFL,39,93,-1,-1,0x14,834,837
+952,10,direct_actor,"Schwein!  HE may be senile, but I am not.",39.LFL,39,93,-1,-1,0x14,924,927
+953,1,ego,"Don't you talk to my father like that, stooge!",39.LFL,39,93,-1,-1,0xD8,970,972
+954,2,direct_actor,Junior!  Keep a civil tongue in your head!,39.LFL,39,93,-1,-1,0x14,1020,1023
+955,10,direct_actor,"Impossible!  That is the radio room, it's kept locked<CTRL1>from the inside by that sentimental fool of a radioman.",39.LFL,39,93,-1,-1,0x14,1240,1243
+956,1,ego,"Defend yourself, you arrogant idiot!",39.LFL,39,93,-1,-1,0xD8,1355,1357
+957,10,direct_actor,Idiot!  You have been duped!  You will have to<CTRL1>pay me again right now.,39.LFL,39,93,-1,-1,0x14,1407,1410
+958,10,direct_actor,There is no one of that description there.  You are<CTRL1>trying to travel for free.  Follow me peaceably!,39.LFL,39,93,-1,-1,0x14,1499,1502
+959,2,direct_actor,"Sorry, you'll have to fight us.  Hit him, Junior!",39.LFL,39,93,-1,-1,0x14,1605,1608
+960,1,ego,DAD!,39.LFL,39,93,-1,-1,0xD8,1659,1661
+961,10,direct_actor,You expect ME to trust YOU?  Idiot.,39.LFL,39,93,-1,-1,0x14,1867,1870
+962,1,ego,No one calls me that!,39.LFL,39,93,-1,-1,0xD8,1907,1909
+963,10,direct_actor,I've heard that one before.,39.LFL,39,93,-1,-1,0x14,1944,1947
+964,2,direct_actor,Eh?  What's that Junior?,39.LFL,39,93,-1,-1,0x14,1988,1991
+965,10,direct_actor,Another pair of freeloaders!,39.LFL,39,93,-1,-1,0x14,2017,2020
+966,1,ego,All we have is <INT:246> Marks.,39.LFL,39,93,-1,-1,0xD8,2187,2189
+967,10,direct_actor,That is not acceptable.  I'll have to detain you both.,39.LFL,39,93,-1,-1,0x14,2217,2220
+968,1,ego,Anything you say.,39.LFL,39,93,-1,-1,0xD8,2276,2278
+969,10,direct_actor,Why didn't you give me these in the first place?,39.LFL,39,93,-1,-1,0x14,2347,2350
+970,10,direct_actor,Oh well^ <CTRL2>,39.LFL,39,93,-1,-1,0x14,2400,2403
+971,10,direct_actor,"Thank you, and enjoy your trip!",39.LFL,39,93,-1,-1,0x14,2415,2418
+972,10,direct_actor,What good is that?,39.LFL,39,93,-1,-1,0x14,2472,2475
+973,10,direct_actor,"Signed by the F\x81hrer?  Nice, but I still need a ticket.",39.LFL,39,93,-1,-1,0x14,2497,2500
+974,1,ego,It looks like a large key.,40.LFL,40,-1,596,-1,0xD8,36,38
+975,1,ego,"No, not again!",40.LFL,40,-1,594,-1,0xD8,77,79
+976,1,ego,"I can't, I broke it!",40.LFL,40,-1,594,-1,0xD8,97,99
+977,1,ego,"OK, let's see^ <CTRL2>",40.LFL,40,-1,-1,-1,0xD8,10,12
+978,1,ego,ahem^ <CTRL2>,40.LFL,40,-1,-1,-1,0xD8,34,36
+979,1,ego,um^,40.LFL,40,-1,-1,-1,0xD8,49,51
+980,1,ego,Everything's OK he^ <CTRL2>,40.LFL,40,-1,-1,-1,0xD8,59,61
+981,1,ego,OOPS!,40.LFL,40,-1,-1,-1,0xD8,88,90
+982,1,ego,Er^ <CTRL2>,40.LFL,40,-1,-1,-1,0xD8,97,99
+983,1,ego,Alles klar hier open^,40.LFL,40,-1,-1,-1,0xD8,110,112
+984,1,ego,Das ist alles^,40.LFL,40,-1,-1,-1,0xD8,135,137
+985,1,ego,Servus!,40.LFL,40,-1,-1,-1,0xD8,153,155
+986,1,ego,Damn!,40.LFL,40,-1,-1,-1,0xD8,172,174
+987,1,ego,Right!  Tear metal apart with my bare hands?!,40.LFL,40,-1,-1,-1,0xD8,20,22
+988,1,ego,OK.,40.LFL,40,-1,-1,-1,0xD8,73,75
+989,1,ego,That ought to take care of it!,40.LFL,40,-1,-1,-1,0xD8,143,145
+990,1,ego,It's already broken!,40.LFL,40,-1,-1,-1,0xD8,192,194
+991,7,direct_actor,You're not supposed to be in here.,40.LFL,40,78,-1,-1,0x14,107,110
+992,7,direct_actor,"Well, it's not here.  You'd better leave.",40.LFL,40,78,-1,-1,0x14,285,288
+993,7,direct_actor,"Hmmm - nothing had better be wrong here or I'll<CTRL1>find you later.  Now, you'd better go back to the lounge.",40.LFL,40,78,-1,-1,0x14,343,346
+994,7,direct_actor,Look what you did!  Fixing that could be expensive!,40.LFL,40,78,-1,-1,0x14,482,485
+995,7,direct_actor,Agent?  A spy!,40.LFL,40,78,-1,-1,0x14,739,742
+996,7,direct_actor,I won't buy that old story!,40.LFL,40,78,-1,-1,0x14,770,773
+997,1,ego,Where's my wrench?  I'm charged for missing tools!,40.LFL,40,78,-1,-1,0xD8,815,854
+998,7,direct_actor,Dummkopf!  I see its outline hidden under your shirt!,40.LFL,40,78,-1,-1,0x14,1087,1090
+999,7,direct_actor,"Oh, no!  Fritz must have seen I was not at my post!<CTRL1>That arrogant snob will have me fired.  You, get out of here!",40.LFL,40,78,-1,-1,0x14,1157,1160
+1000,7,direct_actor,"You look stupid, but not that stupid.",40.LFL,40,78,-1,-1,0x14,1288,1291
+1001,7,direct_actor,"Hey, who's been fooling with the ladder?",40.LFL,40,78,-1,-1,0x14,1367,1370
+1002,7,direct_actor,"Fritz?  Impossible, he would never violate regulations.<CTRL1>You must be the one!",40.LFL,40,78,-1,-1,0x14,1588,1591
+1003,7,direct_actor,"Radio?  Oh no, they'll have me fired!",40.LFL,40,78,-1,-1,0x14,1682,1685
+1004,7,direct_actor,"Well, get back to the lounge!",40.LFL,40,78,-1,-1,0x14,1736,1739
+1005,7,direct_actor,"Hey, this isn't enough.  I'll have to take it out of your hide.",40.LFL,40,78,-1,-1,0x14,1980,1983
+1006,7,direct_actor,"Well, all right.  But get out of here while I fix it.",40.LFL,40,78,-1,-1,0x14,2059,2062
+1007,7,direct_actor,It costs more than that!  I'll just have to take it from you!,40.LFL,40,78,-1,-1,0x14,2133,2136
+1008,7,direct_actor,I guess that'll cover my costs.  But don't come back here!,40.LFL,40,78,-1,-1,0x14,2201,2204
+1009,7,direct_actor,You dare to insult me with such a small amount?,40.LFL,40,78,-1,-1,0x14,2280,2283
+1010,7,direct_actor,I guess I can overlook that.,40.LFL,40,78,-1,-1,0x14,2334,2337
+1011,7,direct_actor,Signed by the F\x81hrer?  Please forgive me for detaining you!,40.LFL,40,78,-1,-1,0x14,2514,2517
+1012,7,direct_actor,"So, you did take it!  I will report you when we land!",40.LFL,40,78,-1,-1,0x14,2594,2597
+1013,7,direct_actor,I don't want that!  But I know what I do want!,40.LFL,40,78,-1,-1,0x14,2657,2660
+1014,1,ego,Hey!  The zeppelin is turning around!,40.LFL,40,99,-1,-1,0xD8,38,40
+1015,1,ego,We're heading towards Berlin!,40.LFL,40,99,-1,-1,0xD8,38,40
+1016,0,direct_actor,J\x02,40.LFL,40,99,-1,-1,0x14,147,150
+1017,7,direct_actor,Someone vandalized my radio!,40.LFL,40,100,-1,-1,0x14,34,37
+1018,7,direct_actor,I'd better fix it as fast as I can!,40.LFL,40,100,-1,-1,0x14,34,37
+1019,1,ego,The hatch is closed!,41.LFL,41,-1,597,-1,0xD8,54,56
+1020,1,ego,Fraulein Doctor.,46.LFL,46,117,-1,-1,0xD8,243,245
+1021,1,ego,Where is it?,46.LFL,46,117,-1,-1,0xD8,283,285
+1022,3,direct_actor,You came back for the book?,46.LFL,46,117,-1,-1,0x14,342,345
+1023,1,ego,See ya.,46.LFL,46,117,-1,-1,0xD8,382,384
+1024,1,ego,Whew!,46.LFL,46,117,-1,-1,0xD8,848,850
+1025,2,direct_actor,"Well, did you get it?",46.LFL,46,117,-1,-1,0x14,900,903
+1026,1,ego,"Yeah, I got it.",46.LFL,46,117,-1,-1,0xD8,926,928
+1027,2,direct_actor,Wonderful!  NOW let's go to the airport.,46.LFL,46,117,-1,-1,0x14,945,948
+1028,9,direct_actor,What is this?  I don't want this!,46.LFL,46,117,-1,-1,0x14,1066,1069
+1029,1,ego,Nazis!  I HATE Nazis!,46.LFL,46,117,-1,-1,0xD8,1114,1116
+1030,3,direct_actor,INDY!,46.LFL,46,117,-1,-1,0x14,1199,1202
+1031,1,ego,I can't open it.  I think it's latched from the other side.,48.LFL,48,-1,641,-1,0xD8,68,70
+1032,1,ego,I can't do that.,48.LFL,48,-1,641,-1,0xD8,146,148
+1033,1,ego,I can't get a grip on it!,49.LFL,49,-1,662,-1,0xD8,37,39
+1034,1,ego,I'd better not.,50.LFL,50,-1,668,-1,0xD8,43,45
+1035,1,ego,That guard's waiting for me!,50.LFL,50,-1,668,-1,0xD8,43,45
+1036,1,ego,I see that guard up there still!,50.LFL,50,-1,668,-1,0xD8,98,100
+1037,1,ego,That loosened the mud.,51.LFL,51,-1,669,-1,0xD8,81,83
+1038,1,ego,There wasn't enough wine to loosen the mud.,51.LFL,51,-1,669,-1,0xD8,119,121
+1039,1,ego,There is nothing in it.,51.LFL,51,-1,669,-1,0xD8,175,177
+1040,1,ego,"It's held in place by hard, dry mud.",51.LFL,51,-1,669,-1,0xD8,220,222
+1041,1,ego,The mud is all washed away.,51.LFL,51,-1,669,-1,0xD8,262,264
+1042,1,ego,It's an old pirate's hook.,52.LFL,52,-1,676,-1,0xD8,46,48
+1043,1,ego,It's too heavy to slide back on from here.,53.LFL,53,-1,679,-1,0xD8,37,39
+1044,1,ego,It looks like a large wooden plug.,55.LFL,55,-1,708,-1,0xD8,31,33
+1045,1,ego,I'm not about to go diving in THAT water!,55.LFL,55,-1,708,-1,0xD8,69,71
+1046,1,ego,Water!  I HATE water!,55.LFL,55,-1,707,-1,0xD8,56,58
+1047,1,ego,I can't pick that up.  It'll run through my fingers.,55.LFL,55,-1,707,-1,0xD8,81,83
+1048,1,ego,WOW!  Looks deep!,56.LFL,56,-1,713,-1,0xD8,31,33
+1049,1,ego,This looks like the casket of the lost knight!,58.LFL,58,-1,718,-1,0xD8,51,53
+1050,1,ego,Wow!,58.LFL,58,-1,718,-1,0xD8,142,144
+1051,1,ego,The cover is too heavy to pick up!,58.LFL,58,-1,718,-1,0xD8,157,159
+1052,1,ego,Maybe a running start will work.,58.LFL,58,-1,721,-1,0xD8,51,53
+1053,1,ego,Oomph!,58.LFL,58,-1,721,-1,0xD8,110,112
+1054,1,ego,I guess not.,58.LFL,58,-1,721,-1,0xD8,212,214
+1055,1,ego,I can't seem to move it.,58.LFL,58,-1,719,-1,0xD8,68,70
+1056,1,ego,I'll leave it open.,58.LFL,58,-1,719,-1,0xD8,102,104
+1057,1,ego,Oops!  The wine bottle broke.,60.LFL,60,-1,-1,-1,0xD8,13,15
+1058,1,ego,It's a hook screwed into a wooden plug.,61.LFL,61,-1,749,-1,0xD8,50,52
+1059,1,ego,It's a wooden plug leaking water.,61.LFL,61,-1,749,-1,0xD8,95,97
+1060,1,ego,That wouldn't work.,61.LFL,61,-1,749,-1,0xD8,306,308
+1061,1,ego,That would be dangerous!,61.LFL,61,-1,749,-1,0xD8,377,379
+1062,1,ego,I can't get across the gap.,61.LFL,61,-1,758,-1,0xD8,48,50
+1063,1,ego,I can't move it.  It's latched from above.,62.LFL,62,-1,760,-1,0xD8,62,64
+1064,1,ego,I can't close it from here.,62.LFL,62,-1,760,-1,0xD8,123,125
+1065,254,direct_actor,From a manuscript,69.LFL,69,-1,-1,-1,0x14,149,159
+1066,254,direct_actor,of Abbess Hildegard,69.LFL,69,-1,-1,-1,0x14,177,185
+1067,254,direct_actor,of Bingen.,69.LFL,69,-1,-1,-1,0x14,205,213
+1068,254,direct_actor,The excerpt uses,69.LFL,69,-1,-1,-1,0x14,224,232
+1069,254,direct_actor,an obscure musical,69.LFL,69,-1,-1,-1,0x14,249,257
+1070,254,direct_actor,"notation, and I am",69.LFL,69,-1,-1,-1,0x14,276,284
+1071,254,direct_actor,not sure why it,69.LFL,69,-1,-1,-1,0x14,303,311
+1072,254,direct_actor,never has more than,69.LFL,69,-1,-1,-1,0x14,327,335
+1073,254,direct_actor,six different notes.,69.LFL,69,-1,-1,-1,0x14,355,363
+1074,255,direct_actor,"We're hit, Junior!!",70.LFL,70,-1,-1,-1,0x14,327,332
+1075,255,direct_actor,They got us!  We're going down!!,70.LFL,70,-1,-1,-1,0x14,49,54
+1076,255,direct_actor,I think we're out of gas.,70.LFL,70,-1,-1,-1,0x14,95,100
+1077,255,direct_actor,I'll try to gain some altitude.,70.LFL,70,-1,-1,-1,0x14,166,171
+1078,255,direct_actor,AHHHHHHHH!!!<CTRL2>,70.LFL,70,-1,-1,-1,0x14,215,220
+1079,255,direct_actor,AHHHHHHHH!!!,70.LFL,70,-1,-1,-1,0x14,235,240
+1080,1,ego,Hmm.  There doesn't seem to be any gas in this one.,71.LFL,71,-1,792,-1,0xD8,84,86
+1081,1,ego,"Hey, Dad, get up.  This is no time to take a nap!",71.LFL,71,-1,-1,-1,0xD8,78,80
+1082,2,direct_actor,"Sorry, Junior!  Come on, let's go steal a car.",71.LFL,71,-1,-1,-1,0x14,172,175
+1083,11,direct_actor,"Uh, hold it.  You've got to come over here.",72.LFL,72,94,-1,-1,0x14,55,58
+1084,11,direct_actor,HALT!  Come here at once!,72.LFL,72,94,-1,-1,0x14,115,118
+1085,11,direct_actor,Please step out of that expensive-looking car.,72.LFL,72,94,-1,-1,0x14,157,160
+1086,11,direct_actor,Halt.  Leave your vehicle and step over here.,72.LFL,72,94,-1,-1,0x14,246,249
+1087,11,direct_actor,I need to see your authorization.,72.LFL,72,95,-1,-1,0x14,22,25
+1088,11,direct_actor,"Who cares, you sap!",72.LFL,72,95,-1,-1,0x14,277,280
+1089,11,direct_actor,"I'm sorry, but I must ask.",72.LFL,72,95,-1,-1,0x14,313,316
+1090,11,direct_actor,"Insult or not, you must have clearance.",72.LFL,72,95,-1,-1,0x14,346,349
+1091,11,direct_actor,HALT!,72.LFL,72,95,-1,-1,0x14,568,571
+1092,11,direct_actor,"But, how could I know?  I mean, you're not in uniform^",72.LFL,72,95,-1,-1,0x14,624,627
+1093,11,direct_actor,Officer?  You are not in uniform!,72.LFL,72,95,-1,-1,0x14,685,688
+1094,11,direct_actor,Yes sir!,72.LFL,72,95,-1,-1,0x14,888,891
+1095,11,direct_actor,But I can't^,72.LFL,72,95,-1,-1,0x14,919,922
+1096,11,direct_actor,Classified?  A secret mission?  Did they give you credentials?,72.LFL,72,95,-1,-1,0x14,956,959
+1097,11,direct_actor,Then produce your credentials.,72.LFL,72,95,-1,-1,0x14,1025,1028
+1098,11,direct_actor,"No kidding!  OK, you can go.",72.LFL,72,95,-1,-1,0x14,1212,1215
+1099,11,direct_actor,Then you must turn back.,72.LFL,72,95,-1,-1,0x14,1250,1253
+1100,1,ego,I'm afraid not.,72.LFL,72,95,-1,-1,0xD8,1279,1281
+1101,11,direct_actor,Give it to me!,72.LFL,72,95,-1,-1,0x14,1310,1313
+1102,11,direct_actor,Then I'll have to take them from you.,72.LFL,72,95,-1,-1,0x14,1341,1344
+1103,11,direct_actor,Out of uniform?  What do you mean?,72.LFL,72,95,-1,-1,0x14,1396,1399
+1104,11,direct_actor,"Take this, tuna-kopf!",72.LFL,72,95,-1,-1,0x14,1582,1585
+1105,11,direct_actor,"Why, you upstart!",72.LFL,72,95,-1,-1,0x14,1633,1636
+1106,11,direct_actor,New orders?  From where?,72.LFL,72,95,-1,-1,0x14,1668,1671
+1107,11,direct_actor,"Kleist!  Nein, nein.",72.LFL,72,95,-1,-1,0x14,1919,1922
+1108,11,direct_actor,"The Captain?  Yes, let's give him a call.",72.LFL,72,95,-1,-1,0x14,1949,1952
+1109,11,direct_actor,Now what was his frequency?,72.LFL,72,95,-1,-1,0x14,1949,1952
+1110,1,ego,I'll help jog your memory.,72.LFL,72,95,-1,-1,0xD8,2024,2026
+1111,11,direct_actor,Don't remember his name?  Dummkopf!,72.LFL,72,95,-1,-1,0x14,2056,2059
+1112,11,direct_actor,You expect me to believe the F\x81hrer would deal with<CTRL1>the likes of you?,72.LFL,72,95,-1,-1,0x14,2108,2111
+1113,1,ego,"No, I expect you to fight.",72.LFL,72,95,-1,-1,0xD8,2183,2185
+1114,11,direct_actor,Not if I can help it!,72.LFL,72,95,-1,-1,0x14,2225,2228
+1115,11,direct_actor,"Thank you.  You may go, but don't let me see you again!",72.LFL,72,95,-1,-1,0x14,2487,2490
+1116,11,direct_actor,You insult me with only <INT:16386> Marks?,72.LFL,72,95,-1,-1,0x14,2560,2563
+1117,1,ego,"No, I was going to give you a tip, too!",72.LFL,72,95,-1,-1,0xD8,2600,2602
+1118,11,direct_actor,Stop snivelling.  I haven't the time to waste on one<CTRL1>so ill-bred.,72.LFL,72,95,-1,-1,0x14,2657,2660
+1119,11,direct_actor,You snivelling fool.  I have little time to waste with<CTRL1>your incompetence.,72.LFL,72,95,-1,-1,0x14,2730,2733
+1120,11,direct_actor,You?  A senior officer?  You couldn't make junior!,72.LFL,72,95,-1,-1,0x14,3005,3008
+1121,1,ego,Don't call me Junior!,72.LFL,72,95,-1,-1,0xD8,3060,3062
+1122,11,direct_actor,That's right.  You are scum!,72.LFL,72,95,-1,-1,0x14,3111,3114
+1123,11,direct_actor,"Easily, but I'm feeling generous today, so I'll let you go.",72.LFL,72,95,-1,-1,0x14,3299,3302
+1124,1,ego,(I hope your superiors feel as generous!),72.LFL,72,95,-1,-1,0xD8,3363,3365
+1125,1,ego,But only if you're still conscious!,72.LFL,72,95,-1,-1,0xD8,3431,3433
+1126,11,direct_actor,You disgust me.  Show some backbone!,72.LFL,72,95,-1,-1,0x14,3495,3498
+1127,11,direct_actor,Are you trying to flatter me?,72.LFL,72,95,-1,-1,0x14,3549,3552
+1128,11,direct_actor,"I am NOT.  And I know how to spell, too!",72.LFL,72,95,-1,-1,0x14,3735,3738
+1129,11,direct_actor,You cannot expect to make a fool of me!,72.LFL,72,95,-1,-1,0x14,3793,3796
+1130,11,direct_actor,How true.  You may go.,72.LFL,72,95,-1,-1,0x14,3936,3939
+1131,11,direct_actor,I tire of this insincerity.,72.LFL,72,95,-1,-1,0x14,3968,3971
+1132,1,ego,Then may I express my true feelings?,72.LFL,72,95,-1,-1,0xD8,4000,4002
+1133,11,direct_actor,No one passes without authorization!,72.LFL,72,95,-1,-1,0x14,4066,4069
+1134,11,direct_actor,I thought you looked familiar!,72.LFL,72,95,-1,-1,0x14,4276,4279
+1135,1,ego,Uh-oh!,72.LFL,72,95,-1,-1,0xD8,4311,4313
+1136,11,direct_actor,Gestapo?  Captain Kleist said nothing of this.<CTRL1>I will need some proof.,72.LFL,72,95,-1,-1,0x14,4372,4375
+1137,11,direct_actor,Gestapo?  Him?  Do you have proof?,72.LFL,72,95,-1,-1,0x14,4450,4453
+1138,2,direct_actor,"What's that, Junior?",72.LFL,72,95,-1,-1,0x14,4658,4661
+1139,11,direct_actor,Trust you?  I could be shot for letting you pass!,72.LFL,72,95,-1,-1,0x14,4705,4708
+1140,11,direct_actor,"Well, <CTRL2>",72.LFL,72,95,-1,-1,0x14,4952,4955
+1141,11,direct_actor,I still can't let you by.,72.LFL,72,95,-1,-1,0x14,4979,4982
+1142,11,direct_actor,"Well^ on second thought, you may go.",72.LFL,72,95,-1,-1,0x14,5160,5163
+1143,11,direct_actor,Very well^,72.LFL,72,95,-1,-1,0x14,5206,5209
+1144,11,direct_actor,You!  The Gestapo agent in the car!  Please come here.,72.LFL,72,95,-1,-1,0x14,5225,5228
+1145,2,direct_actor,"Gestapo?  Where!?  Look out, Junior!",72.LFL,72,95,-1,-1,0x14,5284,5287
+1146,1,ego,Dad!  <CTRL2>,72.LFL,72,95,-1,-1,0xD8,5325,5327
+1147,11,direct_actor,What?!,72.LFL,72,95,-1,-1,0x14,5340,5343
+1148,11,direct_actor,Nice try^<CTRL2>,72.LFL,72,95,-1,-1,0x14,5374,5377
+1149,11,direct_actor,no laces.,72.LFL,72,95,-1,-1,0x14,5393,5396
+1150,11,direct_actor,Marks?  A few Marks would be a poor substitute for a pass.,72.LFL,72,95,-1,-1,0x14,5439,5442
+1151,11,direct_actor,But MANY Marks^,72.LFL,72,95,-1,-1,0x14,5502,5505
+1152,11,direct_actor,You dare to bribe me?,72.LFL,72,95,-1,-1,0x14,5524,5527
+1153,11,direct_actor,What?  Why you^,72.LFL,72,95,-1,-1,0x14,5734,5737
+1154,11,direct_actor,Too late!,72.LFL,72,95,-1,-1,0x14,5756,5759
+1155,11,direct_actor,A million Marks wouldn't change my mind!,72.LFL,72,95,-1,-1,0x14,5790,5793
+1156,1,ego,"Well, maybe this will!",72.LFL,72,95,-1,-1,0xD8,5835,5837
+1157,11,direct_actor,What good is an unsigned pass?!,72.LFL,72,95,-1,-1,0x14,5974,5977
+1158,11,direct_actor,Signed by the F\x81hrer?,72.LFL,72,95,-1,-1,0x14,6016,6019
+1159,11,direct_actor,You may go at once!,72.LFL,72,95,-1,-1,0x14,6055,6058
+1160,11,direct_actor,"A good book, but I'm not a collector like that officer<CTRL1>in the castle down the road.",72.LFL,72,95,-1,-1,0x14,6107,6110
+1161,11,direct_actor,"So, you read the F\x81hrer's book.  So have I.",72.LFL,72,95,-1,-1,0x14,6198,6201
+1162,11,direct_actor,A first edition signed by the F\x81hrer?  Thank you!,72.LFL,72,95,-1,-1,0x14,6252,6255
+1163,11,direct_actor,Move along.  Move along.,72.LFL,72,95,-1,-1,0x14,6252,6255
+1164,11,direct_actor,That is not a pass either!  I will have to detain you both.,72.LFL,72,95,-1,-1,0x14,6342,6345
+1165,1,ego,"Sure, we're not in a hurry.",72.LFL,72,95,-1,-1,0xD8,6406,6408
+1166,11,direct_actor,That is not a pass!,72.LFL,72,95,-1,-1,0x14,6439,6442
+1167,9,direct_actor,HEY!! WHO TURNED OUT THE LIGHTS!!,73.LFL,73,-1,837,-1,0x14,656,659
+1168,255,direct_actor,TURN THE LIGHTS BACK ON!!!,73.LFL,73,-1,837,-1,0x14,694,699
+1169,1,ego,They're already on.,73.LFL,73,-1,837,-1,0xD8,769,771
+1170,1,ego,It's chained to the bell.,73.LFL,73,-1,836,-1,0xD8,50,52
+1171,1,ego,It's a large bell used during fights.,73.LFL,73,-1,835,-1,0xD8,40,42
+1172,1,ego,I have to use the mallet.,73.LFL,73,-1,835,-1,0xD8,133,135
+1173,1,ego,Not in my good suit!  I'd get it all wrinkled and sweaty!,73.LFL,73,-1,831,-1,0xD8,35,37
+1174,1,ego,The sign says: 'Locker Room',73.LFL,73,-1,834,-1,0xD8,47,49
+1175,1,ego,There's no door here.,73.LFL,73,-1,834,-1,0xD8,83,85
+1176,1,ego,It says: `Locker Room`,73.LFL,73,-1,947,-1,0xD8,28,30
+1177,1,ego,The mallet's chained to the bell.,73.LFL,73,-1,-1,-1,0xD8,36,38
+1178,9,direct_actor,"Hi, Dr. Jones.  How would you like me to spar with you?",73.LFL,73,111,-1,-1,0x14,17,20
+1179,255,direct_actor,Ten minutes later^,73.LFL,73,111,-1,-1,0x14,603,608
+1180,9,direct_actor,Want to go again?,73.LFL,73,111,-1,-1,0x14,648,651
+1181,254,direct_actor,1. Turn on APU (switch L).,74.LFL,74,90,-1,-1,0x14,40,50
+1182,254,direct_actor,2. Pump oil pressure handle (C),74.LFL,74,90,-1,-1,0x14,77,85
+1183,254,direct_actor,three times.,74.LFL,74,90,-1,-1,0x14,117,125
+1184,254,direct_actor,3. Turn on fuel pump (switch Q).,74.LFL,74,90,-1,-1,0x14,141,149
+1185,254,direct_actor,4. Switch to tank with fuel in it (J).,74.LFL,74,90,-1,-1,0x14,182,190
+1186,254,direct_actor,"5. Turn on both magnetos (I), push",74.LFL,74,90,-1,-1,0x14,229,237
+1187,254,direct_actor,switch to far right position.,74.LFL,74,90,-1,-1,0x14,272,280
+1188,254,direct_actor,6. Pull throttle out (E).,74.LFL,74,90,-1,-1,0x14,313,321
+1189,254,direct_actor,7. Switch ignition on (O).,74.LFL,74,90,-1,-1,0x14,347,355
+1190,254,direct_actor,"8. When APU meter (B) reaches 300,",74.LFL,74,90,-1,-1,0x14,382,390
+1191,254,direct_actor,press ignition button (N).,74.LFL,74,90,-1,-1,0x14,425,433
+1192,254,direct_actor,"`If ye would enter,",75.LFL,75,-1,-1,-1,0x14,137,147
+1193,254,direct_actor,follow the,75.LFL,75,-1,-1,-1,0x14,167,177
+1194,254,direct_actor,first,75.LFL,75,-1,-1,-1,0x14,196,199
+1195,254,direct_actor,second,75.LFL,75,-1,-1,-1,0x14,215,218
+1196,254,direct_actor,third,75.LFL,75,-1,-1,-1,0x14,235,238
+1197,254,direct_actor,on the,75.LFL,75,-1,-1,-1,0x14,247,257
+1198,254,direct_actor,left.`,75.LFL,75,-1,-1,-1,0x14,272,275
+1199,254,direct_actor,right.`,75.LFL,75,-1,-1,-1,0x14,292,295
+1200,254,direct_actor,Note the particular,75.LFL,75,-1,-1,-1,0x14,306,314
+1201,254,direct_actor,care taken in drawing,75.LFL,75,-1,-1,-1,0x14,334,342
+1202,254,direct_actor,"the shield, the",75.LFL,75,-1,-1,-1,0x14,364,372
+1203,254,direct_actor,"areas above it,",75.LFL,75,-1,-1,-1,0x14,388,396
+1204,254,direct_actor,and the angels.,75.LFL,75,-1,-1,-1,0x14,412,420
+1205,254,direct_actor,The cryptic message,75.LFL,75,-1,-1,-1,0x14,436,444
+1206,254,direct_actor,below seems to have,75.LFL,75,-1,-1,-1,0x14,464,472
+1207,254,direct_actor,something to do with,75.LFL,75,-1,-1,-1,0x14,492,500
+1208,254,direct_actor,Roman numerals and,75.LFL,75,-1,-1,-1,0x14,521,529
+1209,254,direct_actor,stone pillars.,75.LFL,75,-1,-1,-1,0x14,548,556
+1210,1,ego,I have <INT:246> marks.,76.LFL,76,-1,842,-1,0xD8,51,53
+1211,1,ego,It's a pocketful of coins.,76.LFL,76,-1,843,-1,0xD8,32,34
+1212,254,direct_actor,"BARNETT COLLEGE,",76.LFL,76,1,-1,-1,0x14,609,620
+1213,254,direct_actor,"NEW YORK,",76.LFL,76,1,-1,-1,0x14,637,646
+1214,254,direct_actor,1938,76.LFL,76,1,-1,-1,0x14,656,665
+1215,1,ego,Hello Marcus!,76.LFL,76,1,-1,-1,0xD8,762,764
+1216,4,direct_actor,Indy!!  You're back!,76.LFL,76,1,-1,-1,0x14,799,802
+1217,1,ego,Yes!  And I have the Cross of Coronado!!,76.LFL,76,1,-1,-1,0xD8,824,826
+1218,4,direct_actor,Wonderful!  I know how long you've been looking for that.,76.LFL,76,1,-1,-1,0x14,868,871
+1219,1,ego,All my life!,76.LFL,76,1,-1,-1,0xD8,930,932
+1220,4,direct_actor,Indy!  Why are you all wet?,76.LFL,76,1,-1,-1,0x14,964,967
+1221,1,ego,I really have to get out of these wet clothes!,76.LFL,76,1,-1,-1,0xD8,1037,1039
+1222,1,ego,It's too dark to see it.,76.LFL,76,2,-1,-1,0xD8,336,338
+1223,1,ego,I can't reach it.,76.LFL,76,2,-1,-1,0xD8,666,668
+1224,1,ego,It doesn't seem to open.,76.LFL,76,3,-1,-1,0xD8,17,19
+1225,1,ego,I can't move it.,76.LFL,76,3,-1,-1,0xD8,67,69
+1226,1,ego,I don't see anything special about it.,76.LFL,76,3,-1,-1,0xD8,96,98
+1227,1,ego,I can't pick that up.,76.LFL,76,3,-1,-1,0xD8,147,149
+1228,1,ego,That doesn't seem to work.,76.LFL,76,3,-1,-1,0xD8,174,176
+1229,1,ego,<VERB:16385>,76.LFL,76,18,-1,-1,0xD8,104,106
+1230,1,ego,Take <CTRL2>,76.LFL,76,18,-1,-1,0xD8,175,177
+1231,1,ego,these<CTRL2>,76.LFL,76,18,-1,-1,0xD8,194,196
+1232,1,ego,this<CTRL2>,76.LFL,76,18,-1,-1,0xD8,207,209
+1233,1,ego,money.,76.LFL,76,18,-1,-1,0xD8,223,225
+1234,1,ego,<NAME:16387>.,76.LFL,76,18,-1,-1,0xD8,236,238
+1235,255,direct_actor,Text speed <INT:66>,76.LFL,76,24,-1,-1,0x14,121,131
+1236,255,direct_actor,Version <STR:53>,76.LFL,76,24,-1,-1,0x14,162,172
+1237,255,direct_actor,Machine Rating <INT:6>,76.LFL,76,24,-1,-1,0x14,195,205
+1238,1,ego,"Hi, I'm Indiana Jones.  Welcome to my game.",76.LFL,76,119,-1,-1,0xD8,418,420
+1239,1,ego,You can press F5 at any time to save your game progress.,76.LFL,76,119,-1,-1,0xD8,418,420
+1240,1,ego,It's already <CTRL2>,76.LFL,76,123,-1,-1,0xD8,0,2
+1241,1,ego,open.,76.LFL,76,123,-1,-1,0xD8,25,27
+1242,1,ego,closed.,76.LFL,76,123,-1,-1,0xD8,43,45
+1243,1,ego,I'm not leaving without my father!,77.LFL,77,-1,847,-1,0xD8,42,44
+1244,1,ego,"Get in, Dad!  We're going to Iskenderun!",77.LFL,77,-1,847,-1,0xD8,84,86
+1245,2,direct_actor,"No, Junior.  We're going to Berlin.",77.LFL,77,-1,847,-1,0x14,155,158
+1246,2,direct_actor,We have to get the diary back!  We won't survive the<CTRL1>three tests of faith without it.,77.LFL,77,-1,847,-1,0x14,209,212
+1247,1,ego,All right.,77.LFL,77,-1,847,-1,0xD8,300,302
+1248,1,ego,It doesn't seem to budge.,77.LFL,77,-1,850,-1,0xD8,35,37
+1249,1,ego,We have to travel light.,77.LFL,77,-1,-1,-1,0xD8,66,68
+1250,1,ego,I left all that baggage behind.,77.LFL,77,-1,-1,-1,0xD8,66,68
+1251,1,ego,I'd better not^,77.LFL,77,-1,-1,-1,0xD8,3,5
+1252,1,ego,^there're about 30 Nazi soldiers looking for us!,77.LFL,77,-1,-1,-1,0xD8,33,35
+1253,255,direct_actor,The shield is the second marker Donovan spoke of!,78.LFL,78,-1,-1,-1,0x14,55,60
+1254,255,direct_actor,Let's see^,78.LFL,78,-1,-1,-1,0x14,116,119
+1255,255,direct_actor,It mentions the ancient city of Alexandretta!,78.LFL,78,-1,-1,-1,0x14,116,119
+1256,255,direct_actor,"Today, the city of Iskenderun is built on its ruins.",78.LFL,78,-1,-1,-1,0x14,116,119
+1257,255,direct_actor,We'll find the Grail near there!,78.LFL,78,-1,-1,-1,0x14,116,119
+1258,255,direct_actor,We have to go to Iskenderun on the Mediterranean coast.,78.LFL,78,-1,-1,-1,0x14,268,273
+1259,254,direct_actor,TM & \x13\x12 1990 LucasArts Entertainment Company.,79.LFL,79,-1,-1,-1,0x14,72,83
+1260,254,direct_actor,All Rights Reserved.,79.LFL,79,-1,-1,-1,0x14,129,138
+1261,255,direct_actor,Dad!  How'd you get here before me?,80.LFL,80,-1,-1,-1,0x14,31,36
+1262,255,direct_actor,"I didn't know you could fly a plane, Junior!",80.LFL,80,-1,-1,-1,0x14,84,87
+1263,255,direct_actor,"Fly, yes.  Land, no.",80.LFL,80,-1,-1,-1,0x14,151,154
+1264,255,direct_actor,Hold on!,80.LFL,80,-1,-1,-1,0x14,176,179
+1265,1,ego,It says:,81.LFL,81,-1,860,-1,0xD8,28,30
+1266,1,ego,"If thou thinkest life is but a game, be warned:<CTRL1>beyond this point, THOU CANST NOT BE SAVED!",81.LFL,81,-1,860,-1,0xD8,28,30
+1267,1,ego,It looks like your standard Grail Temple.,81.LFL,81,-1,858,-1,0xD8,42,44
+1268,1,ego,It's too far away.,81.LFL,81,-1,858,-1,0xD8,92,94
+1269,1,ego,We can't leave!,81.LFL,81,-1,859,-1,0xD8,35,37
+1270,1,ego,"We still have to get the Grail, get the girl,<CTRL1>and not fall in the lava pit.",81.LFL,81,-1,859,-1,0xD8,35,37
+1271,1,ego,Hey you two!!  Every moment counts!,81.LFL,81,-1,-1,-1,0xD8,62,64
+1272,1,direct_actor,"According to the map in your Grail Diary, this is the place.",81.LFL,81,-1,-1,-1,0x14,198,201
+1273,2,direct_actor,We are like the heroes of the Arthurian legend:,81.LFL,81,-1,-1,-1,0x14,269,272
+1274,2,direct_actor,"You are Galahad, the valiant knight.",81.LFL,81,-1,-1,-1,0x14,269,272
+1275,2,direct_actor,"And I, his father Lancelot, who was turned away.",81.LFL,81,-1,-1,-1,0x14,269,272
+1276,2,direct_actor,He was found un^,81.LFL,81,-1,-1,-1,0x14,409,412
+1277,4,direct_actor,Henry!  Indy!  It's good to see you again!,81.LFL,81,-1,-1,-1,0x14,436,439
+1278,255,direct_actor,Marcus!  <CTRL2>,81.LFL,81,-1,-1,-1,0x14,495,500
+1279,1,direct_actor,And why are you all dirty?,81.LFL,81,-1,-1,-1,0x14,541,544
+1280,4,direct_actor,Don't ask.,81.LFL,81,-1,-1,-1,0x14,609,612
+1281,2,direct_actor,"So!  Marcus, my old friend, how have you been^",81.LFL,81,-1,-1,-1,0x14,662,665
+1282,1,ego,It says `Only the penitent man will pass.`,81.LFL,81,130,-1,-1,0xD8,12,14
+1283,1,ego,The challenges will number three.,81.LFL,81,130,-1,-1,0xD8,69,71
+1284,1,ego,"First, the Breath of God; only the penitent man will pass.",81.LFL,81,130,-1,-1,0xD8,69,71
+1285,1,ego,"Second, the Word of God; only in the footsteps of God will<CTRL1>he proceed.",81.LFL,81,130,-1,-1,0xD8,69,71
+1286,1,ego,"Third, the Path of God; only in the leap from the lion's head<CTRL1>will he prove his worth.",81.LFL,81,130,-1,-1,0xD8,239,241
+1287,1,direct_actor,It's so deep I can't see the bottom.,82.LFL,82,-1,864,-1,0x14,67,70
+1288,1,direct_actor,I don't think that would be wise.,82.LFL,82,-1,873,-1,0x14,96,99
+1289,1,ego,It looks like the Holy Grail.,82.LFL,82,-1,873,-1,0xD8,134,136
+1290,1,direct_actor,"Yep, this is the place.",82.LFL,82,-1,-1,-1,0x14,107,110
+1291,5,direct_actor,"Ah, Indiana Jones, you're just in time.",82.LFL,82,-1,-1,-1,0x14,211,214
+1292,5,direct_actor,It seems I have run out of volunteers.,82.LFL,82,-1,-1,-1,0x14,211,214
+1293,1,direct_actor,"Donovan, Donovan, Donovan.",82.LFL,82,-1,-1,-1,0x14,295,298
+1294,1,direct_actor,"There is nothing, absolutely NOTHING that could<CTRL1>convince me to get the Grail for YOUR purposes.",82.LFL,82,-1,-1,-1,0x14,295,298
+1295,1,direct_actor,Except maybe that.,82.LFL,82,-1,-1,-1,0x14,527,530
+1296,5,direct_actor,I thought you'd see it my way.,82.LFL,82,-1,-1,-1,0x14,571,574
+1297,5,direct_actor,The only thing that can save your father now<CTRL1>is the healing power of the Grail.,82.LFL,82,-1,-1,-1,0x14,571,574
+1298,5,direct_actor,"I suggest you hurry, Dr. Jones.",82.LFL,82,-1,-1,-1,0x14,688,691
+1299,2,direct_actor,Junior.  Remember my Diary.  The three trials!,82.LFL,82,-1,-1,-1,0x14,724,727
+1300,1,direct_actor,"Hang on, Dad.  I'll be back as fast as I can.",82.LFL,82,-1,-1,-1,0x14,779,782
+1301,1,direct_actor,Be back in a jiffy!,82.LFL,82,-1,-1,-1,0x14,834,837
+1302,1,ego,But what happened to Donovan?,82.LFL,82,-1,-1,-1,0xD8,97,99
+1303,1,ego,And DON'T say `Don't ask`!!,82.LFL,82,-1,-1,-1,0xD8,97,99
+1304,3,direct_actor,"He was so eager to follow you, he just lost his head.",82.LFL,82,-1,-1,-1,0x14,159,162
+1305,2,direct_actor,The Grail!,82.LFL,82,-1,-1,-1,0x14,481,484
+1306,2,direct_actor,"You did it, Junior!",82.LFL,82,-1,-1,-1,0x14,516,519
+1307,1,direct_actor,"No Dad, YOU did it.  I just followed your Diary.",82.LFL,82,-1,-1,-1,0x14,540,543
+1308,2,direct_actor,And the third brother?  Still alive?,82.LFL,82,-1,-1,-1,0x14,593,596
+1309,1,direct_actor,Yes.  Even after seven centuries.,82.LFL,82,-1,-1,-1,0x14,634,637
+1310,2,direct_actor,Then it DOES grant immortality!,82.LFL,82,-1,-1,-1,0x14,675,678
+1311,2,direct_actor,All these years.  My quest is at an end.,82.LFL,82,-1,-1,-1,0x14,711,714
+1312,2,direct_actor,"But you found it, son.  Its destiny is in your hands now.",82.LFL,82,-1,-1,-1,0x14,764,767
+1313,2,direct_actor,"Marcus, my old friend.  I haven't thanked you yet.",82.LFL,82,-1,-1,-1,0x14,859,862
+1314,10,direct_actor,Remember the price of immortality.,82.LFL,82,-1,-1,-1,0x14,1121,1124
+1315,10,direct_actor,The Grail cannot pass beyond the Great Seal!,82.LFL,82,-1,-1,-1,0x14,1121,1124
+1316,10,direct_actor,I give you my thanks.,82.LFL,82,-1,-1,-1,0x14,6,9
+1317,10,direct_actor,I see you indeed have the heart of a true Knight.,82.LFL,82,-1,-1,-1,0x14,6,9
+1318,10,direct_actor,You should have seen the wreck this place was in<CTRL1>after the last guys left.,82.LFL,82,-1,-1,-1,0x14,106,109
+1319,10,direct_actor,"Your nobility has kept the Grail safe, and this<CTRL1>Temple unspoiled.",82.LFL,82,-1,-1,-1,0x14,188,191
+1320,10,direct_actor,May you find your true path.,82.LFL,82,-1,-1,-1,0x14,188,191
+1321,10,direct_actor,"Of course, I'll be picking this place up for years^",82.LFL,82,-1,-1,-1,0x14,315,318
+1322,10,direct_actor,But now you must go.  I fear I have a Herculean<CTRL1>task yet before me.,82.LFL,82,-1,-1,-1,0x14,373,376
+1323,10,direct_actor,Now where was that broom?,82.LFL,82,-1,-1,-1,0x14,373,376
+1324,3,direct_actor,We could have taken the Grail from this place.,82.LFL,82,-1,-1,-1,0x14,537,540
+1325,3,direct_actor,"It could have been ours, Indy.",82.LFL,82,-1,-1,-1,0x14,537,540
+1326,1,direct_actor,Don't bet on it.,82.LFL,82,-1,-1,-1,0x14,659,662
+1327,1,direct_actor,"That may be your game plan, Elsa, but<CTRL1>I won't play it that way.",82.LFL,82,-1,-1,-1,0x14,682,685
+1328,1,direct_actor,"Elsa, NO!!!",82.LFL,82,-1,-1,-1,0x14,89,92
+1329,1,direct_actor,The Grail must remain here!,82.LFL,82,-1,-1,-1,0x14,89,92
+1330,3,direct_actor,"But Indy, the Grail, it can be ours!",82.LFL,82,-1,-1,-1,0x14,144,147
+1331,1,direct_actor,You heard the Knight.  It cannot pass beyond the seal.,82.LFL,82,-1,-1,-1,0x14,185,188
+1332,3,direct_actor,No!  I don't believe it!  I won't lose it now!,82.LFL,82,-1,-1,-1,0x14,244,247
+1333,1,direct_actor,"Nice going, Elsa.",82.LFL,82,-1,-1,-1,0x14,350,353
+1334,3,direct_actor,I could have gotten the Grail out of here.,82.LFL,82,-1,-1,-1,0x14,209,212
+1335,3,direct_actor,Indiana.  You should have let me take the Grail.,82.LFL,82,-1,-1,-1,0x14,279,282
+1336,10,direct_actor,I think his fate was in^,82.LFL,82,-1,-1,-1,0x14,332,335
+1337,10,direct_actor,^other hands.,82.LFL,82,-1,-1,-1,0x14,366,369
+1338,2,direct_actor,"That was a just and noble thing you did, Junior.",82.LFL,82,65,-1,-1,0x14,25,28
+1339,4,direct_actor,What is all this Junior talk?,82.LFL,82,65,-1,-1,0x14,104,107
+1340,2,direct_actor,That's his name:,82.LFL,82,65,-1,-1,0x14,138,141
+1341,2,direct_actor,"Henry Jones, Jr.",82.LFL,82,65,-1,-1,0x14,138,141
+1342,1,direct_actor,I like Indiana.,82.LFL,82,65,-1,-1,0x14,177,180
+1343,2,direct_actor,We named the DOG Indiana!,82.LFL,82,65,-1,-1,0x14,197,200
+1344,2,direct_actor,"We named YOU Henry, Jr.",82.LFL,82,65,-1,-1,0x14,197,200
+1345,4,direct_actor,"Come to think of it, my father had a cat named `Marcus`.",82.LFL,82,65,-1,-1,0x14,252,255
+1346,3,direct_actor,Hmm.  Wasn't my father's secretary named `Elsa`?,82.LFL,82,65,-1,-1,0x14,324,327
+1347,2,direct_actor,Enough!  Let's go home.,82.LFL,82,65,-1,-1,0x14,377,380
+1348,2,direct_actor,I think I'll start a Dead Sea Scrolls Diary.,82.LFL,82,65,-1,-1,0x14,377,380
+1349,4,direct_actor,"Everybody, follow me, I know the way!",82.LFL,82,65,-1,-1,0x14,451,454
+1350,4,direct_actor,"No, that's not right.",82.LFL,82,65,-1,-1,0x14,560,563
+1351,2,direct_actor,Junior!  Why didn't you listen!,82.LFL,82,65,-1,-1,0x14,620,623
+1352,255,direct_actor,Don't call me JUUUUNIOOOOOooooooorrrrr^,82.LFL,82,65,-1,-1,0x14,656,661
+1353,3,direct_actor,"Oh, Indy!",82.LFL,82,65,-1,-1,0x14,716,719
+1354,3,direct_actor,"If only you'd let me try, I could have taken the Grail<CTRL1>for the two of us!",82.LFL,82,65,-1,-1,0x14,716,719
+1355,2,direct_actor,The Grail is not a prize to be won.,82.LFL,82,65,-1,-1,0x14,815,818
+1356,2,direct_actor,Junior knows that now.,82.LFL,82,65,-1,-1,0x14,815,818
+1357,255,direct_actor,Don't bet on it. <CTRL2>,82.LFL,82,65,-1,-1,0x14,888,893
+1358,2,direct_actor,Well this is just grand^,82.LFL,82,65,-1,-1,0x14,995,998
+1359,2,direct_actor,"We meet a living veteran of the Crusades, steal his Grail,",82.LFL,82,65,-1,-1,0x14,995,998
+1360,2,direct_actor,and then completely destroy his temple!,82.LFL,82,65,-1,-1,0x14,995,998
+1361,2,direct_actor,All in the name of Archaeology?,82.LFL,82,65,-1,-1,0x14,995,998
+1362,2,direct_actor,I will never do anything like this again.,82.LFL,82,65,-1,-1,0x14,995,998
+1363,1,direct_actor,"Hey Dad, I think the Knight muttered something about his<CTRL1>friend, Ponce, who's living in Florida!",82.LFL,82,65,-1,-1,0x14,1201,1204
+1364,2,direct_actor,Let's go find him!!!,82.LFL,82,65,-1,-1,0x14,1303,1306
+1365,2,direct_actor,"Son, I'm proud of you.",82.LFL,82,65,-1,-1,0x14,1330,1333
+1366,2,direct_actor,The quest for the Grail is the quest for the sacred part<CTRL1>in each of us.,82.LFL,82,65,-1,-1,0x14,1330,1333
+1367,2,direct_actor,I can see that you found something more than just<CTRL1>a prize to be won.,82.LFL,82,65,-1,-1,0x14,1330,1333
+1368,1,direct_actor,"And what did you find, Dad?",82.LFL,82,65,-1,-1,0x14,1502,1505
+1369,2,direct_actor,Enlightenment.,82.LFL,82,65,-1,-1,0x14,1541,1544
+1370,2,direct_actor,"Let's go, son.",82.LFL,82,65,-1,-1,0x14,1563,1566
+1371,1,ego,"I can't go back, I've got to get the Grail.",83.LFL,83,-1,876,-1,0xD8,32,34
+1372,0,direct_actor,The penitent man is humble before God^,83.LFL,83,-1,-1,-1,0x14,39,72
+1373,1,ego,Kneel!,83.LFL,83,-1,-1,-1,0xD8,159,161
+1374,1,ego,I'm through!,83.LFL,83,-1,-1,-1,0xD8,298,300
+1375,1,ego,Penitent^,83.LFL,83,-1,-1,-1,0xD8,14,16
+1376,1,ego,`Only the penitent man will pass.`,83.LFL,83,-1,-1,-1,0xD8,29,31
+1377,1,ego,I can't jump there,84.LFL,84,-1,-1,-1,0xD8,149,151
+1378,1,ego,In Olde English<CTRL2>,84.LFL,84,-1,-1,-1,0xD8,8,10
+1379,1,ego,In Latin<CTRL2>,84.LFL,84,-1,-1,-1,0xD8,38,40
+1380,1,ego,In Etaskrit<CTRL2>,84.LFL,84,-1,-1,-1,0xD8,61,63
+1381,1,ego,In Porcinum-Atinlay<CTRL2>,84.LFL,84,-1,-1,-1,0xD8,87,89
+1382,1,ego,In Tuskin<CTRL2>,84.LFL,84,-1,-1,-1,0xD8,121,123
+1383,1,ego,In Vaachi<CTRL2>,84.LFL,84,-1,-1,-1,0xD8,145,147
+1384,1,ego,", Jehovah is spelled `<STR:53>`.",84.LFL,84,-1,-1,-1,0xD8,167,169
+1385,255,direct_actor,Indy!!!  Hurry up!  Your father is getting worse!!,85.LFL,85,-1,-1,-1,0x14,32,37
+1386,1,direct_actor,I know Marcus!  I'm hurrying!,85.LFL,85,-1,-1,-1,0x14,96,99
+1387,1,ego,I have to test the Grail before returning.,86.LFL,86,-1,881,-1,0xD8,35,37
+1388,1,ego,I have to find the correct Grail first.,86.LFL,86,-1,881,-1,0xD8,83,85
+1389,1,ego,Boy am I thirsty.,86.LFL,86,-1,898,-1,0xD8,37,39
+1390,10,direct_actor,I knew you would come.,86.LFL,86,-1,-1,-1,0x14,74,77
+1391,1,direct_actor,Who are you?,86.LFL,86,-1,-1,-1,0x14,109,112
+1392,10,direct_actor,I am the last of three brothers who swore an<CTRL1>oath to find the Grail and guard it.,86.LFL,86,-1,-1,-1,0x14,126,129
+1393,1,direct_actor,That was seven hundred years ago.,86.LFL,86,-1,-1,-1,0x14,213,216
+1394,10,direct_actor,You are strangely dressed for a knight.,86.LFL,86,-1,-1,-1,0x14,251,254
+1395,1,direct_actor,Me?  I'm no knight.  What do you mean?,86.LFL,86,-1,-1,-1,0x14,295,298
+1396,10,direct_actor,It is no matter.  You proved your worthiness by passing<CTRL1>the trials.  The honor of guarding the Grail is yours.,86.LFL,86,-1,-1,-1,0x14,338,341
+1397,1,direct_actor,"But you don't understand!  My father is wounded,<CTRL1>here in the Temple.",86.LFL,86,-1,-1,-1,0x14,454,457
+1398,1,direct_actor,"I've got to find the Grail, or he'll die!",86.LFL,86,-1,-1,-1,0x14,454,457
+1399,10,direct_actor,Very well.  I see that your intentions are pure.,86.LFL,86,-1,-1,-1,0x14,594,597
+1400,10,direct_actor,Choose.,86.LFL,86,-1,-1,-1,0x14,594,597
+1401,1,ego,I'd better make sure this is the right one.,86.LFL,86,122,-1,-1,0xD8,43,45
+1402,10,direct_actor,He chose^<CTRL2>,86.LFL,86,122,-1,-1,0x14,346,349
+1403,10,direct_actor,poorly.,86.LFL,86,122,-1,-1,0x14,365,368
+1404,10,direct_actor,You have chosen wisely.,86.LFL,86,122,-1,-1,0x14,412,415
+1405,10,direct_actor,But remember this:  the Grail cannot pass beyond<CTRL1>the Great Seal.  That is the price of immortality.,86.LFL,86,122,-1,-1,0x14,412,415
+1406,1,ego,That would not be wise.,86.LFL,86,122,-1,-1,0xD8,590,592
+1407,1,ego,"Now, THIS is the cup of a carpenter.",86.LFL,86,133,-1,-1,0xD8,0,2
+1408,254,direct_actor,This configuration,90.LFL,90,-1,-1,-1,0x14,174,184
+1409,254,direct_actor,is labelled `correct`.,90.LFL,90,-1,-1,-1,0x14,203,211
+1410,254,direct_actor,This one is labelled,90.LFL,90,-1,-1,-1,0x14,234,242
+1411,254,direct_actor,`certain death`.,90.LFL,90,-1,-1,-1,0x14,263,271
+1412,254,direct_actor,How curious!,90.LFL,90,-1,-1,-1,0x14,288,296
+1413,1,ego,These look like inscriptions.,91.LFL,91,-1,-1,-1,0xD8,27,29
+1414,1,ego,Wait a minute^,91.LFL,91,-1,-1,-1,0xD8,27,29
+1415,1,ego,This looks familiar.,91.LFL,91,-1,-1,-1,0xD8,82,84
+1416,1,ego,"Yes, it describes the Grail^",91.LFL,91,-1,-1,-1,0xD8,112,114
+1417,1,direct_actor,My father's diary is right^,91.LFL,91,-1,-1,-1,0x14,150,153
+1418,1,direct_actor,"Like I said, my father's diary was right^",91.LFL,91,-1,-1,-1,0x14,189,192
+1419,1,ego,"Either the Irish poem, found in an abbey in Brittany,<CTRL1>or the newspaper clipping from `The Celtic Scholar`^",91.LFL,91,-1,-1,-1,0xD8,242,244
+1420,1,ego,"Either the Persian manuscript Al-Jawf sent to Dad,<CTRL1>or that letter from Staubig about the Book of Merlin^",91.LFL,91,-1,-1,-1,0xD8,362,364
+1421,1,ego,"Either that cable Codirolli sent to him from Italy,<CTRL1>or that excerpt from the journal of a Byzantine merchant^",91.LFL,91,-1,-1,-1,0xD8,480,482
+1422,1,ego,"It is either that Welsh verse Taliesin wrote,<CTRL1>or Sir Richard Burton's tale that Lady Elanora wrote of^",91.LFL,91,-1,-1,-1,0xD8,616,618
+1423,1,ego,"Either the account of Abbess Hildegard of Bingen,<CTRL1>or that newspaper column about the `New Gospel`^",91.LFL,91,-1,-1,-1,0xD8,732,734
+1424,1,direct_actor,^is the correct account of the Grail.,91.LFL,91,-1,-1,-1,0x14,890,893
+1425,1,ego,It's too far to reach from here.,93.LFL,93,-1,945,-1,0xD8,35,37
+1426,254,direct_actor,Not bad,94.LFL,94,-1,-1,-1,0x14,156,167
+1427,254,direct_actor,Good,94.LFL,94,-1,-1,-1,0x14,185,196
+1428,254,direct_actor,Great,94.LFL,94,-1,-1,-1,0x14,211,222
+1429,254,direct_actor,Excellent,94.LFL,94,-1,-1,-1,0x14,238,249
+1430,254,direct_actor,Superb,94.LFL,94,-1,-1,-1,0x14,262,273
+1431,254,direct_actor,Perfect!,94.LFL,94,-1,-1,-1,0x14,421,432
+1432,254,direct_actor,INDIANA JONES AND THE LAST CRUSADE,94.LFL,94,-1,-1,-1,0x14,450,461
+1433,254,direct_actor,Designed and Scripted by,94.LFL,94,-1,-1,-1,0x14,496,505
+1434,254,direct_actor,"Ron Gilbert, David Fox, and Noah Falstein",94.LFL,94,-1,-1,-1,0x14,541,552
+1435,254,direct_actor,"David Fox, Noah Falstein, and Ron Gilbert",94.LFL,94,-1,-1,-1,0x14,604,615
+1436,254,direct_actor,"Noah Falstein, Ron Gilbert, and David Fox",94.LFL,94,-1,-1,-1,0x14,667,678
+1437,254,direct_actor,Art and Animation by,94.LFL,94,-1,-1,-1,0x14,732,743
+1438,254,direct_actor,"Steve Purcell, Michael 'gameboy' Ebert",94.LFL,94,-1,-1,-1,0x14,764,775
+1439,254,direct_actor,"Jim McLeod, James Dollar",94.LFL,94,-1,-1,-1,0x14,814,825
+1440,254,direct_actor,and Martin 'Bucky' Cameron,94.LFL,94,-1,-1,-1,0x14,850,861
+1441,254,direct_actor,Music and Sound effects by,94.LFL,94,-1,-1,-1,0x14,897,908
+1442,254,direct_actor,Eric Hammond (Adlib),94.LFL,94,-1,-1,-1,0x14,935,946
+1443,254,direct_actor,David Warhol and David Hayes (IBM and Tandy),94.LFL,94,-1,-1,-1,0x14,967,976
+1444,254,direct_actor,From an original score by John Williams,94.LFL,94,-1,-1,-1,0x14,1021,1030
+1445,254,direct_actor,Scumm story system by,94.LFL,94,-1,-1,-1,0x14,1079,1090
+1446,254,direct_actor,Ron Gilbert and Aric Wilmunder,94.LFL,94,-1,-1,-1,0x14,1112,1123
+1447,254,direct_actor,256 color system conversion by,94.LFL,94,-1,-1,-1,0x14,1163,1174
+1448,254,direct_actor,Aric Wilmunder and Ron Baldwin,94.LFL,94,-1,-1,-1,0x14,1205,1216
+1449,254,direct_actor,Lead playtesters:,94.LFL,94,-1,-1,-1,0x14,1256,1266
+1450,254,direct_actor,Judith Lucero Turchin and Kirk Roulston,94.LFL,94,-1,-1,-1,0x14,1284,1294
+1451,254,direct_actor,Additional playtesting by^,94.LFL,94,-1,-1,-1,0x14,1334,1344
+1452,254,direct_actor,Kalani Streicher,94.LFL,94,-1,-1,-1,0x14,1371,1381
+1453,254,direct_actor,Bret Barrett,94.LFL,94,-1,-1,-1,0x14,1398,1406
+1454,254,direct_actor,Darrell Parker,94.LFL,94,-1,-1,-1,0x14,1419,1427
+1455,254,direct_actor,"Jon Gubman, Q.A.T.A.",94.LFL,94,-1,-1,-1,0x14,1442,1450
+1456,254,direct_actor,"Tony Hsieh, Q.A.T.A.",94.LFL,94,-1,-1,-1,0x14,1471,1479
+1457,254,direct_actor,Bill Stanton,94.LFL,94,-1,-1,-1,0x14,1500,1508
+1458,254,direct_actor,Jessica Fox,94.LFL,94,-1,-1,-1,0x14,1521,1529
+1459,254,direct_actor,Rachel Larris,94.LFL,94,-1,-1,-1,0x14,1541,1549
+1460,254,direct_actor,Tim August,94.LFL,94,-1,-1,-1,0x14,1563,1571
+1461,254,direct_actor,Seth Friedman,94.LFL,94,-1,-1,-1,0x14,1582,1590
+1462,254,direct_actor,Chris Bollini,94.LFL,94,-1,-1,-1,0x14,1604,1612
+1463,254,direct_actor,Additional scripting,94.LFL,94,-1,-1,-1,0x14,1635,1645
+1464,254,direct_actor,Additional artwork,94.LFL,94,-1,-1,-1,0x14,1666,1674
+1465,254,direct_actor,Additional subtraction,94.LFL,94,-1,-1,-1,0x14,1693,1701
+1466,254,direct_actor,Whip research,94.LFL,94,-1,-1,-1,0x14,1724,1732
+1467,254,direct_actor,Nazi trivia research,94.LFL,94,-1,-1,-1,0x14,1746,1754
+1468,254,direct_actor,Research research,94.LFL,94,-1,-1,-1,0x14,1775,1783
+1469,254,direct_actor,Telegram research,94.LFL,94,-1,-1,-1,0x14,1801,1809
+1470,254,direct_actor,Margarita imbiber,94.LFL,94,-1,-1,-1,0x14,1827,1835
+1471,254,direct_actor,Best screening guests,94.LFL,94,-1,-1,-1,0x14,1853,1861
+1472,254,direct_actor,PC Handler,94.LFL,94,-1,-1,-1,0x14,1883,1891
+1473,254,direct_actor,Font Wrangler,94.LFL,94,-1,-1,-1,0x14,1902,1910
+1474,254,direct_actor,Artist Tamer,94.LFL,94,-1,-1,-1,0x14,1924,1932
+1475,254,direct_actor,Emotional support,94.LFL,94,-1,-1,-1,0x14,1945,1953
+1476,254,direct_actor,Catering,94.LFL,94,-1,-1,-1,0x14,1971,1979
+1477,254,direct_actor,Martin Cameron,94.LFL,94,-1,-1,-1,0x14,2015,2023
+1478,254,direct_actor,Various Computers,94.LFL,94,-1,-1,-1,0x14,2038,2046
+1479,254,direct_actor,Steve Purcell,94.LFL,94,-1,-1,-1,0x14,2064,2072
+1480,254,direct_actor,Jo Donaldson,94.LFL,94,-1,-1,-1,0x14,2109,2117
+1481,254,direct_actor,Janet Silk,94.LFL,94,-1,-1,-1,0x14,2130,2138
+1482,254,direct_actor,Brian Moriarty,94.LFL,94,-1,-1,-1,0x14,2149,2157
+1483,254,direct_actor,The Twins in Chicago,94.LFL,94,-1,-1,-1,0x14,2172,2180
+1484,254,direct_actor,James Wood,94.LFL,94,-1,-1,-1,0x14,2201,2209
+1485,254,direct_actor,Randy Farmer,94.LFL,94,-1,-1,-1,0x14,2220,2228
+1486,254,direct_actor,Gary Winnick,94.LFL,94,-1,-1,-1,0x14,2241,2249
+1487,254,direct_actor,"Annie, Judith,",94.LFL,94,-1,-1,-1,0x14,2262,2270
+1488,254,direct_actor,"Melissa, and Lori",94.LFL,94,-1,-1,-1,0x14,2285,2293
+1489,254,direct_actor,Skywalker Lunch Crew,94.LFL,94,-1,-1,-1,0x14,2311,2319
+1490,254,direct_actor,Based on an original story by,94.LFL,94,-1,-1,-1,0x14,2349,2360
+1491,254,direct_actor,George Lucas and Menno Meyjes,94.LFL,94,-1,-1,-1,0x14,2390,2401
+1492,254,direct_actor,and an original screenplay by,94.LFL,94,-1,-1,-1,0x14,2431,2442
+1493,254,direct_actor,Jeffrey Boam,94.LFL,94,-1,-1,-1,0x14,2472,2483
+1494,254,direct_actor,Sam and Max appear courtesy of Steve Purcell,94.LFL,94,-1,-1,-1,0x14,2505,2516
+1495,254,direct_actor,Programmed on location at Skywalker Ranch,94.LFL,94,-1,-1,-1,0x14,2570,2581
+1496,254,direct_actor,"Additional programming in San Rafael,",94.LFL,94,-1,-1,-1,0x14,2623,2632
+1497,254,direct_actor,"San Anselmo, Fairfax, and Novato",94.LFL,94,-1,-1,-1,0x14,2670,2679
+1498,254,direct_actor,Movie also available from Paramount Pictures,94.LFL,94,-1,-1,-1,0x14,2721,2732
+1499,254,direct_actor,A LUCASFILM GAMES PRODUCTION,94.LFL,94,-1,-1,-1,0x14,2786,2797
+1500,254,direct_actor,TM & \x13\x12 1990 Lucasfilm Games,94.LFL,94,-1,-1,-1,0x14,2835,2846
+1501,254,direct_actor,a division of LucasArts Entertainment Company,94.LFL,94,-1,-1,-1,0x14,2875,2886
+1502,254,direct_actor,THE END,94.LFL,94,-1,-1,-1,0x14,2941,2952
+1503,254,direct_actor,WARNING:,94.LFL,94,-1,-1,-1,0x14,2964,2974
+1504,254,direct_actor,In order to assure proper recording,94.LFL,94,-1,-1,-1,0x14,2983,2993
+1505,254,direct_actor,"of your series IQ points, you must now",94.LFL,94,-1,-1,-1,0x14,3029,3037
+1506,254,direct_actor,bring up the save/load game screen,94.LFL,94,-1,-1,-1,0x14,3076,3084
+1507,254,direct_actor,and select LOAD.  This will save your,94.LFL,94,-1,-1,-1,0x14,3119,3127
+1508,254,direct_actor,correct series IQ.,94.LFL,94,-1,-1,-1,0x14,3165,3173
