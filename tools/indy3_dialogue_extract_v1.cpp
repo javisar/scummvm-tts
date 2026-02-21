@@ -1415,6 +1415,9 @@ private:
         }
 
         for (const ExtractedLine &line : _lines) {
+            const bool runtimeRoomKnown = line.sourceKind != SourceKind::GlobalScriptSC;
+            const int runtimeRoomId = runtimeRoomKnown ? line.roomId : -1;
+
             out << "{";
             out << "\"text_normalized\":\"" << jsonEscape(line.textNormalized) << "\"";
             if (_options.includeRaw) {
@@ -1422,7 +1425,14 @@ private:
             }
             out << ",\"source_kind\":\"" << sourceKindToString(line.sourceKind) << "\"";
             out << ",\"lfl_file\":\"" << jsonEscape(line.lflFile) << "\"";
-            out << ",\"room_id\":" << line.roomId;
+            out << ",\"room_id\":" << runtimeRoomId;
+            out << ",\"room_runtime_id\":";
+            if (runtimeRoomKnown) {
+                out << runtimeRoomId;
+            } else {
+                out << "null";
+            }
+            out << ",\"room_source_id\":" << line.roomId;
             out << ",\"script_id\":" << line.scriptId;
             out << ",\"object_id\":" << line.objectId;
             out << ",\"verb_id\":" << line.verbId;
