@@ -182,7 +182,13 @@ public:
 	 */
 	virtual bool say(const U32String &str, Action action) { return false; }
 
-	virtual bool sayExtended(const U32String &str, Action action, uint32 hash, byte actor, int room) { return say(str, action); }
+	virtual bool sayExtended(const U32String &str, Action action, uint32 hash, byte actor, int room, const String &gameId) {
+		(void)hash;
+		(void)actor;
+		(void)room;
+		(void)gameId;
+		return say(str, action);
+	}
 
 	/**
 	 * Says the given string, but strings can have a custom charset here.

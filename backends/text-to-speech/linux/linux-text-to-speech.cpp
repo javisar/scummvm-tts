@@ -224,10 +224,11 @@ bool SpeechDispatcherManager::say(const Common::U32String &str, Action action) {
 	return false;
 }
 
-bool SpeechDispatcherManager::sayExtended(const Common::U32String &str, Action action, uint32 hash, byte actor, int room) {
+bool SpeechDispatcherManager::sayExtended(const Common::U32String &str, Action action, uint32 hash, byte actor, int room, const Common::String &gameId) {
 	(void)hash;
 	(void)actor;
 	(void)room;
+	(void)gameId;
 	return say(str, action);
 }
 

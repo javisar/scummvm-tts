@@ -59,7 +59,7 @@ public:
 	~WindowsTextToSpeechManager() override;
 
 	bool say(const Common::U32String &str, Action action) override;
-	bool sayExtended(const Common::U32String &str, Action action, uint32 hash, byte actor, int room) override;
+	bool sayExtended(const Common::U32String &str, Action action, uint32 hash, byte actor, int room, const Common::String &gameId) override;
 
 	bool stop() override;
 	bool pause() override;
@@ -88,7 +88,7 @@ private:
 	Common::String lcidToLocale(LCID locale);
 
 	// Async dialogue capture
-	void captureDialogueAsync(const Common::U32String &text, byte actor, int room);
+	void captureDialogueAsync(const Common::U32String &text, byte actor, int room, const Common::String &gameId);
 	static DWORD WINAPI captureDialogueThread(LPVOID param);
 
 	SpeechState _speechState;

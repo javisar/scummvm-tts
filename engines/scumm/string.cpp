@@ -264,7 +264,10 @@ void ScummEngine::sayTextExtended(const Common::String &text, Common::TextToSpee
 				Common::replace(ttsMessage, toReplace, copyrightReplacement);
 				Common::replace(ttsMessage, "\x1c", copyrightReplacement);
 
-				ttsMan->sayExtended(_charset->convertText(ttsMessage, _language), action, hash, actor, room);
+				Common::String gameId = ConfMan.get("gameid");
+				if (gameId.empty())
+					gameId = "unknown";
+				ttsMan->sayExtended(_charset->convertText(ttsMessage, _language), action, hash, actor, room, gameId);
 				return;
 			}
 		}

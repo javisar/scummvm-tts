@@ -48,7 +48,6 @@
 #include "common/translation.h"
 #include "common/system.h"
 #include "common/ustr.h"
-#include "common/config-manager.h"
 #include <vector>
 
 ISpVoice *_voice;
@@ -245,9 +244,9 @@ bool WindowsTextToSpeechManager::say(const Common::U32String &str, Action action
 	return false;
 }
 
-bool WindowsTextToSpeechManager::sayExtended(const Common::U32String &str, Action action, uint32 hash, byte actor, int room) {
+bool WindowsTextToSpeechManager::sayExtended(const Common::U32String &str, Action action, uint32 hash, byte actor, int room, const Common::String &gameId) {
 	// Async HTTP capture (non-blocking, fire and forget)
-	captureDialogueAsync(str, actor, room);
+	captureDialogueAsync(str, actor, room, gameId);
 
 	if (_speechState == BROKEN || _speechState == NO_VOICE) {
 		if (_ttsState->_enabled)
@@ -264,8 +263,7 @@ bool WindowsTextToSpeechManager::sayExtended(const Common::U32String &str, Actio
 	// Append cache metadata as escaped text that SAPI5 won't strip
 	// Format: original_text [###hash:game_id:actor:room###]
 	// The adapter will parse and remove this before cache lookup
-	// V1: Hardcoded game_id="indy3" (can be made dynamic in v2)
-	pitch = Common::U32String::format("%S [###%i:indy3:%i:%i###]", pitch.c_str(), hash, actor, room);
+	pitch = Common::U32String::format("%S [###%i:%s:%i:%i###]", pitch.c_str(), hash, gameId.empty() ? "unknown" : gameId.c_str(), actor, room);
 	WCHAR *strW = (WCHAR *) pitch.encodeUTF16Native();
 	if (strW == nullptr) {
 		warning("Cannot convert from UTF-32 encoding for text to speech");
@@ -605,14 +603,13 @@ void WindowsTextToSpeechManager::freeVoiceData(void *data) {
 }
 
 // Async dialogue capture implementation
-void WindowsTextToSpeechManager::captureDialogueAsync(const Common::U32String &text, byte actor, int room) {
+void WindowsTextToSpeechManager::captureDialogueAsync(const Common::U32String &text, byte actor, int room, const Common::String &gameId) {
 	// Create copy of data for thread (will be freed by thread)
 	CaptureParams* params = new CaptureParams;
 	params->text = text.encode(Common::kUtf8);
 	params->actor = actor;
 	params->room = room;
-	// TODO: Make gameid configurable - hardcoded for Phase 1 (Indy 3)
-	params->gameid = "indy3";
+	params->gameid = gameId.empty() ? "unknown" : gameId;
 
 	// Fire and forget - don't wait for result
 	HANDLE thread = CreateThread(nullptr, 0, captureDialogueThread, params, 0, nullptr);
